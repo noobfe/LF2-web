@@ -270,7 +270,7 @@ export class LoadingLevel extends Framework.Level {
     _showLoadFile(url) {
         const showUrl = url.replace(/\\/g, '/');
         console.log(`Loading "${showUrl}".`);
-        this._loadPath.text("正在讀取: " + showUrl);
+        this._loadPath.text("正在读取: " + showUrl);
     }
 
     static get LOADING_RESOURCE_SRC() {

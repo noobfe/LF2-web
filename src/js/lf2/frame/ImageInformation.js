@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * 提供圖片資料的儲存功能
+ * 提供图片资料的储存功能
  * @class lf2.ImageInformation
  */
 export class ImageInformation {

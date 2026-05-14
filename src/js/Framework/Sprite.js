@@ -3,14 +3,14 @@ var Framework = window.Framework;
 'use strict';
 var Framework = (function (Framework) {
     /**
-     * 可以用來繪製圖片的物件
-     *  position 是圖片的中間
-     *  position 是圖片的中間
-     *  position 是圖片的中間
+     * 可以用来绘制图片的物件
+     *  position 是图片的中间
+     *  position 是图片的中间
+     *  position 是图片的中间
      *
-     *  因為很雷所以要說三次
+     *  因为很雷所以要说三次
      *
-     * @param  {string} filePath 圖片路徑
+     * @param  {string} filePath 图片路径
      * @extends {Framework.GameObject}
      * @implements {Framework.AttachableInterface}
      * @example
@@ -38,7 +38,7 @@ var Framework = (function (Framework) {
                 this.texture = options;
                 this.type = 'canvas';
             } else if (!Framework.Util.isUndefined(options)) {
-                Framework.DebugInfo.Log.error('Sprite 不支援的參數' + options);
+                Framework.DebugInfo.Log.error('Sprite 不支援的参数' + options);
             }
         }
 
@@ -71,13 +71,13 @@ var Framework = (function (Framework) {
                 // realWidth = this.texture.width;
                 // realHeight = this.texture.height;
 
-                // 計算縮放後的大小
+                // 计算缩放后的大小
                 // if (false && this.isObjectChanged) {
                 //
                 //     if (!Framework.Util.isAbout(this.absoluteScale, 1, 0.00001) || !Framework.Util.isAbout(this.absoluteRotation, 0, 0.001)) {
                 //         realWidth *= this.scale;
                 //         realHeight *= this.scale;
-                //         // 將canvas 放大才不會被切到
+                //         // 将canvas 放大才不会被切到
                 //         var diagonalLength = Math.ceil(Math.sqrt(Math.pow(realHeight, 2) + Math.pow(realWidth, 2)));
                 //         this.canvas.width = diagonalLength;
                 //         this.canvas.height = diagonalLength;
@@ -88,26 +88,26 @@ var Framework = (function (Framework) {
                 //             tranlateY = this.canvas.height / 2;
                 //
                 //
-                //         // 旋轉Canvas
-                //         //檢查是否有旋轉
+                //         // 旋转Canvas
+                //         //检查是否有旋转
                 //         if (this.absoluteRotation % 360 !== 0) {
-                //             // 將Canvas 中心點移動到左上角(0,0)
+                //             // 将Canvas 中心点移动到左上角(0,0)
                 //             this.context.translate(tranlateX, tranlateY);
                 //
                 //             this.context.rotate(this.absoluteRotation / 180 * Math.PI);
                 //
-                //             // 移回來
+                //             // 移回来
                 //             this.context.translate(-tranlateX, -tranlateY);
                 //         }
                 //
                 //
-                //         // 縮放
-                //         // 檢查是否有縮放
+                //         // 缩放
+                //         // 检查是否有缩放
                 //         if (this.absoluteScale != 1) {
                 //             this.context.scale(this.absoluteScale, this.absoluteScale);
                 //         }
                 //
-                //         // 畫圖
+                //         // 画图
                 //         this.context.drawImage(this.texture, (this.canvas.width - realWidth) / 2 / this.absoluteScale, (this.canvas.height - realHeight) / 2 / this.absoluteScale);
                 //
                 //     }
@@ -116,7 +116,7 @@ var Framework = (function (Framework) {
 
                 //console.log("sprite position, " + this.absolutePosition.x + " , " + this.absolutePosition.y);
                 // if (painter instanceof Framework.GameObject) {
-                //     painter = painter.context;  //表示傳進來的其實是GameObject或其 Concrete Class
+                //     painter = painter.context;  //表示传进来的其实是GameObject或其 Concrete Class
                 // }
                 // if (false && (!Framework.Util.isAbout(this.absoluteScale, 1, 0.00001) || !Framework.Util.isAbout(this.absoluteRotation, 0, 0.001))) {
                 //     painter.drawImage(this.canvas, this.absolutePosition.x - this.canvas.width / 2, this.absolutePosition.y - this.canvas.height / 2);
@@ -146,12 +146,12 @@ var Framework = (function (Framework) {
                 realWidth = this.texture.width;
                 realHeight = this.texture.height;
 
-                // 計算縮放後的大小
+                // 计算缩放后的大小
                 if (this.isObjectChanged) {
                     if (!Framework.Util.isAbout(this.absoluteScale, 1, 0.00001) || !Framework.Util.isAbout(this.absoluteRotation, 0, 0.001)) {
                         realWidth = this.texture.width * this.scale;
                         realHeight = this.texture.height * this.scale;
-                        // 將canvas 放大才不會被切到
+                        // 将canvas 放大才不会被切到
                         var diagonalLength = Math.floor(Math.sqrt(Math.pow(realHeight, 2) + Math.pow(realWidth, 2)));
                         this.canvas.width = diagonalLength;
                         this.canvas.height = diagonalLength;
@@ -162,20 +162,20 @@ var Framework = (function (Framework) {
                             tranlateY = this.canvas.height / 2;
 
 
-                        // 將Canvas 中心點移動到左上角(0,0)
+                        // 将Canvas 中心点移动到左上角(0,0)
                         this.context.translate(tranlateX, tranlateY);
-                        // 旋轉Canvas
+                        // 旋转Canvas
                         this.context.rotate(this.absoluteRotation / 180 * Math.PI);
-                        // 移回來
+                        // 移回来
                         this.context.translate(-tranlateX, -tranlateY);
-                        // 縮放
+                        // 缩放
                         this.context.scale(this.absoluteScale, this.absoluteScale);
-                        // 畫圖                
+                        // 画图                
                         this.context.drawImage(this.texture, (this.canvas.width - realWidth) / 2 / this.absoluteScale, (this.canvas.height - realHeight) / 2 / this.absoluteScale);
 
                     }
 
-                    // 再畫到主Canvas上                    
+                    // 再画到主Canvas上                    
                     if (this.isDrawBoundry) {
                         this.context.rect((this.canvas.width - realWidth) / 2 / this.absoluteScale, (this.canvas.height - realHeight) / 2 / this.absoluteScale, this.texture.width, this.texture.height);
                         this.context.stroke();
@@ -189,7 +189,7 @@ var Framework = (function (Framework) {
                 }
 
                 if (painter instanceof Framework.GameObject) {
-                    painter = painter.context;  //表示傳進來的其實是GameObject或其 Concrete Class
+                    painter = painter.context;  //表示传进来的其实是GameObject或其 Concrete Class
                 }
                 if (!Framework.Util.isAbout(this.absoluteScale, 1, 0.00001) || !Framework.Util.isAbout(this.absoluteRotation, 0, 0.001)) {
                     painter.drawImage(this.canvas, this.absolutePosition.x - this.canvas.width / 2, this.absolutePosition.y - this.canvas.height / 2);

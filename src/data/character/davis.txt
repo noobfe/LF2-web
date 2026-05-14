@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Davis
+name: 强化Davis
 head: sprite/sys/davis_f.png
 small: sprite/sys/davis_s.png
 file(0-69): sprite/sys/davis_0.png  w: 79  h: 79  row: 10  col: 7

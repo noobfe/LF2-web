@@ -10,8 +10,8 @@ var Framework = (function (Framework) {
     let LevelLog = [];
 
     /**
-     * 整個遊戲(多個{{#crossLink "Level"}}{{/crossLink}})的主體
-     * 主要功能為新增移除關卡與關卡的切換
+     * 整个游戏(多个{{#crossLink "Level"}}{{/crossLink}})的主体
+     * 主要功能为新增移除关卡与关卡的切换
      *
      * @class {Framework.Game}
      * @namespace Framework
@@ -479,11 +479,11 @@ var Framework = (function (Framework) {
         };
 
         /**
-         * 加入一個新的關卡
+         * 加入一个新的关卡
          * @static
-         * @param {Object} levelData { 關卡名稱: 關卡的instance }
+         * @param {Object} levelData { 关卡名称: 关卡的instance }
          * @example
-         *    Framework.Game.addNewLevel({menu: new MyMenu()});    //MyMen繼承自Level
+         *    Framework.Game.addNewLevel({menu: new MyMenu()});    //MyMen继承自Level
          */
         static addNewLevel(leveldata) {
             //console.dir(leveldata);
@@ -492,7 +492,7 @@ var Framework = (function (Framework) {
                     if (Framework.Util.isNull(that._findLevel(i))) {
                         that._levels.push({name: i, level: leveldata[i]});
                     } else {
-                        Framework.DebugInfo.Log.error('Game : 關卡名稱不能重複');
+                        Framework.DebugInfo.Log.error('Game : 关卡名称不能重复');
                         throw new Error('Game: already has same level name');
                     }
                 }
@@ -509,16 +509,16 @@ var Framework = (function (Framework) {
             if (Framework.Util.isNull(that._findScript(scriptName))) {
                 that._testScripts.push({targetLevel: levelName, name: scriptName, script: scriptInstance});
             } else {
-                Framework.DebugInfo.Log.error('Game : Script名稱不能重複');
+                Framework.DebugInfo.Log.error('Game : Script名称不能重复');
                 throw new Error('Game: already has same script name');
             }
         };
 
         /**
-         * 前往另一個關卡(前後皆可), 若沒有該關卡, 會throw exception
+         * 前往另一个关卡(前后皆可), 若没有该关卡, 会throw exception
          * @static
-         * @param {Object} levelName 關卡名稱
-         * @param {Object} [extraData] 其他資料
+         * @param {Object} levelName 关卡名称
+         * @param {Object} [extraData] 其他资料
          * @returns {Framework.Level}
          * @example
          *    Framework.Game.goToLevel('menu');
@@ -529,7 +529,7 @@ var Framework = (function (Framework) {
             that._currentLevel = that._findLevel(levelName);
             Framework.Replay.resetCycleCount();
             if (Framework.Util.isUndefined(that._currentLevel)) {
-                Framework.DebugInfo.Log.error('Game : 找不到關卡');
+                Framework.DebugInfo.Log.error('Game : 找不到关卡');
                 throw new Error('Game : levelname not found.');
             }
             if (that._isRecordMode) {
@@ -555,7 +555,7 @@ var Framework = (function (Framework) {
         }
 
         /**
-         * 前往下一個關卡, 若沒有下一個關卡, 會throw exception
+         * 前往下一个关卡, 若没有下一个关卡, 会throw exception
          * @static
          * @deprecated
          * @example
@@ -580,12 +580,12 @@ var Framework = (function (Framework) {
         //             flag = true;
         //         }
         //     }
-        //     Framework.DebugInfo.Log.error('Game : 無下一關');
+        //     Framework.DebugInfo.Log.error('Game : 无下一关');
         //     throw new Error('Game : can\'t goto next level.');
         // };
 
         /* *
-         * 前往前一個關卡, 若沒有前一個關卡, 會throw exception
+         * 前往前一个关卡, 若没有前一个关卡, 会throw exception
          * @static
          * @deprecated
          * @example
@@ -613,14 +613,14 @@ var Framework = (function (Framework) {
         //         }
         //         prev = that._levels[i].level;
         //     }
-        //     Framework.DebugInfo.Log.error('Game : 無前一關');
+        //     Framework.DebugInfo.Log.error('Game : 无前一关');
         //     throw new Error('Game : can\'t goto previous level.');
         // };
 
 
         /**
-         * 讓遊戲開始執行
-         * @param {Object} [extraData] 傳遞的資料
+         * 让游戏开始执行
+         * @param {Object} [extraData] 传递的资料
          * @static
          * @example
          *    Framework.Game.start();
@@ -659,7 +659,7 @@ var Framework = (function (Framework) {
                 self._isRun = true;
                 self.pause();
                 self.initialize();
-                //bind會產生一個同樣的function, 但this為指定的參數
+                //bind会产生一个同样的function, 但this为指定的参数
                 self.draw = self._tempDraw.bind(self._currentLevel);
                 self.update = self._tempUpdate.bind(self._currentLevel);
                 Framework.Replay.setGameReady();
@@ -972,7 +972,7 @@ var Framework = (function (Framework) {
 
 
         /**
-         * 讓任何一個在網頁上的元件得以全螢幕, 一定要在有使用者可以觸發的事件內撰寫, 例如:
+         * 让任何一个在网页上的元件得以全萤幕, 一定要在有使用者可以触发的事件内撰写, 例如:
          * {{#crossLink "Level/click:event"}}{{/crossLink}},
          * {{#crossLink "Level/mousedown:event"}}{{/crossLink}},
          * {{#crossLink "Level/mouseup:event"}}{{/crossLink}},
@@ -981,8 +981,8 @@ var Framework = (function (Framework) {
          * {{#crossLink "Level/touchmove:event"}}{{/crossLink}},
          * {{#crossLink "Level/keydown:event"}}{{/crossLink}},
          * {{#crossLink "Level/keyup:event"}}{{/crossLink}}
-         * 否則會無法全螢幕
-         * @param {Object} ele 要被全螢幕的DOM, 若不設定則為遊戲的CANVAS
+         * 否则会无法全萤幕
+         * @param {Object} ele 要被全萤幕的DOM, 若不设定则为游戏的CANVAS
          * @static
          * @example
          *    Framework.Game.fullScreen();
@@ -1006,7 +1006,7 @@ var Framework = (function (Framework) {
         };
 
         /**
-         * 退出全螢幕
+         * 退出全萤幕
          * @static
          * @example
          *    Framework.Game.exitFullScreen();

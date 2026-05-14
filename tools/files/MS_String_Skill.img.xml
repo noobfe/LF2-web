@@ -1,76 +1,76 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <imgdir name="Skill.img">
     <imgdir name="000">
-        <string name="bookName" value="冒險之技"/>
+        <string name="bookName" value="冒险之技"/>
     </imgdir>
 
     <imgdir name="0000008">
-        <string name="name" value="寵物達人"/>
-        <string name="desc" value="[最高等級：1]可攜帶多只寵物，最多攜帶3只。"/>
+        <string name="name" value="宠物达人"/>
+        <string name="desc" value="[最高等级：1]可携带多只宠物，最多携带3只。"/>
     </imgdir>
 
     <imgdir name="0001000">
-        <string name="name" value="嫩寶丟擲術"/>
-        <string name="desc" value="[最高等級：3]\n投擲蝸牛殼來攻擊遠距離的怪物。"/>
+        <string name="name" value="嫩宝丢掷术"/>
+        <string name="desc" value="[最高等级：3]\n投掷蜗牛壳来攻击远距离的怪物。"/>
         <string name="h1" value="Snail Shell -1, MP -3; Damage 10"/>
         <string name="h2" value="Blue Snail Shell -1, MP -5; Damage 25"/>
         <string name="h3" value="Red Snail Shell -1, MP -7; Damage 40"/>
     </imgdir>
 
     <imgdir name="0001001">
-        <string name="name" value="團隊治癒"/>
-        <string name="desc" value="[最高等級 : 3]\n30秒內持續恢復HP. \n#c再次使用時間間隔 : 2分#"/>
-        <string name="h1" value="MP 5 消耗後 30秒恢復 HP 24"/>
-        <string name="h2" value="MP 10 消耗後 30秒恢復 HP 48"/>
-        <string name="h3" value="MP 15 消耗後 30秒恢復 HP 72"/>
+        <string name="name" value="团队治愈"/>
+        <string name="desc" value="[最高等级 : 3]\n30秒内持续恢复HP. \n#c再次使用时间间隔 : 2分#"/>
+        <string name="h1" value="MP 5 消耗后 30秒恢复 HP 24"/>
+        <string name="h2" value="MP 10 消耗后 30秒恢复 HP 48"/>
+        <string name="h3" value="MP 15 消耗后 30秒恢复 HP 72"/>
     </imgdir>
 
     <imgdir name="0001003">
         <string name="name" value="神匠之魂"/>
-        <string name="desc" value="[最高等級 : 1]\n不能裝備的道具也能使用符咒"/>
+        <string name="desc" value="[最高等级 : 1]\n不能装备的道具也能使用符咒"/>
     </imgdir>
 
     <imgdir name="0001004">
-        <string name="name" value="騎獸技能"/>
-        <string name="desc" value="[最高等級 : 1]\n能夠坐騎怪物並移動"/>
+        <string name="name" value="骑兽技能"/>
+        <string name="desc" value="[最高等级 : 1]\n能够坐骑怪物并移动"/>
     </imgdir>
 
     <imgdir name="0001002">
-        <string name="name" value="疾風之步"/>
-        <string name="desc" value="[最高等級 : 3]\n瞬間迅速的移動。 \n#c再次使用時間間隔 ： 1分#"/>
+        <string name="name" value="疾风之步"/>
+        <string name="desc" value="[最高等级 : 3]\n瞬间迅速的移动。 \n#c再次使用时间间隔 ： 1分#"/>
         <string name="h1" value="MP -4; speed +10 for 4 sec."/>
         <string name="h2" value="MP -7; speed +15 for 8 sec."/>
         <string name="h3" value="MP -10; speed +20 for 12 sec."/>
     </imgdir>
 
     <imgdir name="100">
-        <string name="bookName" value="劍士入門"/>
+        <string name="bookName" value="剑士入门"/>
     </imgdir>
 
     <imgdir name="1000000">
-        <string name="name" value="生命恢復"/>
-        <string name="desc" value="[最高等級 : 16]\n增加每5秒的HP恢復量."/>
-        <string name="h1" value="HP恢復+3"/>
-        <string name="h2" value="HP恢復+6"/>
-        <string name="h3" value="HP恢復+9"/>
-        <string name="h4" value="HP恢復+12"/>
-        <string name="h5" value="HP恢復+15"/>
-        <string name="h6" value="HP恢復+18"/>
-        <string name="h7" value="HP恢復+21"/>
-        <string name="h8" value="HP恢復+24"/>
-        <string name="h9" value="HP恢復+27"/>
-        <string name="h10" value="HP恢復+30"/>
-        <string name="h11" value="HP恢復+33"/>
-        <string name="h12" value="HP恢復+36"/>
-        <string name="h13" value="HP恢復+39"/>
-        <string name="h14" value="HP恢復+42"/>
-        <string name="h15" value="HP恢復+45"/>
-        <string name="h16" value="HP恢復+50"/>
+        <string name="name" value="生命恢复"/>
+        <string name="desc" value="[最高等级 : 16]\n增加每5秒的HP恢复量."/>
+        <string name="h1" value="HP恢复+3"/>
+        <string name="h2" value="HP恢复+6"/>
+        <string name="h3" value="HP恢复+9"/>
+        <string name="h4" value="HP恢复+12"/>
+        <string name="h5" value="HP恢复+15"/>
+        <string name="h6" value="HP恢复+18"/>
+        <string name="h7" value="HP恢复+21"/>
+        <string name="h8" value="HP恢复+24"/>
+        <string name="h9" value="HP恢复+27"/>
+        <string name="h10" value="HP恢复+30"/>
+        <string name="h11" value="HP恢复+33"/>
+        <string name="h12" value="HP恢复+36"/>
+        <string name="h13" value="HP恢复+39"/>
+        <string name="h14" value="HP恢复+42"/>
+        <string name="h15" value="HP恢复+45"/>
+        <string name="h16" value="HP恢复+50"/>
     </imgdir>
 
     <imgdir name="1000001">
-        <string name="name" value="生命擴展"/>
-        <string name="desc" value="[最高等級 : 10]\n等級上升時以及使用AP增加HP，提高最大HP的增加量。\n必需技能:#c提高恢復HP等級5以上#"/>
+        <string name="name" value="生命扩展"/>
+        <string name="desc" value="[最高等级 : 10]\n等级上升时以及使用AP增加HP，提高最大HP的增加量。\n必需技能:#c提高恢复HP等级5以上#"/>
         <string name="h1" value="If Level UP, +4 more; if AP applied, +3 more on top on MaxHP"/>
         <string name="h2" value="If Level UP, +8 more; if AP applied, +6 more on top on MaxHP"/>
         <string name="h3" value="If Level UP, +12 more; if AP applied, +9 more on top on MaxHP"/>
@@ -84,21 +84,21 @@
     </imgdir>
 
     <imgdir name="1000002">
-        <string name="name" value="生命恢復"/>
-        <string name="desc" value="[最高等級 : 8]\n在梯子和繩索上面也可以恢復HP.\n必需技能: #c提高恢復HP等級3以上#"/>
-        <string name="h1" value="每31秒恢復HP"/>
-        <string name="h2" value="每28秒恢復HP"/>
-        <string name="h3" value="每25秒恢復HP"/>
-        <string name="h4" value="每22秒恢復HP"/>
-        <string name="h5" value="每19秒恢復HP"/>
-        <string name="h6" value="每16秒恢復HP"/>
-        <string name="h7" value="每13秒恢復HP"/>
-        <string name="h8" value="每10秒恢復HP"/>
+        <string name="name" value="生命恢复"/>
+        <string name="desc" value="[最高等级 : 8]\n在梯子和绳索上面也可以恢复HP.\n必需技能: #c提高恢复HP等级3以上#"/>
+        <string name="h1" value="每31秒恢复HP"/>
+        <string name="h2" value="每28秒恢复HP"/>
+        <string name="h3" value="每25秒恢复HP"/>
+        <string name="h4" value="每22秒恢复HP"/>
+        <string name="h5" value="每19秒恢复HP"/>
+        <string name="h6" value="每16秒恢复HP"/>
+        <string name="h7" value="每13秒恢复HP"/>
+        <string name="h8" value="每10秒恢复HP"/>
     </imgdir>
 
     <imgdir name="1001003">
-        <string name="name" value="自身強化"/>
-        <string name="desc" value="[最高等級 : 20]\n一定時間內物理防禦力增加.\n必需技能：#c恢復術等級3以上#"/>
+        <string name="name" value="自身强化"/>
+        <string name="desc" value="[最高等级 : 20]\n一定时间内物理防御力增加.\n必需技能：#c恢复术等级3以上#"/>
         <string name="h1" value="MP -8; weapon def. +2 for 75 sec."/>
         <string name="h2" value="MP -8; weapon def. +4 for 85 sec."/>
         <string name="h3" value="MP -8; weapon def. +6 for 95 sec."/>
@@ -122,62 +122,62 @@
     </imgdir>
 
     <imgdir name="1001004">
-        <string name="name" value="魔天一擊"/>
-        <string name="desc" value="[最高等級 : 20]\n消費MP，用所裝備的武器給怪物以致命一擊."/>
-        <string name="h1" value="消費MP4，攻擊力114%"/>
-        <string name="h2" value="消費MP4，攻擊力120%"/>
-        <string name="h3" value="消費MP4，攻擊力126%"/>
-        <string name="h4" value="消費MP4，攻擊力132%"/>
-        <string name="h5" value="消費MP5，攻擊力142%"/>
-        <string name="h6" value="消費MP5，攻擊力148%"/>
-        <string name="h7" value="消費MP5，攻擊力154%"/>
-        <string name="h8" value="消費MP6，攻擊力164%"/>
-        <string name="h9" value="消費MP6，攻擊力170%"/>
-        <string name="h10" value="消費MP7，攻擊力180%"/>
-        <string name="h11" value="消費MP7，攻擊力186%"/>
-        <string name="h12" value="消費MP8，攻擊力196%"/>
-        <string name="h13" value="消費MP8，攻擊力202%"/>
-        <string name="h14" value="消費MP9，攻擊力212%"/>
-        <string name="h15" value="消費MP9，攻擊力218%"/>
-        <string name="h16" value="消費MP10，攻擊力228%"/>
-        <string name="h17" value="消費MP10，攻擊力234%"/>
-        <string name="h18" value="消費MP11，攻擊力244%"/>
-        <string name="h19" value="消費MP11，攻擊力250%"/>
-        <string name="h20" value="消費MP12，攻擊力260%"/>
+        <string name="name" value="魔天一击"/>
+        <string name="desc" value="[最高等级 : 20]\n消费MP，用所装备的武器给怪物以致命一击."/>
+        <string name="h1" value="消费MP4，攻击力114%"/>
+        <string name="h2" value="消费MP4，攻击力120%"/>
+        <string name="h3" value="消费MP4，攻击力126%"/>
+        <string name="h4" value="消费MP4，攻击力132%"/>
+        <string name="h5" value="消费MP5，攻击力142%"/>
+        <string name="h6" value="消费MP5，攻击力148%"/>
+        <string name="h7" value="消费MP5，攻击力154%"/>
+        <string name="h8" value="消费MP6，攻击力164%"/>
+        <string name="h9" value="消费MP6，攻击力170%"/>
+        <string name="h10" value="消费MP7，攻击力180%"/>
+        <string name="h11" value="消费MP7，攻击力186%"/>
+        <string name="h12" value="消费MP8，攻击力196%"/>
+        <string name="h13" value="消费MP8，攻击力202%"/>
+        <string name="h14" value="消费MP9，攻击力212%"/>
+        <string name="h15" value="消费MP9，攻击力218%"/>
+        <string name="h16" value="消费MP10，攻击力228%"/>
+        <string name="h17" value="消费MP10，攻击力234%"/>
+        <string name="h18" value="消费MP11，攻击力244%"/>
+        <string name="h19" value="消费MP11，攻击力250%"/>
+        <string name="h20" value="消费MP12，攻击力260%"/>
     </imgdir>
 
     <imgdir name="1001005">
-        <string name="name" value="劍氣縱橫"/>
-        <string name="desc" value="[最高等級 : 20]\n消費HP和MP，用裝備的武器同時攻擊周圍的多個怪物.\n必需技能：#c強力攻擊等級1以上#"/>
-        <string name="h1" value="消耗HP8和MP6, 攻擊力57%"/>
-        <string name="h2" value="消耗HP8和MP6, 攻擊力60%"/>
-        <string name="h3" value="消耗HP8和MP6, 攻擊力63%"/>
-        <string name="h4" value="消耗HP8和MP6, 攻擊力66%"/>
-        <string name="h5" value="消耗HP9和MP7, 攻擊力71%"/>
-        <string name="h6" value="消耗HP9和MP7, 攻擊力74%"/>
-        <string name="h7" value="消耗HP9和MP7, 攻擊力77%"/>
-        <string name="h8" value="消耗HP10和MP8, 攻擊力82%"/>
-        <string name="h9" value="消耗HP10和MP8, 攻擊力85%"/>
-        <string name="h10" value="消耗HP11和MP9, 攻擊力90%"/>
-        <string name="h11" value="消耗HP11和MP9, 攻擊力93%"/>
-        <string name="h12" value="消耗HP12和MP10, 攻擊力98%"/>
-        <string name="h13" value="消耗HP12和MP10, 攻擊力101%"/>
-        <string name="h14" value="消耗HP13和MP11, 攻擊力106%"/>
-        <string name="h15" value="消耗HP13和MP11, 攻擊力109%"/>
-        <string name="h16" value="消耗HP14和MP12, 攻擊力114%"/>
-        <string name="h17" value="消耗HP14和MP12, 攻擊力117%"/>
-        <string name="h18" value="消耗HP15和MP13, 攻擊力122%"/>
-        <string name="h19" value="消耗HP15和MP13, 攻擊力125%"/>
-        <string name="h20" value="消耗HP16和MP14, 攻擊力130%"/>
+        <string name="name" value="剑气纵横"/>
+        <string name="desc" value="[最高等级 : 20]\n消费HP和MP，用装备的武器同时攻击周围的多个怪物.\n必需技能：#c强力攻击等级1以上#"/>
+        <string name="h1" value="消耗HP8和MP6, 攻击力57%"/>
+        <string name="h2" value="消耗HP8和MP6, 攻击力60%"/>
+        <string name="h3" value="消耗HP8和MP6, 攻击力63%"/>
+        <string name="h4" value="消耗HP8和MP6, 攻击力66%"/>
+        <string name="h5" value="消耗HP9和MP7, 攻击力71%"/>
+        <string name="h6" value="消耗HP9和MP7, 攻击力74%"/>
+        <string name="h7" value="消耗HP9和MP7, 攻击力77%"/>
+        <string name="h8" value="消耗HP10和MP8, 攻击力82%"/>
+        <string name="h9" value="消耗HP10和MP8, 攻击力85%"/>
+        <string name="h10" value="消耗HP11和MP9, 攻击力90%"/>
+        <string name="h11" value="消耗HP11和MP9, 攻击力93%"/>
+        <string name="h12" value="消耗HP12和MP10, 攻击力98%"/>
+        <string name="h13" value="消耗HP12和MP10, 攻击力101%"/>
+        <string name="h14" value="消耗HP13和MP11, 攻击力106%"/>
+        <string name="h15" value="消耗HP13和MP11, 攻击力109%"/>
+        <string name="h16" value="消耗HP14和MP12, 攻击力114%"/>
+        <string name="h17" value="消耗HP14和MP12, 攻击力117%"/>
+        <string name="h18" value="消耗HP15和MP13, 攻击力122%"/>
+        <string name="h19" value="消耗HP15和MP13, 攻击力125%"/>
+        <string name="h20" value="消耗HP16和MP14, 攻击力130%"/>
     </imgdir>
 
     <imgdir name="200">
-        <string name="bookName" value="法師入門"/>
+        <string name="bookName" value="法师入门"/>
     </imgdir>
 
     <imgdir name="2000000">
-        <string name="name" value="魔力淨化"/>
-        <string name="desc" value="[最高等級 : 16]\n增加每10秒的MP恢復量."/>
+        <string name="name" value="魔力净化"/>
+        <string name="desc" value="[最高等级 : 16]\n增加每10秒的MP恢复量."/>
         <string name="h1" value="Constant additional recovery of MP"/>
         <string name="h2" value="Constant additional recovery of MP"/>
         <string name="h3" value="Constant additional recovery of MP"/>
@@ -197,8 +197,8 @@
     </imgdir>
 
     <imgdir name="2000001">
-        <string name="name" value="魔力擴展"/>
-        <string name="desc" value="[最高等級 : 10]\n等級上升時及使用AP加MP時，提高MaxMP的增加量。\n必要技能: #c增加恢復MP等級5以上#"/>
+        <string name="name" value="魔力扩展"/>
+        <string name="desc" value="[最高等级 : 10]\n等级上升时及使用AP加MP时，提高MaxMP的增加量。\n必要技能: #c增加恢复MP等级5以上#"/>
         <string name="h1" value="If Level UP, +2 more; if AP applied, +1 more on top on MaxMP"/>
         <string name="h2" value="If Level UP, +4 more; if AP applied, +2 more on top on MaxMP"/>
         <string name="h3" value="If Level UP, +6 more; if AP applied, +3 more on top on MaxMP"/>
@@ -212,8 +212,8 @@
     </imgdir>
 
     <imgdir name="2001002">
-        <string name="name" value="魔心防禦"/>
-        <string name="desc" value="[最高等級 : 20]\n一定時間內，損血量以MP代替。但MP達到0消耗HP。"/>
+        <string name="name" value="魔心防御"/>
+        <string name="desc" value="[最高等级 : 20]\n一定时间内，损血量以MP代替。但MP达到0消耗HP。"/>
         <string name="h1" value="MP -6; Replace 11% of HP damage as MP for 111 sec. "/>
         <string name="h2" value="MP -6; Replace 14% of HP damage as MP for 132 sec."/>
         <string name="h3" value="MP -6; Replace 17% of HP damage as MP for 153 sec."/>
@@ -238,7 +238,7 @@
 
     <imgdir name="2001003">
         <string name="name" value="魔力之盾"/>
-        <string name="desc" value="[最高等級 : 20]\n一定時間內增加物理防禦力。\n必需技能: #c魔法盾等級3以上#"/>
+        <string name="desc" value="[最高等级 : 20]\n一定时间内增加物理防御力。\n必需技能: #c魔法盾等级3以上#"/>
         <string name="h1" value="MP -8; weapon def. +2 for 54 sec."/>
         <string name="h2" value="MP -8; weapon def. +4 for 68 sec."/>
         <string name="h3" value="MP -8; weapon def. +6 for 82 sec."/>
@@ -262,8 +262,8 @@
     </imgdir>
 
     <imgdir name="2001004">
-        <string name="name" value="魔靈彈"/>
-        <string name="desc" value="[最高等級 : 20]\n消耗MP,攻擊一個怪物."/>
+        <string name="name" value="魔灵弹"/>
+        <string name="desc" value="[最高等级 : 20]\n消耗MP,攻击一个怪物."/>
         <string name="h1" value="MP -6, basic attack 20, mastery 15%"/>
         <string name="h2" value="MP -6, basic attack 21, mastery 15%"/>
         <string name="h3" value="MP -6, basic attack 22, mastery 20%"/>
@@ -288,7 +288,7 @@
 
     <imgdir name="2001005">
         <string name="name" value="魔力爪"/>
-        <string name="desc" value="[最高等級 : 20]\n消耗MP,對同一個怪物連續攻擊兩次."/>
+        <string name="desc" value="[最高等级 : 20]\n消耗MP,对同一个怪物连续攻击两次."/>
         <string name="h1" value="MP -10, basic attack 11, mastery 15%"/>
         <string name="h2" value="MP -10, basic attack 12, mastery 15%"/>
         <string name="h3" value="MP -10, basic attack 13, mastery 20%"/>
@@ -312,12 +312,12 @@
     </imgdir>
 
     <imgdir name="300">
-        <string name="bookName" value="弓箭手入門"/>
+        <string name="bookName" value="弓箭手入门"/>
     </imgdir>
 
     <imgdir name="3000000">
-        <string name="name" value="精準之強化"/>
-        <string name="desc" value="[最高等級 : 16]\n增加攻擊命中率."/>
+        <string name="name" value="精准之强化"/>
+        <string name="desc" value="[最高等级 : 16]\n增加攻击命中率."/>
         <string name="h1" value="Accuracy +1"/>
         <string name="h2" value="Accuracy +2"/>
         <string name="h3" value="Accuracy +3"/>
@@ -338,7 +338,7 @@
 
     <imgdir name="3000001">
         <string name="name" value="霸王箭"/>
-        <string name="desc" value="[最高等級 : 20]\n可以增加箭的攻擊力."/>
+        <string name="desc" value="[最高等级 : 20]\n可以增加箭的攻击力."/>
         <string name="h1" value="12% success rate, critical damage 105%"/>
         <string name="h2" value="14% success rate, critical damage 110%"/>
         <string name="h3" value="16% success rate, critical damage 115%"/>
@@ -362,8 +362,8 @@
     </imgdir>
 
     <imgdir name="3000002">
-        <string name="name" value="百步穿楊"/>
-        <string name="desc" value="[最高等級 : 8]\n增加射程距離.\n必需技能 : #c精準之箭等級3以上#"/>
+        <string name="name" value="百步穿杨"/>
+        <string name="desc" value="[最高等级 : 8]\n增加射程距离.\n必需技能 : #c精准之箭等级3以上#"/>
         <string name="h1" value="Range of attack for bows and crossbows: +15"/>
         <string name="h2" value="Range of attack for bows and crossbows: +30"/>
         <string name="h3" value="Range of attack for bows and crossbows: +45"/>
@@ -375,8 +375,8 @@
     </imgdir>
 
     <imgdir name="3001003">
-        <string name="name" value="集中術"/>
-        <string name="desc" value="[最高等級 : 20]\n增加命中率和迴避率.\n必需技能 : #c精準之箭等級3以上#"/>
+        <string name="name" value="集中术"/>
+        <string name="desc" value="[最高等级 : 20]\n增加命中率和回避率.\n必需技能 : #c精准之箭等级3以上#"/>
         <string name="h1" value="MP -8; accuracy +1, avoidability +1 for 70 sec. "/>
         <string name="h2" value="MP -8; accuracy +2, avoidability +2 for 80 sec. "/>
         <string name="h3" value="MP -8; accuracy +3, avoidability +3 for 90 sec. "/>
@@ -400,8 +400,8 @@
     </imgdir>
 
     <imgdir name="3001004">
-        <string name="name" value="斷魂箭"/>
-        <string name="desc" value="[最高等級 : 20]\n強力的箭矢，造成強大的殺傷力。"/>
+        <string name="name" value="断魂箭"/>
+        <string name="desc" value="[最高等级 : 20]\n强力的箭矢，造成强大的杀伤力。"/>
         <string name="h1" value="MP -6; damage 141%"/>
         <string name="h2" value="MP -6; damage 146%"/>
         <string name="h3" value="MP -6; damage 151%"/>
@@ -425,8 +425,8 @@
     </imgdir>
 
     <imgdir name="3001005">
-        <string name="name" value="二連射"/>
-        <string name="desc" value="[最高等級 : 20]\n一次射出兩支箭，攻擊怪物兩次。\n必需技能 : #c斷魂箭等級1以上#"/>
+        <string name="name" value="二连射"/>
+        <string name="desc" value="[最高等级 : 20]\n一次射出两支箭，攻击怪物两次。\n必需技能 : #c断魂箭等级1以上#"/>
         <string name="h1" value="MP -8; damage 76%"/>
         <string name="h2" value="MP -8; damage 78%"/>
         <string name="h3" value="MP -8; damage 80%"/>
@@ -450,12 +450,12 @@
     </imgdir>
 
     <imgdir name="400">
-        <string name="bookName" value="盜賊入門"/>
+        <string name="bookName" value="盗贼入门"/>
     </imgdir>
 
     <imgdir name="4000000">
-        <string name="name" value="幻化術"/>
-        <string name="desc" value="[最高等級 : 20]\n增加命中率和迴避率."/>
+        <string name="name" value="幻化术"/>
+        <string name="desc" value="[最高等级 : 20]\n增加命中率和回避率."/>
         <string name="h1" value="accuracy +1, avoidability +1"/>
         <string name="h2" value="accuracy +2, avoidability +2"/>
         <string name="h3" value="accuracy +3, avoidability +3"/>
@@ -479,8 +479,8 @@
     </imgdir>
 
     <imgdir name="4000001">
-        <string name="name" value="鷹之眼"/>
-        <string name="desc" value="[最高等級 : 8]\n增加拳套系武器的射程距離.\n必需技能 : #c集中術等級3以上#"/>
+        <string name="name" value="鹰之眼"/>
+        <string name="desc" value="[最高等级 : 8]\n增加拳套系武器的射程距离.\n必需技能 : #c集中术等级3以上#"/>
         <string name="h1" value="Range of attack for the throwing weapon: +25"/>
         <string name="h2" value="Range of attack for the throwing weapon: +50"/>
         <string name="h3" value="Range of attack for the throwing weapon: +75"/>
@@ -492,8 +492,8 @@
     </imgdir>
 
     <imgdir name="4001002">
-        <string name="name" value="詛咒術"/>
-        <string name="desc" value="高等級 : 20]\n降低怪物的物理攻擊力和物理防禦力，而且怪物停止攻擊，對一個怪物不能使用兩次."/>
+        <string name="name" value="诅咒术"/>
+        <string name="desc" value="高等级 : 20]\n降低怪物的物理攻击力和物理防御力，而且怪物停止攻击，对一个怪物不能使用两次."/>
         <string name="h1" value="MP -5; enemy&apos;s weapon attack -1, weapon def. -1 for 7 sec."/>
         <string name="h2" value="MP -5; enemy&apos;s weapon attack -2, weapon def. -2 for 9 sec."/>
         <string name="h3" value="MP -5; enemy&apos;s weapon attack -3, weapon def. -3 for 11 sec."/>
@@ -517,8 +517,8 @@
     </imgdir>
 
     <imgdir name="4001003">
-        <string name="name" value="隱身術"/>
-        <string name="desc" value="[最高等級 : 20]\n消費MP, 能夠隱身，不會受到怪物的攻擊但也無法攻擊怪物.\n必需技能 : #c詛咒術等級3以上#"/>
+        <string name="name" value="隐身术"/>
+        <string name="desc" value="[最高等级 : 20]\n消费MP, 能够隐身，不会受到怪物的攻击但也无法攻击怪物.\n必需技能 : #c诅咒术等级3以上#"/>
         <string name="h1" value="MP -24; disappear for 10 sec., speed -30"/>
         <string name="h2" value="MP -23; disappear for 20 sec., speed -28"/>
         <string name="h3" value="MP -22; disappear for 30 sec., speed -26"/>
@@ -542,8 +542,8 @@
     </imgdir>
 
     <imgdir name="4001334">
-        <string name="name" value="劈空斬"/>
-        <string name="desc" value="[最高等級 : 20]\n用短刀連續攻擊怪物兩次."/>
+        <string name="name" value="劈空斩"/>
+        <string name="desc" value="[最高等级 : 20]\n用短刀连续攻击怪物两次."/>
         <string name="h1" value="MP -6; damage 65%"/>
         <string name="h2" value="MP -6; damage 68%"/>
         <string name="h3" value="MP -6; damage 71%"/>
@@ -567,8 +567,8 @@
     </imgdir>
 
     <imgdir name="4001344">
-        <string name="name" value="雙飛斬"/>
-        <string name="desc" value="[最高等級 : 20]\n使用飛鏢對怪物連續攻擊2次，攻擊力受LUK數值的影響。"/>
+        <string name="name" value="双飞斩"/>
+        <string name="desc" value="[最高等级 : 20]\n使用飞镖对怪物连续攻击2次，攻击力受LUK数值的影响。"/>
         <string name="h1" value="MP -8; damage 58%"/>
         <string name="h2" value="MP -8; damage 62%"/>
         <string name="h3" value="MP -8; damage 66%"/>
@@ -592,12 +592,12 @@
     </imgdir>
 
     <imgdir name="110">
-        <string name="bookName" value="狂戰士之路"/>
+        <string name="bookName" value="狂战士之路"/>
     </imgdir>
 
     <imgdir name="1100000">
-        <string name="name" value="精準之之劍"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用劍系武器的命中率及熟練度(必須裝備單手劍或雙手劍)"/>
+        <string name="name" value="精准之之剑"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用剑系武器的命中率及熟练度(必须装备单手剑或双手剑)"/>
         <string name="h1" value="Sword mastery 15%, accuracy +1"/>
         <string name="h2" value="Sword mastery 15%, accuracy +2"/>
         <string name="h3" value="Sword mastery 20%, accuracy +3"/>
@@ -621,8 +621,8 @@
     </imgdir>
 
     <imgdir name="1100001">
-        <string name="name" value="精準之斧"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用斧系武器的命中率及熟練度.(必須裝備單手斧，雙手斧)"/>
+        <string name="name" value="精准之斧"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用斧系武器的命中率及熟练度.(必须装备单手斧，双手斧)"/>
         <string name="h1" value="Axe mastery +15%, accuracy +1"/>
         <string name="h2" value="Axe mastery +15%, accuracy +2"/>
         <string name="h3" value="Axe mastery +20%, accuracy +3"/>
@@ -646,8 +646,8 @@
     </imgdir>
 
     <imgdir name="1100002">
-        <string name="name" value="終極之劍"/>
-        <string name="desc" value="[最高等級 : 30]\n第一次攻擊後發動連續攻擊。(必須裝備單手劍或雙手劍)\n必需技能 : #c精準之劍等級3以上#"/>
+        <string name="name" value="终极之剑"/>
+        <string name="desc" value="[最高等级 : 30]\n第一次攻击后发动连续攻击。(必须装备单手剑或双手剑)\n必需技能 : #c精准之剑等级3以上#"/>
         <string name="h1" value="2% Success rate, final attack with sword damage 105% "/>
         <string name="h2" value="4% Success rate, final attack with sword damage 110% "/>
         <string name="h3" value="6% Success rate, final attack with sword damage 115% "/>
@@ -681,8 +681,8 @@
     </imgdir>
 
     <imgdir name="1100003">
-        <string name="name" value="終極之斧"/>
-        <string name="desc" value="[最高等級 : 30]\n第一次攻擊後發動連續攻擊.(必須裝備單手斧，雙手斧)\n必需技能 : #c精準之斧等級3以上#"/>
+        <string name="name" value="终极之斧"/>
+        <string name="desc" value="[最高等级 : 30]\n第一次攻击后发动连续攻击.(必须装备单手斧，双手斧)\n必需技能 : #c精准之斧等级3以上#"/>
         <string name="h1" value="2% Success rate, final attack with axe damage 105% "/>
         <string name="h2" value="4% Success rate, final attack with axe damage 110% "/>
         <string name="h3" value="6% Success rate, final attack with axe damage 115% "/>
@@ -716,8 +716,8 @@
     </imgdir>
 
     <imgdir name="1101004">
-        <string name="name" value="快速之劍"/>
-        <string name="desc" value="[最高等級 : 20]\n消費HP和MP,攻擊速度提升一個等級.(必須裝備單手劍，雙手劍)\n必需技能 : #c精準之劍等級5以上#"/>
+        <string name="name" value="快速之剑"/>
+        <string name="desc" value="[最高等级 : 20]\n消费HP和MP,攻击速度提升一个等级.(必须装备单手剑，双手剑)\n必需技能 : #c精准之剑等级5以上#"/>
         <string name="h1" value="HP -29, MP -29; increase in sword speed for 10 sec. "/>
         <string name="h2" value="HP -28, MP -28; increase in sword speed for 20 sec. "/>
         <string name="h3" value="HP -27, MP -27; increase in sword speed for 30 sec. "/>
@@ -742,7 +742,7 @@
 
     <imgdir name="1101005">
         <string name="name" value="快速之斧"/>
-        <string name="desc" value="[最高等級 : 20]\n攻擊速度提升一個等級.(裝備單手斧，雙手斧）\n必需技能：#c精準之斧等級5以上#"/>
+        <string name="desc" value="[最高等级 : 20]\n攻击速度提升一个等级.(装备单手斧，双手斧）\n必需技能：#c精准之斧等级5以上#"/>
         <string name="h1" value="HP -29, MP -29; increase in axe speed for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; increase in axe speed for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; increase in axe speed for 30 sec."/>
@@ -766,8 +766,8 @@
     </imgdir>
 
     <imgdir name="1101006">
-        <string name="name" value="激勵"/>
-        <string name="desc" value="[最高等級 : 20]\n提升周圍組隊成員的物理攻擊力，降低物理防禦力."/>
+        <string name="name" value="激励"/>
+        <string name="desc" value="[最高等级 : 20]\n提升周围组队成员的物理攻击力，降低物理防御力."/>
         <string name="h1" value="MP -12; weapon attack +1, weapon def. -1 for 8 sec. "/>
         <string name="h2" value="MP -12; weapon attack +1, weapon def. -1 for 16 sec. "/>
         <string name="h3" value="MP -12; weapon attack +2, weapon def. -2 for 24 sec. "/>
@@ -792,46 +792,46 @@
 
     <imgdir name="1101007">
         <string name="name" value="反射之盾"/>
-        <string name="desc" value="[最高等級 : 30]\n按怪物對自身傷害的一定量反擊怪物。(怪物所受的傷害以最大HP10%為限度)\n必需技能:#c憤怒之火等級3以上#"/>
-        <string name="h1" value="消耗MP15，持續3秒，反饋11%"/>
-        <string name="h2" value="消耗MP15，持續6秒，反饋12%"/>
-        <string name="h3" value="消耗MP15，持續9秒，反饋13%"/>
-        <string name="h4" value="消耗MP15，持續12秒，反饋14%"/>
-        <string name="h5" value="消耗MP15，持續15秒，反饋15%"/>
-        <string name="h6" value="消耗MP15，持續18秒，反饋16%"/>
-        <string name="h7" value="消耗MP15，持續21秒，反饋17%"/>
-        <string name="h8" value="消耗MP15，持續24秒，反饋18%"/>
-        <string name="h9" value="消耗MP15，持續27秒，反饋19%"/>
-        <string name="h10" value="消耗MP15，持續30秒，反饋20%"/>
-        <string name="h11" value="消耗MP15，持續33秒，反饋21%"/>
-        <string name="h12" value="消耗MP15，持續36秒，反饋22%"/>
-        <string name="h13" value="消耗MP15，持續39秒，反饋23%"/>
-        <string name="h14" value="消耗MP15，持續42秒，反饋24%"/>
-        <string name="h15" value="消耗MP15，持續45秒，反饋25%"/>
-        <string name="h16" value="消耗MP30，持續48秒，反饋26%"/>
-        <string name="h17" value="消耗MP30，持續51秒，反饋27%"/>
-        <string name="h18" value="消耗MP30，持續54秒，反饋28%"/>
-        <string name="h19" value="消耗MP30，持續57秒，反饋29%"/>
-        <string name="h20" value="消耗MP30，持續60秒，反饋30%"/>
-        <string name="h21" value="消耗MP30，持續63秒，反饋31%"/>
-        <string name="h22" value="消耗MP30，持續66秒，反饋32%"/>
-        <string name="h23" value="消耗MP30，持續69秒，反饋33%"/>
-        <string name="h24" value="消耗MP30，持續72秒，反饋34%"/>
-        <string name="h25" value="消耗MP30，持續75秒，反饋35%"/>
-        <string name="h26" value="消耗MP30，持續78秒，反饋36%"/>
-        <string name="h27" value="消耗MP30，持續81秒，反饋37%"/>
-        <string name="h28" value="消耗MP30，持續84秒，反饋38%"/>
-        <string name="h29" value="消耗MP30，持續87秒，反饋39%"/>
-        <string name="h30" value="消耗MP30，持續90秒，反饋40%"/>
+        <string name="desc" value="[最高等级 : 30]\n按怪物对自身伤害的一定量反击怪物。(怪物所受的伤害以最大HP10%为限度)\n必需技能:#c愤怒之火等级3以上#"/>
+        <string name="h1" value="消耗MP15，持续3秒，反馈11%"/>
+        <string name="h2" value="消耗MP15，持续6秒，反馈12%"/>
+        <string name="h3" value="消耗MP15，持续9秒，反馈13%"/>
+        <string name="h4" value="消耗MP15，持续12秒，反馈14%"/>
+        <string name="h5" value="消耗MP15，持续15秒，反馈15%"/>
+        <string name="h6" value="消耗MP15，持续18秒，反馈16%"/>
+        <string name="h7" value="消耗MP15，持续21秒，反馈17%"/>
+        <string name="h8" value="消耗MP15，持续24秒，反馈18%"/>
+        <string name="h9" value="消耗MP15，持续27秒，反馈19%"/>
+        <string name="h10" value="消耗MP15，持续30秒，反馈20%"/>
+        <string name="h11" value="消耗MP15，持续33秒，反馈21%"/>
+        <string name="h12" value="消耗MP15，持续36秒，反馈22%"/>
+        <string name="h13" value="消耗MP15，持续39秒，反馈23%"/>
+        <string name="h14" value="消耗MP15，持续42秒，反馈24%"/>
+        <string name="h15" value="消耗MP15，持续45秒，反馈25%"/>
+        <string name="h16" value="消耗MP30，持续48秒，反馈26%"/>
+        <string name="h17" value="消耗MP30，持续51秒，反馈27%"/>
+        <string name="h18" value="消耗MP30，持续54秒，反馈28%"/>
+        <string name="h19" value="消耗MP30，持续57秒，反馈29%"/>
+        <string name="h20" value="消耗MP30，持续60秒，反馈30%"/>
+        <string name="h21" value="消耗MP30，持续63秒，反馈31%"/>
+        <string name="h22" value="消耗MP30，持续66秒，反馈32%"/>
+        <string name="h23" value="消耗MP30，持续69秒，反馈33%"/>
+        <string name="h24" value="消耗MP30，持续72秒，反馈34%"/>
+        <string name="h25" value="消耗MP30，持续75秒，反馈35%"/>
+        <string name="h26" value="消耗MP30，持续78秒，反馈36%"/>
+        <string name="h27" value="消耗MP30，持续81秒，反馈37%"/>
+        <string name="h28" value="消耗MP30，持续84秒，反馈38%"/>
+        <string name="h29" value="消耗MP30，持续87秒，反馈39%"/>
+        <string name="h30" value="消耗MP30，持续90秒，反馈40%"/>
     </imgdir>
 
     <imgdir name="120">
-        <string name="bookName" value="見習騎士之路"/>
+        <string name="bookName" value="见习骑士之路"/>
     </imgdir>
 
     <imgdir name="1200000">
-        <string name="name" value="精準之劍"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用劍系武器的命中率及熟練度.(必須裝備單手劍，雙手劍)"/>
+        <string name="name" value="精准之剑"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用剑系武器的命中率及熟练度.(必须装备单手剑，双手剑)"/>
         <string name="h1" value="Sword Mastery +15%, accuracy +1"/>
         <string name="h2" value="Sword Mastery +15%, accuracy +2"/>
         <string name="h3" value="Sword Mastery +20%, accuracy +3"/>
@@ -855,8 +855,8 @@
     </imgdir>
 
     <imgdir name="1200001">
-        <string name="name" value="精準之棍"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用棍的命中率及熟練度。(必須裝備單手棍或雙手棍)"/>
+        <string name="name" value="精准之棍"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用棍的命中率及熟练度。(必须装备单手棍或双手棍)"/>
         <string name="h1" value="Mace mastery +15%, accuracy +1"/>
         <string name="h2" value="Mace mastery +15%, accuracy +2"/>
         <string name="h3" value="Mace mastery +20%, accuracy +3"/>
@@ -880,8 +880,8 @@
     </imgdir>
 
     <imgdir name="1200002">
-        <string name="name" value="終極之劍"/>
-        <string name="desc" value="[最高等級 : 30]\n第一次攻擊後發動連續攻擊.(必須裝備單手劍，雙手劍)\n必需技能: #c精準之劍等級3以上#"/>
+        <string name="name" value="终极之剑"/>
+        <string name="desc" value="[最高等级 : 30]\n第一次攻击后发动连续攻击.(必须装备单手剑，双手剑)\n必需技能: #c精准之剑等级3以上#"/>
         <string name="h1" value="2% Success rate, final attack with sword damage 105% "/>
         <string name="h2" value="4% Success rate, final attack with sword damage 110% "/>
         <string name="h3" value="6% Success rate, final attack with sword damage 115% "/>
@@ -915,8 +915,8 @@
     </imgdir>
 
     <imgdir name="1200003">
-        <string name="name" value="終極之棍"/>
-        <string name="desc" value="[最高等級 : 30]\n第一次攻擊後發動連續攻擊。(必須裝備單手棍或雙手棍)\n必需技能: #c精準之棍等級3以上#"/>
+        <string name="name" value="终极之棍"/>
+        <string name="desc" value="[最高等级 : 30]\n第一次攻击后发动连续攻击。(必须装备单手棍或双手棍)\n必需技能: #c精准之棍等级3以上#"/>
         <string name="h1" value="2% Success rate, final attack with blunt weapon damage 105% "/>
         <string name="h2" value="4% Success rate, final attack with blunt weapon damage 110% "/>
         <string name="h3" value="6% Success rate, final attack with blunt weapon damage 115% "/>
@@ -950,8 +950,8 @@
     </imgdir>
 
     <imgdir name="1201004">
-        <string name="name" value="快速之劍"/>
-        <string name="desc" value="[最高等級 : 20]\n攻擊速度提升一個等級.(裝備單手劍，雙手劍)\n必需技能: #c精準之劍等級5以上#"/>
+        <string name="name" value="快速之剑"/>
+        <string name="desc" value="[最高等级 : 20]\n攻击速度提升一个等级.(装备单手剑，双手剑)\n必需技能: #c精准之剑等级5以上#"/>
         <string name="h1" value="HP -29, MP -29; increase in sword speed for 10 sec. "/>
         <string name="h2" value="HP -28, MP -28; increase in sword speed for 20 sec. "/>
         <string name="h3" value="HP -27, MP -27; increase in sword speed for 30 sec. "/>
@@ -976,7 +976,7 @@
 
     <imgdir name="1201005">
         <string name="name" value="快速之棍"/>
-        <string name="desc" value="[最高等級 : 20]\n功擊速度提升一個等級。(必須裝備單手棍或雙手棍)\n必需技能: #c精準之棍等級5#"/>
+        <string name="desc" value="[最高等级 : 20]\n功击速度提升一个等级。(必须装备单手棍或双手棍)\n必需技能: #c精准之棍等级5#"/>
         <string name="h1" value="HP -29, MP -29; increase in mace speed for 10 sec. "/>
         <string name="h2" value="HP -28, MP -28; increase in mace speed for 20 sec. "/>
         <string name="h3" value="HP -27, MP -27; increase in mace speed for 30 sec. "/>
@@ -1001,7 +1001,7 @@
 
     <imgdir name="1201006">
         <string name="name" value="降魔咒"/>
-        <string name="desc" value="[最高等級 : 20]\n消費MP, 讓周圍的怪物感到壓制感，降低怪物的物理攻擊力與物力防禦力。"/>
+        <string name="desc" value="[最高等级 : 20]\n消费MP, 让周围的怪物感到压制感，降低怪物的物理攻击力与物力防御力。"/>
         <string name="h1" value="MP -12; enemy&apos;s weapon attack -1, weapon def. -1 for 3 sec."/>
         <string name="h2" value="MP -12; enemy&apos;s weapon attack -2, weapon def. -2 for 6 sec."/>
         <string name="h3" value="MP -12; enemy&apos;s weapon attack -3, weapon def. -3 for 9 sec."/>
@@ -1026,7 +1026,7 @@
 
     <imgdir name="1201007">
         <string name="name" value="反射之盾"/>
-        <string name="desc" value="[最高等級 : 30]\n按怪物對自身傷害的一定量反擊怪物。(怪物所受的傷害以最大HP10%為限度)\n必需技能：#c壓制術等級3以上#"/>
+        <string name="desc" value="[最高等级 : 30]\n按怪物对自身伤害的一定量反击怪物。(怪物所受的伤害以最大HP10%为限度)\n必需技能：#c压制术等级3以上#"/>
         <string name="h1" value="MP -15 for 3 sec., return 11% of the damage received."/>
         <string name="h2" value="MP -15 for 6 sec., return 12% of the damage received."/>
         <string name="h3" value="MP -15 for 9 sec., return 13% of the damage received."/>
@@ -1060,12 +1060,12 @@
     </imgdir>
 
     <imgdir name="130">
-        <string name="bookName" value="槍騎兵之路"/>
+        <string name="bookName" value="枪骑兵之路"/>
     </imgdir>
 
     <imgdir name="1300000">
-        <string name="name" value="精準之槍"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用槍系武器的命中率及熟練度.(必須裝備槍)"/>
+        <string name="name" value="精准之枪"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用枪系武器的命中率及熟练度.(必须装备枪)"/>
         <string name="h1" value="Spear mastery +15%, accuracy +1"/>
         <string name="h2" value="Spear mastery +15%, accuracy +2"/>
         <string name="h3" value="Spear mastery +20%, accuracy +3"/>
@@ -1089,8 +1089,8 @@
     </imgdir>
 
     <imgdir name="1300001">
-        <string name="name" value="精準之矛"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用矛系武器的命中率及熟練度.(必須裝備矛)"/>
+        <string name="name" value="精准之矛"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用矛系武器的命中率及熟练度.(必须装备矛)"/>
         <string name="h1" value="Pole Arm Mastery +15%, accuracy +1"/>
         <string name="h2" value="Pole Arm Mastery +15%, accuracy +2"/>
         <string name="h3" value="Pole Arm Mastery +20%, accuracy +3"/>
@@ -1114,8 +1114,8 @@
     </imgdir>
 
     <imgdir name="1300002">
-        <string name="name" value="終極之槍"/>
-        <string name="desc" value="[最高等級 : 30]\n第一次攻擊後發動連續攻擊。(必須裝備槍)\n必需技能: #c精準之槍等級3以上#"/>
+        <string name="name" value="终极之枪"/>
+        <string name="desc" value="[最高等级 : 30]\n第一次攻击后发动连续攻击。(必须装备枪)\n必需技能: #c精准之枪等级3以上#"/>
         <string name="h1" value="2% Success rate, final attack with spear damage 105% "/>
         <string name="h2" value="4% Success rate, final attack with spear damage 110% "/>
         <string name="h3" value="6% Success rate, final attack with spear damage 115% "/>
@@ -1149,8 +1149,8 @@
     </imgdir>
 
     <imgdir name="1300003">
-        <string name="name" value="終極之矛"/>
-        <string name="desc" value="[最高等級 : 30]\n第一次攻擊後發動連續攻擊。(必須裝備矛)\n必需技能: #c精準之矛等級3以上#"/>
+        <string name="name" value="终极之矛"/>
+        <string name="desc" value="[最高等级 : 30]\n第一次攻击后发动连续攻击。(必须装备矛)\n必需技能: #c精准之矛等级3以上#"/>
         <string name="h1" value="2% Success rate, final attack with pole arm damage 105% "/>
         <string name="h2" value="4% Success rate, final attack with pole arm damage 110% "/>
         <string name="h3" value="6% Success rate, final attack with pole arm damage 115% "/>
@@ -1184,8 +1184,8 @@
     </imgdir>
 
     <imgdir name="1301004">
-        <string name="name" value="快速之槍"/>
-        <string name="desc" value="[最高等級 : 20]\n攻擊速度提升一個等級.(必須裝備槍)\n必需技能: #c精準之槍等級5以上#"/>
+        <string name="name" value="快速之枪"/>
+        <string name="desc" value="[最高等级 : 20]\n攻击速度提升一个等级.(必须装备枪)\n必需技能: #c精准之枪等级5以上#"/>
         <string name="h1" value="HP -29, MP -29; increase in spear speed for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; increase in spear speed for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; increase in spear speed for 30 sec."/>
@@ -1210,7 +1210,7 @@
 
     <imgdir name="1301005">
         <string name="name" value="快速之矛"/>
-        <string name="desc" value="[最高等級 : 20]\n攻擊速度提升一個等級.(必須裝備矛)\n必需技能: #c精準之矛等級5以上#"/>
+        <string name="desc" value="[最高等级 : 20]\n攻击速度提升一个等级.(必须装备矛)\n必需技能: #c精准之矛等级5以上#"/>
         <string name="h1" value="HP -29, MP -29; increase in pole arm speed for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; increase in pole arm speed for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; increase in pole arm speed for 30 sec."/>
@@ -1234,8 +1234,8 @@
     </imgdir>
 
     <imgdir name="1301006">
-        <string name="name" value="禦魔陣"/>
-        <string name="desc" value="[最高等級 : 20]\n提高周圍所有隊員的物理防禦力和魔法防禦力."/>
+        <string name="name" value="御魔阵"/>
+        <string name="desc" value="[最高等级 : 20]\n提高周围所有队员的物理防御力和魔法防御力."/>
         <string name="h1" value="MP -12; weapon def. +1, magic def. +1 for 15 sec."/>
         <string name="h2" value="MP -12; weapon def. +2, magic def. +2 for 30 sec."/>
         <string name="h3" value="MP -12; weapon def. +3, magic def. +3 for 45 sec."/>
@@ -1259,8 +1259,8 @@
     </imgdir>
 
     <imgdir name="1301007">
-        <string name="name" value="神聖之火"/>
-        <string name="desc" value="[最高等級 : 30]\n增加周圍所有隊員的最大HP和最大MP.\n必需: #c極限防禦等級3以上#"/>
+        <string name="name" value="神圣之火"/>
+        <string name="desc" value="[最高等级 : 30]\n增加周围所有队员的最大HP和最大MP.\n必需: #c极限防御等级3以上#"/>
         <string name="h1" value="MP -25; +2% on Max HP and Max MP for 10 sec."/>
         <string name="h2" value="MP -25; +4% on Max HP and Max MP for 15 sec."/>
         <string name="h3" value="MP -25; +6% on Max HP and Max MP for 20 sec."/>
@@ -1299,7 +1299,7 @@
 
     <imgdir name="2100000">
         <string name="name" value="魔力吸收"/>
-        <string name="desc" value="[最高等級 : 20]\n使用魔法攻擊時，吸收怪物的MP。怪物的MP為0時無效."/>
+        <string name="desc" value="[最高等级 : 20]\n使用魔法攻击时，吸收怪物的MP。怪物的MP为0时无效."/>
         <string name="h1" value="For every attack, 11% Success rate,\r\nabsorb 21% of the enemy&apos;s MaxMP."/>
         <string name="h2" value="For every attack, 12% Success rate,\r\nabsorb 22% of the enemy&apos;s MaxMP."/>
         <string name="h3" value="For every attack, 13% Success rate,\r\nabsorb 23% of the enemy&apos;s MaxMP."/>
@@ -1323,8 +1323,8 @@
     </imgdir>
 
     <imgdir name="2101001">
-        <string name="name" value="精神強化"/>
-        <string name="desc" value="[最高等級 : 20]\n通過精神交流提高周圍所有隊員的魔力。\n必需技能: #c魔力吸收等級3以上#"/>
+        <string name="name" value="精神强化"/>
+        <string name="desc" value="[最高等级 : 20]\n通过精神交流提高周围所有队员的魔力。\n必需技能: #c魔力吸收等级3以上#"/>
         <string name="h1" value="MP -10; party&apos;s magic attack +1 for 10 sec."/>
         <string name="h2" value="MP -10; party&apos;s magic attack +2 for 20sec."/>
         <string name="h3" value="MP -10; party&apos;s magic attack +3 for 30 sec."/>
@@ -1348,8 +1348,8 @@
     </imgdir>
 
     <imgdir name="2101002">
-        <string name="name" value="瞬間移動"/>
-        <string name="desc" value="[最高等級 : 20]\n用『上下左右』方向鍵可以瞬間移動一定的距離."/>
+        <string name="name" value="瞬间移动"/>
+        <string name="desc" value="[最高等级 : 20]\n用『上下左右』方向键可以瞬间移动一定的距离."/>
         <string name="h1" value="MP -60; teleport, with 130 in distance."/>
         <string name="h2" value="MP -57; teleport, with 130 in distance."/>
         <string name="h3" value="MP -54; teleport, with 130 in distance."/>
@@ -1373,8 +1373,8 @@
     </imgdir>
 
     <imgdir name="2101003">
-        <string name="name" value="緩速術"/>
-        <string name="desc" value="[最高等級 : 20]\n降低怪物的移動速度.無法重複使用,最多一次攻擊6個.\n必需技能: #c快速之移動等級５以上# "/>
+        <string name="name" value="缓速术"/>
+        <string name="desc" value="[最高等级 : 20]\n降低怪物的移动速度.无法重复使用,最多一次攻击6个.\n必需技能: #c快速之移动等级５以上# "/>
         <string name="h1" value="MP -8; enemy&apos;s speed -2 for 2 sec."/>
         <string name="h2" value="MP -8; enemy&apos;s speed -4 for 4 sec."/>
         <string name="h3" value="MP -8; enemy&apos;s speed -6 for 6 sec."/>
@@ -1399,7 +1399,7 @@
 
     <imgdir name="2101004">
         <string name="name" value="火焰箭"/>
-        <string name="desc" value="[[最高等級 : 30]\n放出火箭，攻擊怪物。攻擊冰屬性的怪物時更有效."/>
+        <string name="desc" value="[[最高等级 : 30]\n放出火箭，攻击怪物。攻击冰属性的怪物时更有效."/>
         <string name="h1" value="MP -14; Basic attack 33, mastery 15%"/>
         <string name="h2" value="MP -14; Basic attack 36, mastery 15%"/>
         <string name="h3" value="MP -14; Basic attack 39, mastery 15%"/>
@@ -1433,8 +1433,8 @@
     </imgdir>
 
     <imgdir name="2101005">
-        <string name="name" value="毒霧"/>
-        <string name="desc" value="[最高等級 : 30]\n放出毒霧，使怪物受傷和中毒."/>
+        <string name="name" value="毒雾"/>
+        <string name="desc" value="[最高等级 : 30]\n放出毒雾，使怪物受伤和中毒."/>
         <string name="h1" value="MP -10; Basic attack 12, mastery 15%, 31% success rate,\r\npoison for 4 sec."/>
         <string name="h2" value="MP -10; Basic attack 14, mastery 15%, 32% success rate,\r\npoison for 4 sec."/>
         <string name="h3" value="MP -10; Basic attack 16, mastery 15%, 33% success rate,\r\npoison for 4 sec."/>
@@ -1473,7 +1473,7 @@
 
     <imgdir name="2200000">
         <string name="name" value="魔力吸收"/>
-        <string name="desc" value="[最高等級 : 20]\n使用魔法攻擊時，吸收怪物的MP。怪物的MP為0時無效."/>
+        <string name="desc" value="[最高等级 : 20]\n使用魔法攻击时，吸收怪物的MP。怪物的MP为0时无效."/>
         <string name="h1" value="For every attack, 11% Success rate,\r\nabsorb 21% of the enemy&apos;s MaxMP."/>
         <string name="h2" value="For every attack, 12% Success rate,\r\nabsorb 22% of the enemy&apos;s MaxMP."/>
         <string name="h3" value="For every attack, 13% Success rate,\r\nabsorb 23% of the enemy&apos;s MaxMP."/>
@@ -1497,8 +1497,8 @@
     </imgdir>
 
     <imgdir name="2201001">
-        <string name="name" value="精神強化"/>
-        <string name="desc" value="[最高等級 : 20]\n通過精神交流暫時提高周圍所有隊員的魔力.\n必要技能 : #c魔力吸收等級3以上#"/>
+        <string name="name" value="精神强化"/>
+        <string name="desc" value="[最高等级 : 20]\n通过精神交流暂时提高周围所有队员的魔力.\n必要技能 : #c魔力吸收等级3以上#"/>
         <string name="h1" value="MP -10; party&apos;s magic attack +1 for 10 sec."/>
         <string name="h2" value="MP -10; party&apos;s magic attack +2 for 20sec."/>
         <string name="h3" value="MP -10; party&apos;s magic attack +3 for 30 sec."/>
@@ -1522,8 +1522,8 @@
     </imgdir>
 
     <imgdir name="2201002">
-        <string name="name" value="瞬間移動"/>
-        <string name="desc" value="[最高等級 : 20]\n用『上下左右』方向鍵可以瞬間移動一定的距離。"/>
+        <string name="name" value="瞬间移动"/>
+        <string name="desc" value="[最高等级 : 20]\n用『上下左右』方向键可以瞬间移动一定的距离。"/>
         <string name="h1" value="MP -60; teleport, with 130 in distance"/>
         <string name="h2" value="MP -57; teleport, with 130 in distance"/>
         <string name="h3" value="MP -54; teleport, with 130 in distance"/>
@@ -1547,8 +1547,8 @@
     </imgdir>
 
     <imgdir name="2201003">
-        <string name="name" value="緩速術"/>
-        <string name="desc" value="[最高等級 : 20]\n降低怪物的移動速度.無法重複使用,最多一次攻擊6個.\n必需技能: #c快速之移動等級3以上#"/>
+        <string name="name" value="缓速术"/>
+        <string name="desc" value="[最高等级 : 20]\n降低怪物的移动速度.无法重复使用,最多一次攻击6个.\n必需技能: #c快速之移动等级3以上#"/>
         <string name="h1" value="MP -8; enemy&apos;s moving speed -2 for 2 sec."/>
         <string name="h2" value="MP -8; enemy&apos;s moving speed -4 for 4 sec."/>
         <string name="h3" value="MP -8; enemy&apos;s moving speed -6 for 6 sec."/>
@@ -1572,8 +1572,8 @@
     </imgdir>
 
     <imgdir name="2201004">
-        <string name="name" value="冰錐術"/>
-        <string name="desc" value="[最高等級 : 30]\n使用冰凍魔法，使怪物凍結並受到傷害.\n被打中的敵人暫時停止行動.火屬性的敵人受到傷害更大."/>
+        <string name="name" value="冰锥术"/>
+        <string name="desc" value="[最高等级 : 30]\n使用冰冻魔法，使怪物冻结并受到伤害.\n被打中的敌人暂时停止行动.火属性的敌人受到伤害更大."/>
         <string name="h1" value="MP -12; Basic attack 13, mastery 15%"/>
         <string name="h2" value="MP -12; Basic attack 16, mastery 15%"/>
         <string name="h3" value="MP -12; Basic attack 19, mastery 15%"/>
@@ -1607,8 +1607,8 @@
     </imgdir>
 
     <imgdir name="2201005">
-        <string name="name" value="電閃雷鳴"/>
-        <string name="desc" value="[最高等級 : 30]\n在周圍製造強力磁場，並向怪物發起雷電攻擊，攻擊一定範圍內的所有敵人"/>
+        <string name="name" value="电闪雷鸣"/>
+        <string name="desc" value="[最高等级 : 30]\n在周围制造强力磁场，并向怪物发起雷电攻击，攻击一定范围内的所有敌人"/>
         <string name="h1" value="MP -20; Basic attack 2, mastery 15%"/>
         <string name="h2" value="MP -20; Basic attack 4, mastery 15%"/>
         <string name="h3" value="MP -20; Basic attack 6, mastery 15%"/>
@@ -1642,12 +1642,12 @@
     </imgdir>
 
     <imgdir name="230">
-        <string name="bookName" value="僧侶指南"/>
+        <string name="bookName" value="僧侣指南"/>
     </imgdir>
 
     <imgdir name="2300000">
         <string name="name" value="魔力吸收"/>
-        <string name="desc" value="[最高等級 : 20]\n使用魔法攻擊時，吸收怪物的MP。怪物的MP為0時無效."/>
+        <string name="desc" value="[最高等级 : 20]\n使用魔法攻击时，吸收怪物的MP。怪物的MP为0时无效."/>
         <string name="h1" value="For every attack, 11% Success rate,\r\nabsorb 21% of the enemy&apos;s MaxMP."/>
         <string name="h2" value="For every attack, 12% Success rate,\r\nabsorb 22% of the enemy&apos;s MaxMP."/>
         <string name="h3" value="For every attack, 13% Success rate,\r\nabsorb 23% of the enemy&apos;s MaxMP."/>
@@ -1671,8 +1671,8 @@
     </imgdir>
 
     <imgdir name="2301001">
-        <string name="name" value="瞬間移動"/>
-        <string name="desc" value="[最高等級 : 20]\n用『上下左右』方向鍵可以瞬間移動一定的距離."/>
+        <string name="name" value="瞬间移动"/>
+        <string name="desc" value="[最高等级 : 20]\n用『上下左右』方向键可以瞬间移动一定的距离."/>
         <string name="h1" value="MP -60; teleport, with 130 in distance"/>
         <string name="h2" value="MP -57; teleport, with 130 in distance"/>
         <string name="h3" value="MP -54; teleport, with 130 in distance"/>
@@ -1696,8 +1696,8 @@
     </imgdir>
 
     <imgdir name="2301002">
-        <string name="name" value="群體治癒"/>
-        <string name="desc" value="[最高等級 : 30]\n恢復周圍成員的HP。根據周圍成員人數恢復的HP值將不同（對周圍黑暗屬性的怪物造成傷害）"/>
+        <string name="name" value="群体治愈"/>
+        <string name="desc" value="[最高等级 : 30]\n恢复周围成员的HP。根据周围成员人数恢复的HP值将不同（对周围黑暗属性的怪物造成伤害）"/>
         <string name="h1" value="MP -12, Recovery rate 10%"/>
         <string name="h2" value="MP -12, Recovery rate 20%"/>
         <string name="h3" value="MP -12, Recovery rate 30%"/>
@@ -1731,8 +1731,8 @@
     </imgdir>
 
     <imgdir name="2301003">
-        <string name="name" value="神聖之光"/>
-        <string name="desc" value="[最高等級 : 20]\n減輕受到物理攻擊的傷害.（對魔法攻擊無效）\n必要技能 : #c群體治癒等級5以上#"/>
+        <string name="name" value="神圣之光"/>
+        <string name="desc" value="[最高等级 : 20]\n减轻受到物理攻击的伤害.（对魔法攻击无效）\n必要技能 : #c群体治愈等级5以上#"/>
         <string name="h1" value="MP 15; weapon damage -11% for 15 seconds"/>
         <string name="h2" value="MP 15; weapon damage -12% for 30 seconds"/>
         <string name="h3" value="MP 15; weapon damage -13% for 45 seconds"/>
@@ -1758,7 +1758,7 @@
     <imgdir name="2301004">
         <string name="name" value="天使祝福"/>
         <string name="desc"
-                value="[[最高等級 : 20]\n一定時間內，周圍組隊員的命中率、迴避率、物理防禦、魔法防禦的能力值上升。弓箭手的技能：集中術和各種藥水不能一起使用.\n必要技能 : #c神之保護等級5以上#"/>
+                value="[[最高等级 : 20]\n一定时间内，周围组队员的命中率、回避率、物理防御、魔法防御的能力值上升。弓箭手的技能：集中术和各种药水不能一起使用.\n必要技能 : #c神之保护等级5以上#"/>
         <string name="h1" value="MP -12; +1 on accuracy, avoidability,\r\nweapon and magic def. for 10 sec."/>
         <string name="h2" value="MP -12; +2 on accuracy, avoidability,\r\nweapon and magic def. for 20 sec."/>
         <string name="h3" value="MP -12; +3 on accuracy, avoidability,\r\nweapon and magic def. for 30 sec."/>
@@ -1782,8 +1782,8 @@
     </imgdir>
 
     <imgdir name="2301005">
-        <string name="name" value="神聖之箭"/>
-        <string name="desc" value="[最高等級 : 30]\n變出聖箭，攻擊一個敵人。"/>
+        <string name="name" value="神圣之箭"/>
+        <string name="desc" value="[最高等级 : 30]\n变出圣箭，攻击一个敌人。"/>
         <string name="h1" value="MP -12; Basic attack 22, mastery 15%"/>
         <string name="h2" value="MP -12; Basic attack 24, mastery 15%"/>
         <string name="h3" value="MP -12; Basic attack 26, mastery 15%"/>
@@ -1817,12 +1817,12 @@
     </imgdir>
 
     <imgdir name="310">
-        <string name="bookName" value="獵人指南"/>
+        <string name="bookName" value="猎人指南"/>
     </imgdir>
 
     <imgdir name="3100000">
-        <string name="name" value="精準之弓"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用弓系武器的命中率及熟練度。(必須裝備弓)"/>
+        <string name="name" value="精准之弓"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用弓系武器的命中率及熟练度。(必须装备弓)"/>
         <string name="h1" value="+15% bow mastery, +1 accuracy"/>
         <string name="h2" value="+15% bow mastery, +2 accuracy"/>
         <string name="h3" value="+20% bow mastery, +3 accuracy"/>
@@ -1846,8 +1846,8 @@
     </imgdir>
 
     <imgdir name="3100001">
-        <string name="name" value="終極之弓"/>
-        <string name="desc" value="[最高等級 : 30]\n使用攻擊技能後一定幾率發動連續攻擊. （必須裝備弓）.\n必要技能 : #c精準之弓３級以上#"/>
+        <string name="name" value="终极之弓"/>
+        <string name="desc" value="[最高等级 : 30]\n使用攻击技能后一定几率发动连续攻击. （必须装备弓）.\n必要技能 : #c精准之弓３级以上#"/>
         <string name="h1" value="2% Success rate, final attack with bow damage 105% "/>
         <string name="h2" value="4% Success rate, final attack with bow damage 110% "/>
         <string name="h3" value="6% Success rate, final attack with bow damage 115% "/>
@@ -1882,7 +1882,7 @@
 
     <imgdir name="3101002">
         <string name="name" value="快速之箭"/>
-        <string name="desc" value="[最高等級 : 20]\n攻擊速度提升一個等級.(必須裝備弓)\n必需技能 : #c精準之弓等級5以上#"/>
+        <string name="desc" value="[最高等级 : 20]\n攻击速度提升一个等级.(必须装备弓)\n必需技能 : #c精准之弓等级5以上#"/>
         <string name="h1" value="HP -29, MP -29; increase in bow attacking speed for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; increase in bow attacking speed for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; increase in bow attacking speed for 30 sec."/>
@@ -1906,8 +1906,8 @@
     </imgdir>
 
     <imgdir name="3101003">
-        <string name="name" value="強弓"/>
-        <string name="desc" value="[最高等級 : 20]\n用弓攻擊時使怪物後退的比率增加，隨著等級上升擊退怪物數量會增加怪物後退的概率增加，隨著等級上升擊退怪物數量會增加."/>
+        <string name="name" value="强弓"/>
+        <string name="desc" value="[最高等级 : 20]\n用弓攻击时使怪物后退的比率增加，随着等级上升击退怪物数量会增加怪物后退的概率增加，随着等级上升击退怪物数量会增加."/>
         <string name="h1" value="MP -8; knock-back +2%, damage 105%, knock-back 2 enemies."/>
         <string name="h2" value="MP -8; knock-back +4%, damage 110%, knock-back 2 enemies."/>
         <string name="h3" value="MP -8; knock-back +6%, damage 115%, knock-back 2 enemies."/>
@@ -1931,8 +1931,8 @@
     </imgdir>
 
     <imgdir name="3101004">
-        <string name="name" value="無形箭"/>
-        <string name="desc" value="[最高等級 : 20]\n一定時間內，攻擊時不消耗箭。\n必需技能 : #c快速之箭等級5以上#"/>
+        <string name="name" value="无形箭"/>
+        <string name="desc" value="[最高等级 : 20]\n一定时间内，攻击时不消耗箭。\n必需技能 : #c快速之箭等级5以上#"/>
         <string name="h1" value="MP -15; attack for 30 sec without using up an arrow."/>
         <string name="h2" value="MP -15, attack for 60 sec without using up an arrow."/>
         <string name="h3" value="MP -15, attack for 90 sec without using up an arrow."/>
@@ -1956,8 +1956,8 @@
     </imgdir>
 
     <imgdir name="3101005">
-        <string name="name" value="炸彈箭"/>
-        <string name="desc" value="[最高等級 : 30]\n用裝備爆裂彈的箭攻擊怪物，能造成周圍的怪物(最多6名)受到傷害及暈倒"/>
+        <string name="name" value="炸弹箭"/>
+        <string name="desc" value="[最高等级 : 30]\n用装备爆裂弹的箭攻击怪物，能造成周围的怪物(最多6名)受到伤害及晕倒"/>
         <string name="h1" value="MP -14, stunner 31%, damage 72%"/>
         <string name="h2" value="MP -14, stunner 32%, damage 74%"/>
         <string name="h3" value="MP -14, stunner 33%, damage 76%"/>
@@ -1995,8 +1995,8 @@
     </imgdir>
 
     <imgdir name="3200000">
-        <string name="name" value="精準之弩"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用弩系武器的命中率及熟練度。(必須裝備弩)"/>
+        <string name="name" value="精准之弩"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用弩系武器的命中率及熟练度。(必须装备弩)"/>
         <string name="h1" value="Crossbow mastery +15%, accuracy +1"/>
         <string name="h2" value="Crossbow mastery +15%, accuracy +2"/>
         <string name="h3" value="Crossbow mastery +20%, accuracy +3"/>
@@ -2020,8 +2020,8 @@
     </imgdir>
 
     <imgdir name="3200001">
-        <string name="name" value="終極之弩"/>
-        <string name="desc" value="[最高等級 : 30]\n第一次攻擊後發動連續攻擊。(必須裝備弩)\n必需技能 : #c精準之弩等級3以上#"/>
+        <string name="name" value="终极之弩"/>
+        <string name="desc" value="[最高等级 : 30]\n第一次攻击后发动连续攻击。(必须装备弩)\n必需技能 : #c精准之弩等级3以上#"/>
         <string name="h1" value="2% Success rate,\r\nfinal attack with crossbow damage 105% "/>
         <string name="h2" value="4% Success rate,\r\nfinal attack with crossbow damage 110% "/>
         <string name="h3" value="6% Success rate,\r\nfinal attack with crossbow damage 115% "/>
@@ -2056,7 +2056,7 @@
 
     <imgdir name="3201002">
         <string name="name" value="快速之弩"/>
-        <string name="desc" value="[最高等級 : 20]\n攻擊速度提升一個等級.(必須裝備弩)\n必需技能 : #c精準之弩等級5以上#"/>
+        <string name="desc" value="[最高等级 : 20]\n攻击速度提升一个等级.(必须装备弩)\n必需技能 : #c精准之弩等级5以上#"/>
         <string name="h1" value="HP -29, MP -29; improves crossbow speed for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; improves crossbow speed for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; improves crossbow speed for 30 sec."/>
@@ -2080,8 +2080,8 @@
     </imgdir>
 
     <imgdir name="3201003">
-        <string name="name" value="強弩"/>
-        <string name="desc" value="[最高等級 : 20]\n用弩攻擊時，使怪物後退的比率增加，隨著等級上升擊退怪物數量會增加"/>
+        <string name="name" value="强弩"/>
+        <string name="desc" value="[最高等级 : 20]\n用弩攻击时，使怪物后退的比率增加，随着等级上升击退怪物数量会增加"/>
         <string name="h1" value="MP -8; knock-back +2%, damage 105%, knock-back 2 enemies."/>
         <string name="h2" value="MP -8; knock-back +4%, damage 110%, knock-back 2 enemies."/>
         <string name="h3" value="MP -8; knock-back +6%, damage 115%, knock-back 2 enemies."/>
@@ -2105,8 +2105,8 @@
     </imgdir>
 
     <imgdir name="3201004">
-        <string name="name" value="無形之箭"/>
-        <string name="desc" value="[最高等級 : 20]\n一定時間內，攻擊時不消耗箭\n必需技能 : #c快速之弩等級5以上#"/>
+        <string name="name" value="无形之箭"/>
+        <string name="desc" value="[最高等级 : 20]\n一定时间内，攻击时不消耗箭\n必需技能 : #c快速之弩等级5以上#"/>
         <string name="h1" value="MP -15; attack for 30 sec without using up an arrow."/>
         <string name="h2" value="MP -15; attack for 60 sec without using up an arrow."/>
         <string name="h3" value="MP -15; attack for 90 sec without using up an arrow."/>
@@ -2131,7 +2131,7 @@
 
     <imgdir name="3201005">
         <string name="name" value="穿透之箭"/>
-        <string name="desc" value="[最高等級 : 30]\n使用鋼鐵弩箭貫穿怪物，最多能同時攻擊6個怪物，但怪物傷害依數量而減少"/>
+        <string name="desc" value="[最高等级 : 30]\n使用钢铁弩箭贯穿怪物，最多能同时攻击6个怪物，但怪物伤害依数量而减少"/>
         <string name="h1" value="MP -14, damage 64%"/>
         <string name="h2" value="MP -14, damage 68%"/>
         <string name="h3" value="MP -14, damage 72%"/>
@@ -2169,8 +2169,8 @@
     </imgdir>
 
     <imgdir name="4100000">
-        <string name="name" value="精準暗器"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用拳套系武器的命中率及熟練度。(必須裝備飛鏢)"/>
+        <string name="name" value="精准暗器"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用拳套系武器的命中率及熟练度。(必须装备飞镖)"/>
         <string name="h1" value="Mastery of claw-related weapons 15%, accuracy +1%,\r\n10 extra throwing stars."/>
         <string name="h2" value="Mastery of claw-related weapons 15%, accuracy +2%,\r\n20 extra throwing stars."/>
         <string name="h3" value="Mastery of claw-related weapons 20%, accuracy +3%,\r\n30 extra throwing stars."/>
@@ -2194,8 +2194,8 @@
     </imgdir>
 
     <imgdir name="4100001">
-        <string name="name" value="強力投擲"/>
-        <string name="desc" value="[最高等級 : 30]\n發揮更強力的攻擊。(裝備拳套系類武器)\n必需技能 : #c精準之暗器等級5以上#"/>
+        <string name="name" value="强力投掷"/>
+        <string name="desc" value="[最高等级 : 30]\n发挥更强力的攻击。(装备拳套系类武器)\n必需技能 : #c精准之暗器等级5以上#"/>
         <string name="h1" value="21% success rate, critical damage 113%"/>
         <string name="h2" value="22% success rate, critical damage 116%"/>
         <string name="h3" value="23% success rate, critical damage 119%"/>
@@ -2229,8 +2229,8 @@
     </imgdir>
 
     <imgdir name="4100002">
-        <string name="name" value="恢復術"/>
-        <string name="desc" value="[最高等級 : 20]\n在梯子和繩索上也能恢復HP/ MP."/>
+        <string name="name" value="恢复术"/>
+        <string name="desc" value="[最高等级 : 20]\n在梯子和绳索上也能恢复HP/ MP."/>
         <string name="h1" value="Additionally recovering HP 3, MP 1 every 29 sec."/>
         <string name="h2" value="Additionally recovering HP 6, MP 2 every 28 sec."/>
         <string name="h3" value="Additionally recovering HP 9, MP 3 every 27 sec."/>
@@ -2254,8 +2254,8 @@
     </imgdir>
 
     <imgdir name="4101003">
-        <string name="name" value="極速暗殺"/>
-        <string name="desc" value="[最高等級 : 20]\n消費HP,MP,一定時間內攻擊速度提升一個等級。(必需裝備拳套，使用飛鏢)"/>
+        <string name="name" value="极速暗杀"/>
+        <string name="desc" value="[最高等级 : 20]\n消费HP,MP,一定时间内攻击速度提升一个等级。(必需装备拳套，使用飞镖)"/>
         <string name="h1" value="HP -29, MP -29; Increase in claw&apos;s attacking speed for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; Increase in claw&apos;s attacking speed for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; Increase in claw&apos;s attacking speed for 30 sec."/>
@@ -2279,8 +2279,8 @@
     </imgdir>
 
     <imgdir name="4101004">
-        <string name="name" value="速度激發"/>
-        <string name="desc" value="[最高等級 : 20]\n一定時間內提高所有隊員的移動速度和跳躍力."/>
+        <string name="name" value="速度激发"/>
+        <string name="desc" value="[最高等级 : 20]\n一定时间内提高所有队员的移动速度和跳跃力."/>
         <string name="h1" value="For MP -15, +2 in speed and +1 in jump for 10 sec."/>
         <string name="h2" value="For MP -15, +4 in speed and +2 in jump for 20 sec."/>
         <string name="h3" value="For MP -15, +6 in speed and +3 in jump for 30 sec."/>
@@ -2304,8 +2304,8 @@
     </imgdir>
 
     <imgdir name="4101005">
-        <string name="name" value="吸血術"/>
-        <string name="desc" value="[最高等級 : 30]\n按對怪物的傷害值的一定比例恢復HP。(吸收值以最大HP的50%為上限)\n必需技能 : #c恢復術等級3以上#"/>
+        <string name="name" value="吸血术"/>
+        <string name="desc" value="[最高等级 : 30]\n按对怪物的伤害值的一定比例恢复HP。(吸收值以最大HP的50%为上限)\n必需技能 : #c恢复术等级3以上#"/>
         <string name="h1" value="MP -12; absorb 16% of damage as HP, damage 102%"/>
         <string name="h2" value="MP -12; absorb 17% of damage as HP, damage 104%"/>
         <string name="h3" value="MP -12; absorb 18% of damage as HP, damage 106%"/>
@@ -2339,12 +2339,12 @@
     </imgdir>
 
     <imgdir name="420">
-        <string name="bookName" value="俠盜指南"/>
+        <string name="bookName" value="侠盗指南"/>
     </imgdir>
 
     <imgdir name="4200000">
-        <string name="name" value="精準之刀"/>
-        <string name="desc" value="[最高等級 : 20]\n增加使用短刀系武器的命中率及熟練度。(裝備短刀，拳刃)"/>
+        <string name="name" value="精准之刀"/>
+        <string name="desc" value="[最高等级 : 20]\n增加使用短刀系武器的命中率及熟练度。(装备短刀，拳刃)"/>
         <string name="h1" value="Dagger mastery +15%, accuracy +1"/>
         <string name="h2" value="Dagger mastery +15%, accuracy +2"/>
         <string name="h3" value="Dagger mastery +20%, accuracy +3"/>
@@ -2368,8 +2368,8 @@
     </imgdir>
 
     <imgdir name="4200001">
-        <string name="name" value="恢復術"/>
-        <string name="desc" value="[最高等級 : 20]\n能更多恢復HP/ MP."/>
+        <string name="name" value="恢复术"/>
+        <string name="desc" value="[最高等级 : 20]\n能更多恢复HP/ MP."/>
         <string name="h1" value="Additional recovery of HP +3, MP +1 every 29 sec."/>
         <string name="h2" value="Additional recovery of HP +6, MP +2 every 28 sec."/>
         <string name="h3" value="Additional recovery of HP +9, MP +3 every 27 sec."/>
@@ -2394,7 +2394,7 @@
 
     <imgdir name="4201002">
         <string name="name" value="快速之刀"/>
-        <string name="desc" value="[最高等級 : 20]\n攻擊速度提升一個等級.(裝備短刀，拳刃)\n必需技能 : #c精準之短刀等級5以上#"/>
+        <string name="desc" value="[最高等级 : 20]\n攻击速度提升一个等级.(装备短刀，拳刃)\n必需技能 : #c精准之短刀等级5以上#"/>
         <string name="h1" value="HP -29, MP -29; improves dagger speed for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; improves dagger speed for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; improves dagger speed for 30 sec."/>
@@ -2418,8 +2418,8 @@
     </imgdir>
 
     <imgdir name="4201003">
-        <string name="name" value="速度激發"/>
-        <string name="desc" value="[最高等級 : 20]\n提高所有隊員的移動速度和跳躍力."/>
+        <string name="name" value="速度激发"/>
+        <string name="desc" value="[最高等级 : 20]\n提高所有队员的移动速度和跳跃力."/>
         <string name="h1" value="MP -15; speed +2, jump +1 for 10 sec."/>
         <string name="h2" value="MP -15; speed +4, jump +2 for 20 sec."/>
         <string name="h3" value="MP -15; speed +6, jump +3 for 30 sec."/>
@@ -2443,8 +2443,8 @@
     </imgdir>
 
     <imgdir name="4201004">
-        <string name="name" value="妙手術"/>
-        <string name="desc" value="[最高等級 : 30]\n攻擊時，根據一定概率獲取怪物身上的道具。\n必需技能 : #c輕功等級5以上#"/>
+        <string name="name" value="妙手术"/>
+        <string name="desc" value="[最高等级 : 30]\n攻击时，根据一定概率获取怪物身上的道具。\n必需技能 : #c轻功等级5以上#"/>
         <string name="h1" value="MP - 12, 11% success rate to steal, apply 42% in damage."/>
         <string name="h2" value="MP - 12, 12% success rate to steal, apply 44% in damage."/>
         <string name="h3" value="MP - 12, 13% success rate to steal, apply 46% in damage."/>
@@ -2478,8 +2478,8 @@
     </imgdir>
 
     <imgdir name="4201005">
-        <string name="name" value="迴旋斬"/>
-        <string name="desc" value="[最高等級 : 30]\n消費MP，最多連續攻擊6次."/>
+        <string name="name" value="回旋斩"/>
+        <string name="desc" value="[最高等级 : 30]\n消费MP，最多连续攻击6次."/>
         <string name="h1" value="MP -9; attack 2x with 22% damage."/>
         <string name="h2" value="MP -9; attack 2x with 24% damage."/>
         <string name="h3" value="MP -9; attack 2x with 26% damage."/>
@@ -2513,37 +2513,37 @@
     </imgdir>
 
     <imgdir name="111">
-        <string name="bookName" value="十字軍之路"/>
+        <string name="bookName" value="十字军之路"/>
     </imgdir>
 
     <imgdir name="1110000">
-        <string name="name" value="魔力恢復"/>
-        <string name="desc" value="[最高等級:20]\n增加每10秒的MP恢復量。"/>
-        <string name="h1" value="MP恢復增加2"/>
-        <string name="h2" value="MP恢復增加4"/>
-        <string name="h3" value="MP恢復增加6"/>
-        <string name="h4" value="MP恢復增加8"/>
-        <string name="h5" value="MP恢復增加10"/>
-        <string name="h6" value="MP恢復增加12"/>
-        <string name="h7" value="MP恢復增加14"/>
-        <string name="h8" value="MP恢復增加16"/>
-        <string name="h9" value="MP恢復增加18"/>
-        <string name="h10" value="MP恢復增加20"/>
-        <string name="h11" value="MP恢復增加21"/>
-        <string name="h12" value="MP恢復增加22"/>
-        <string name="h13" value="MP恢復增加23"/>
-        <string name="h14" value="MP恢復增加24"/>
-        <string name="h15" value="MP恢復增加25"/>
-        <string name="h16" value="MP恢復增加26"/>
-        <string name="h17" value="MP恢復增加27"/>
-        <string name="h18" value="MP恢復增加28"/>
-        <string name="h19" value="MP恢復增加29"/>
-        <string name="h20" value="MP恢復增加30"/>
+        <string name="name" value="魔力恢复"/>
+        <string name="desc" value="[最高等级:20]\n增加每10秒的MP恢复量。"/>
+        <string name="h1" value="MP恢复增加2"/>
+        <string name="h2" value="MP恢复增加4"/>
+        <string name="h3" value="MP恢复增加6"/>
+        <string name="h4" value="MP恢复增加8"/>
+        <string name="h5" value="MP恢复增加10"/>
+        <string name="h6" value="MP恢复增加12"/>
+        <string name="h7" value="MP恢复增加14"/>
+        <string name="h8" value="MP恢复增加16"/>
+        <string name="h9" value="MP恢复增加18"/>
+        <string name="h10" value="MP恢复增加20"/>
+        <string name="h11" value="MP恢复增加21"/>
+        <string name="h12" value="MP恢复增加22"/>
+        <string name="h13" value="MP恢复增加23"/>
+        <string name="h14" value="MP恢复增加24"/>
+        <string name="h15" value="MP恢复增加25"/>
+        <string name="h16" value="MP恢复增加26"/>
+        <string name="h17" value="MP恢复增加27"/>
+        <string name="h18" value="MP恢复增加28"/>
+        <string name="h19" value="MP恢复增加29"/>
+        <string name="h20" value="MP恢复增加30"/>
     </imgdir>
 
     <imgdir name="1110001">
         <string name="name" value="盾防精通"/>
-        <string name="desc" value="[最高等級:20]盾牌的物理防禦力增加，必需裝備盾牌."/>
+        <string name="desc" value="[最高等级:20]盾牌的物理防御力增加，必需装备盾牌."/>
         <string name="h1" value="5% Increased Shield Defense"/>
         <string name="h2" value="10% Increased Shield Defense"/>
         <string name="h3" value="15% Increased Shield Defense"/>
@@ -2567,8 +2567,8 @@
     </imgdir>
 
     <imgdir name="1111002">
-        <string name="name" value="鬥氣集中"/>
-        <string name="desc" value="[最高等級:30]\n進入鬥氣集中狀態。每次攻擊會累積1個鬥氣，最高累積5個鬥氣。傷害以3個鬥氣為基準."/>
+        <string name="name" value="斗气集中"/>
+        <string name="desc" value="[最高等级:30]\n进入斗气集中状态。每次攻击会累积1个斗气，最高累积5个斗气。伤害以3个斗气为基准."/>
         <string name="h1" value="Use 25 MP, For 100 Seconds, Damage 104%, The Max Combo Counter 3"/>
         <string name="h2" value="Use 25 MP, For 100 Seconds, Damage 108%, The Max Combo Counter 3"/>
         <string name="h3" value="Use 25 MP, For 100 Seconds, Damage 112%, The Max Combo Counter 3"/>
@@ -2602,8 +2602,8 @@
     </imgdir>
 
     <imgdir name="1111003">
-        <string name="name" value="黑暗之劍"/>
-        <string name="desc" value="[最高等級：30]\n對一個敵人進行攻擊。必須裝備劍且處於鬥氣集中狀態。\n必需技能:#c鬥氣集中等級1以上#"/>
+        <string name="name" value="黑暗之剑"/>
+        <string name="desc" value="[最高等级：30]\n对一个敌人进行攻击。必须装备剑且处于斗气集中状态。\n必需技能:#c斗气集中等级1以上#"/>
         <string name="h1" value="Use 10 MP, Damage 150%, Attack with Dark Power 32%"/>
         <string name="h2" value="Use 10 MP, Damage 171%, Attack with Dark Power 34%"/>
         <string name="h3" value="Use 10 MP, Damage 184%, Attack with Dark Power 36%"/>
@@ -2638,7 +2638,7 @@
 
     <imgdir name="1111004">
         <string name="name" value="黑暗之斧"/>
-        <string name="desc" value="[最高等級：30]\n給一個敵人進行攻擊。必須裝備斧且處於鬥氣集中狀態。\n必需技能:#c鬥氣集中等級1以上#"/>
+        <string name="desc" value="[最高等级：30]\n给一个敌人进行攻击。必须装备斧且处于斗气集中状态。\n必需技能:#c斗气集中等级1以上#"/>
         <string name="h1" value="Use 10 MP, Damage 150%, Attack with Dark Power 32%"/>
         <string name="h2" value="Use 10 MP, Damage 171%, Attack with Dark Power 34%"/>
         <string name="h3" value="Use 10 MP, Damage 184%, Attack with Dark Power 36%"/>
@@ -2672,8 +2672,8 @@
     </imgdir>
 
     <imgdir name="1111005">
-        <string name="name" value="氣絕劍"/>
-        <string name="desc" value="[最高等級：30]\n攻擊怪物，一定幾率使怪物昏迷.必須裝備劍且處於鬥氣集中狀態。\n必需技能:#c鬥氣集中等級1以上#"/>
+        <string name="name" value="气绝剑"/>
+        <string name="desc" value="[最高等级：30]\n攻击怪物，一定几率使怪物昏迷.必须装备剑且处于斗气集中状态。\n必需技能:#c斗气集中等级1以上#"/>
         <string name="h1" value="Use 15 HP, 12 MP, Damage 84%, Stun Attack 32%"/>
         <string name="h2" value="Use 15 HP, 12 MP, Damage 88%, Stun Attack 34%"/>
         <string name="h3" value="Use 15 HP, 12 MP, Damage 92%, Stun Attack 36%"/>
@@ -2707,8 +2707,8 @@
     </imgdir>
 
     <imgdir name="1111006">
-        <string name="name" value="氣絕斧"/>
-        <string name="desc" value="[最高等級：30]\n攻擊怪物，一定幾率使怪物昏迷.必須裝備斧且處於鬥氣集中狀態。\n必要技能：#c鬥氣集中等級1以上#"/>
+        <string name="name" value="气绝斧"/>
+        <string name="desc" value="[最高等级：30]\n攻击怪物，一定几率使怪物昏迷.必须装备斧且处于斗气集中状态。\n必要技能：#c斗气集中等级1以上#"/>
         <string name="h1" value="Use 15 HP, 12 MP, Damage 84%, Stun Attack 32%"/>
         <string name="h2" value="Use 15 HP, 12 MP, Damage 88%, Stun Attack 34%"/>
         <string name="h3" value="Use 15 HP, 12 MP, Damage 92%, Stun Attack 36%"/>
@@ -2742,8 +2742,8 @@
     </imgdir>
 
     <imgdir name="1111007">
-        <string name="name" value="防禦消除"/>
-        <string name="desc" value="[最高等級：20]\n一定的幾率使多個怪物的物理防禦無效，對物理防禦狀態的怪物有效。\n必需技能:#c虎咆哮等級3以上#"/>
+        <string name="name" value="防御消除"/>
+        <string name="desc" value="[最高等级：20]\n一定的几率使多个怪物的物理防御无效，对物理防御状态的怪物有效。\n必需技能:#c虎咆哮等级3以上#"/>
         <string name="h1" value="Use 35 MP, 24 % Cancel out Enemy&apos;s Physical Defense-Up"/>
         <string name="h2" value="Use 33 MP, 28 % Cancel out Enemy&apos;s Physical Defense-Up"/>
         <string name="h3" value="Use 31 MP, 32 % Cancel out Enemy&apos;s Physical Defense-Up"/>
@@ -2768,7 +2768,7 @@
 
     <imgdir name="1111008">
         <string name="name" value="虎咆哮"/>
-        <string name="desc" value="[最高等級：30]\n向周邊怪物發出虎吼施加傷害，同時一定幾率讓其昏迷。一次不能攻擊6只以上。"/>
+        <string name="desc" value="[最高等级：30]\n向周边怪物发出虎吼施加伤害，同时一定几率让其昏迷。一次不能攻击6只以上。"/>
         <string name="h1" value="Use 8 MP, Damage 11%, Attack Range 110%, 52% Stun for 5 Sec"/>
         <string name="h2" value="Use 8 MP, Damage 12%, Attack Range 110%, 54% Stun for 5 Sec"/>
         <string name="h3" value="Use 8 MP, Damage 13%, Attack Range 110%, 56% Stun for 5 Sec"/>
@@ -2802,12 +2802,12 @@
     </imgdir>
 
     <imgdir name="121">
-        <string name="bookName" value="騎士之路"/>
+        <string name="bookName" value="骑士之路"/>
     </imgdir>
 
     <imgdir name="1210000">
-        <string name="name" value="魔力恢復"/>
-        <string name="desc" value="[最高等級:20]\n增加每10秒的MP恢復量"/>
+        <string name="name" value="魔力恢复"/>
+        <string name="desc" value="[最高等级:20]\n增加每10秒的MP恢复量"/>
         <string name="h1" value="Constant additional recovery of MP +2"/>
         <string name="h2" value="Constant additional recovery of MP +4"/>
         <string name="h3" value="Constant additional recovery of MP +6"/>
@@ -2832,7 +2832,7 @@
 
     <imgdir name="1210001">
         <string name="name" value="盾防精通"/>
-        <string name="desc" value="[最高等級:20]\n盾牌的物理防禦力增加,必需裝備盾牌."/>
+        <string name="desc" value="[最高等级:20]\n盾牌的物理防御力增加,必需装备盾牌."/>
         <string name="h1" value="5% Increased Shield Defense"/>
         <string name="h2" value="10% Increased Shield Defense"/>
         <string name="h3" value="15% Increased Shield Defense"/>
@@ -2856,8 +2856,8 @@
     </imgdir>
 
     <imgdir name="1211002">
-        <string name="name" value="屬性攻擊"/>
-        <string name="desc" value="[最高等級:30]\n賦予武器全屬性, 攻擊6個以下多個怪物。一定的幾率使怪物昏迷。"/>
+        <string name="name" value="属性攻击"/>
+        <string name="desc" value="[最高等级:30]\n赋予武器全属性, 攻击6个以下多个怪物。一定的几率使怪物昏迷。"/>
         <string name="h1" value="Use 15 HP, 12 MP, Damage 162%, Stun 32%"/>
         <string name="h2" value="Use 15 HP, 12 MP, Damage 164%, Stun 34%"/>
         <string name="h3" value="Use 15 HP, 12 MP, Damage 166%, Stun 36%"/>
@@ -2891,8 +2891,8 @@
     </imgdir>
 
     <imgdir name="1211003">
-        <string name="name" value="烈焰之劍"/>
-        <string name="desc" value="[最高等級:30]\n一定時間內,給劍賦予火焰屬性。超過時間或使用屬性攻擊會被取消。"/>
+        <string name="name" value="烈焰之剑"/>
+        <string name="desc" value="[最高等级:30]\n一定时间内,给剑赋予火焰属性。超过时间或使用属性攻击会被取消。"/>
         <string name="h1" value="Use 25 MP, Damage 102%, For 12 Seconds"/>
         <string name="h2" value="Use 25 MP, Damage 103%, For 19 Seconds"/>
         <string name="h3" value="Use 25 MP, Damage 104%, For 26 Seconds"/>
@@ -2927,7 +2927,7 @@
 
     <imgdir name="1211004">
         <string name="name" value="烈焰之棍"/>
-        <string name="desc" value="[最高等級:30]\n一定時間內,給棍賦予火焰屬性。超過時間或使用屬性攻擊會被取消."/>
+        <string name="desc" value="[最高等级:30]\n一定时间内,给棍赋予火焰属性。超过时间或使用属性攻击会被取消."/>
         <string name="h1" value="Use 25 MP, Damage 102%, For 12 Seconds"/>
         <string name="h2" value="Use 25 MP, Damage 103%, For 19 Seconds"/>
         <string name="h3" value="Use 25 MP, Damage 104%, For 26 Seconds"/>
@@ -2961,8 +2961,8 @@
     </imgdir>
 
     <imgdir name="1211005">
-        <string name="name" value="寒冰之劍"/>
-        <string name="desc" value="[最高等級:30]\n一定時間內,給劍賦予冰屬性.超過時間或使用屬性攻擊會被取消."/>
+        <string name="name" value="寒冰之剑"/>
+        <string name="desc" value="[最高等级:30]\n一定时间内,给剑赋予冰属性.超过时间或使用属性攻击会被取消."/>
         <string name="h1" value="Use MP 25, Damage 95%, For 12 Seconds"/>
         <string name="h2" value="Use MP 25, Damage 96%, For 19 Seconds"/>
         <string name="h3" value="Use MP 25, Damage 96%, For 26 Seconds"/>
@@ -2997,7 +2997,7 @@
 
     <imgdir name="1211006">
         <string name="name" value="寒冰之棍"/>
-        <string name="desc" value="[最高等級:30]\n一定時間內,給棍賦予冰屬性。超過時間或使用屬性攻擊會被取消."/>
+        <string name="desc" value="[最高等级:30]\n一定时间内,给棍赋予冰属性。超过时间或使用属性攻击会被取消."/>
         <string name="h1" value="Use MP 25, Damage 95%, For 12 Seconds"/>
         <string name="h2" value="Use MP 25, Damage 96%, For 19 Seconds"/>
         <string name="h3" value="Use MP 25, Damage 96%, For 26 Seconds"/>
@@ -3031,8 +3031,8 @@
     </imgdir>
 
     <imgdir name="1211007">
-        <string name="name" value="雷鳴之劍"/>
-        <string name="desc" value="[最高等級:30]\n一定時間內,給劍賦予雷屬性。超過時間或使用屬性攻擊會被取消."/>
+        <string name="name" value="雷鸣之剑"/>
+        <string name="desc" value="[最高等级:30]\n一定时间内,给剑赋予雷属性。超过时间或使用属性攻击会被取消."/>
         <string name="h1" value="Use 25 MP, Damage 102%, For 12 Seconds"/>
         <string name="h2" value="Use 25 MP, Damage 104%, For 19 Seconds"/>
         <string name="h3" value="Use 25 MP, Damage 106%, For 26 Seconds"/>
@@ -3066,8 +3066,8 @@
     </imgdir>
 
     <imgdir name="1211008">
-        <string name="name" value="雷鳴之棍"/>
-        <string name="desc" value="[最高等級:30]\n一定時間內,給棍賦予雷屬性。超過時間或使用屬性攻擊會被取消."/>
+        <string name="name" value="雷鸣之棍"/>
+        <string name="desc" value="[最高等级:30]\n一定时间内,给棍赋予雷属性。超过时间或使用属性攻击会被取消."/>
         <string name="h1" value="Use 25 MP, Damage 102%, For 12 Seconds"/>
         <string name="h2" value="Use 25 MP, Damage 104%, For 19 Seconds"/>
         <string name="h3" value="Use 25 MP, Damage 106%, For 26 Seconds"/>
@@ -3102,7 +3102,7 @@
 
     <imgdir name="1211009">
         <string name="name" value="魔防消除"/>
-        <string name="desc" value="[最高等級:20]\n一定的幾率使多個怪物的魔法防禦無效。對使用魔法防禦狀態的怪物有效。\n必需技能: #c屬性攻擊等級3以上#"/>
+        <string name="desc" value="[最高等级:20]\n一定的几率使多个怪物的魔法防御无效。对使用魔法防御状态的怪物有效。\n必需技能: #c属性攻击等级3以上#"/>
         <string name="h1" value="Use 35 MP, 24 % Cancel out Enemy&apos;s Magical Defense-Up"/>
         <string name="h2" value="Use 33 MP, 28 % Cancel out Enemy&apos;s Magical Defense-Up"/>
         <string name="h3" value="Use 31 MP, 32 % Cancel out Enemy&apos;s Magical Defense-Up"/>
@@ -3126,12 +3126,12 @@
     </imgdir>
 
     <imgdir name="131">
-        <string name="bookName" value="龍騎士之路"/>
+        <string name="bookName" value="龙骑士之路"/>
     </imgdir>
 
     <imgdir name="1310000">
         <string name="name" value="魔法抵抗"/>
-        <string name="desc" value="[最高等級:20]\n提高對所有屬性魔法的抗性"/>
+        <string name="desc" value="[最高等级:20]\n提高对所有属性魔法的抗性"/>
         <string name="h1" value="12% Increased resistance on every element type"/>
         <string name="h2" value="14% Increased resistance on every element type"/>
         <string name="h3" value="16% Increased resistance on every element type"/>
@@ -3155,8 +3155,8 @@
     </imgdir>
 
     <imgdir name="1311001">
-        <string name="name" value="槍連擊"/>
-        <string name="desc" value="[最高等級:30]\n用槍對前方怪物連續刺擊."/>
+        <string name="name" value="枪连击"/>
+        <string name="desc" value="[最高等级:30]\n用枪对前方怪物连续刺击."/>
         <string name="h1" value="Use 10 MP, Damage 55%, Attack 1 Enemy 2 Times"/>
         <string name="h2" value="Use 10 MP, Damage 60%, Attack 1 Enemy 2 Times"/>
         <string name="h3" value="Use 10 MP, Damage 65%, Attack 1 Enemy 2 Times"/>
@@ -3190,8 +3190,8 @@
     </imgdir>
 
     <imgdir name="1311002">
-        <string name="name" value="矛連擊"/>
-        <string name="desc" value="[最高等級:30]\n用矛對前方怪物連續刺擊."/>
+        <string name="name" value="矛连击"/>
+        <string name="desc" value="[最高等级:30]\n用矛对前方怪物连续刺击."/>
         <string name="h1" value="Use 10 MP, Damage 55%, Attack 1 Enemy 2 Times"/>
         <string name="h2" value="Use 10 MP, Damage 60%, Attack 1 Enemy 2 Times"/>
         <string name="h3" value="Use 10 MP, Damage 65%, Attack 1 Enemy 2 Times"/>
@@ -3225,8 +3225,8 @@
     </imgdir>
 
     <imgdir name="1311003">
-        <string name="name" value="無雙槍"/>
-        <string name="desc" value="[最高等級:30]\n對中距離多個怪物進行攻擊，最多攻擊6個怪物。"/>
+        <string name="name" value="无双枪"/>
+        <string name="desc" value="[最高等级:30]\n对中距离多个怪物进行攻击，最多攻击6个怪物。"/>
         <string name="h1" value="Use 20 HP, 10 MP, Damage 80%"/>
         <string name="h2" value="Use 20 HP, 10 MP, Damage 90%"/>
         <string name="h3" value="Use 20 HP, 10 MP, Damage 100%"/>
@@ -3260,8 +3260,8 @@
     </imgdir>
 
     <imgdir name="1311004">
-        <string name="name" value="無雙矛"/>
-        <string name="desc" value="[最高等級:30]\n對中距離多個怪物進行攻擊，最多攻擊6個怪物。"/>
+        <string name="name" value="无双矛"/>
+        <string name="desc" value="[最高等级:30]\n对中距离多个怪物进行攻击，最多攻击6个怪物。"/>
         <string name="h1" value="Use 20 HP, 10 MP, Damage 80%"/>
         <string name="h2" value="Use 20 HP, 10 MP, Damage 90%"/>
         <string name="h3" value="Use 20 HP, 10 MP, Damage 100%"/>
@@ -3295,8 +3295,8 @@
     </imgdir>
 
     <imgdir name="1311005">
-        <string name="name" value="龍之獻祭"/>
-        <string name="desc" value="[最高等級:30]\n犧牲HP，對單體怪物進行無視物理防禦的攻擊。對BOSS無效，HP不會減少到1以下"/>
+        <string name="name" value="龙之献祭"/>
+        <string name="desc" value="[最高等级:30]\n牺牲HP，对单体怪物进行无视物理防御的攻击。对BOSS无效，HP不会减少到1以下"/>
         <string name="h1" value="Use 12 MP, Damage 205%, Sacrifice HP by 20% of Damage"/>
         <string name="h2" value="Use 12 MP, Damage 210%, Sacrifice HP by 19% of Damage"/>
         <string name="h3" value="Use 12 MP, Damage 215%, Sacrifice HP by 19% of Damage"/>
@@ -3330,8 +3330,8 @@
     </imgdir>
 
     <imgdir name="1311006">
-        <string name="name" value="龍咆哮"/>
-        <string name="desc" value="[最高等級:30]\n用巨大的龍的咆哮攻擊15個以下的怪物。發動時HP會大幅減少, 只有HP50％以上時才可以使用.\n必需技能: #c龍之獻祭等級3以上#"/>
+        <string name="name" value="龙咆哮"/>
+        <string name="desc" value="[最高等级:30]\n用巨大的龙的咆哮攻击15个以下的怪物。发动时HP会大幅减少, 只有HP50％以上时才可以使用.\n必需技能: #c龙之献祭等级3以上#"/>
         <string name="h1" value="Use 16 MP, 59% HP, Damage 96%, Attack Range 110%, Stun for 4 Seconds"/>
         <string name="h2" value="Use 16 MP, 58% HP, Damage 102%, Attack Range 120%, Stun for 4 Seconds"/>
         <string name="h3" value="Use 16 MP, 57% HP, Damage 108%, Attack Range 130%, Stun for 4 Seconds"/>
@@ -3366,7 +3366,7 @@
 
     <imgdir name="1311007">
         <string name="name" value="力量消除"/>
-        <string name="desc" value="[最高等級:20]\n一定幾率使多個怪物的提高力量的技能無效。\n必需技能: #c龍之魂等級3以上#"/>
+        <string name="desc" value="[最高等级:20]\n一定几率使多个怪物的提高力量的技能无效。\n必需技能: #c龙之魂等级3以上#"/>
         <string name="h1" value="Use 35 MP, Cancels out Power-Up Skill in a chance of 24%"/>
         <string name="h2" value="Use 33 MP, Cancels out Power-Up Skill in a chance of 28%"/>
         <string name="h3" value="Use 31 MP, Cancels out Power-Up Skill in a chance of 32%"/>
@@ -3390,8 +3390,8 @@
     </imgdir>
 
     <imgdir name="1311008">
-        <string name="name" value="龍之魂"/>
-        <string name="desc" value="[最高等級:20]\n一定的時間攻擊力上升,但HP緩慢減少。HP不足時技能解除。"/>
+        <string name="name" value="龙之魂"/>
+        <string name="desc" value="[最高等级:20]\n一定的时间攻击力上升,但HP缓慢减少。HP不足时技能解除。"/>
         <string name="h1" value="Use 12 MP, 48 HP in every 4 seconds,  Attack + 1 in 8 Seconds"/>
         <string name="h2" value="Use 12 MP, 46 HP in every 4 seconds,  Attack + 2 in 16 Seconds"/>
         <string name="h3" value="Use 12 MP, 44 HP in every 4 seconds,  Attack + 3 in 24 Seconds"/>
@@ -3415,12 +3415,12 @@
     </imgdir>
 
     <imgdir name="211">
-        <string name="bookName" value="魔導士之路(火毒)"/>
+        <string name="bookName" value="魔导士之路(火毒)"/>
     </imgdir>
 
     <imgdir name="2110000">
         <string name="name" value="火毒抵抗"/>
-        <string name="desc" value="[最高等級:20]\n提高對火毒屬性魔法的抗性"/>
+        <string name="desc" value="[最高等级:20]\n提高对火毒属性魔法的抗性"/>
         <string name="h1" value="23 % Increased Fire &amp; Poison Resistance"/>
         <string name="h2" value="26 % Increased Fire &amp; Poison Resistance"/>
         <string name="h3" value="29 % Increased Fire &amp; Poison Resistance"/>
@@ -3444,8 +3444,8 @@
     </imgdir>
 
     <imgdir name="2110001">
-        <string name="name" value="魔力激發"/>
-        <string name="desc" value="[最高等級:30]\n消耗更多MP,提高自己的魔法攻擊力"/>
+        <string name="name" value="魔力激发"/>
+        <string name="desc" value="[最高等级:30]\n消耗更多MP,提高自己的魔法攻击力"/>
         <string name="h1" value="Use 105% MP, Magic Attack 102%"/>
         <string name="h2" value="Use 110% MP, Magic Attack 104%"/>
         <string name="h3" value="Use 115% MP, Magic Attack 106%"/>
@@ -3480,7 +3480,7 @@
 
     <imgdir name="2111002">
         <string name="name" value="末日烈焰"/>
-        <string name="desc" value="[最高等級:30]\n在自己周邊引發大爆炸.範圍內的怪物都遭受火屬性攻擊,最多攻擊6個怪物。"/>
+        <string name="desc" value="[最高等级:30]\n在自己周边引发大爆炸.范围内的怪物都遭受火属性攻击,最多攻击6个怪物。"/>
         <string name="h1" value="Use 21 MP, Attack 60, Mastered 15%, Attack Range 110%"/>
         <string name="h2" value="Use 22 MP, Attack 64, Mastered 15%, Attack Range 110%"/>
         <string name="h3" value="Use 23 MP, Attack 67, Mastered 15%, Attack Range 110%"/>
@@ -3514,8 +3514,8 @@
     </imgdir>
 
     <imgdir name="2111003">
-        <string name="name" value="致命毒霧"/>
-        <string name="desc" value="[最高等級:30]\n在周圍製造毒霧。在霧中的怪物會中毒減少HP, 對中毒怪物數量沒有限制。"/>
+        <string name="name" value="致命毒雾"/>
+        <string name="desc" value="[最高等级:30]\n在周围制造毒雾。在雾中的怪物会中毒减少HP, 对中毒怪物数量没有限制。"/>
         <string name="h1"
                 value="Use 21 MP, Attack 32, Mastered 15%, Attack Range 110%, 41% Chances of Poisoned for 4 Seconds"/>
         <string name="h2"
@@ -3580,7 +3580,7 @@
 
     <imgdir name="2111004">
         <string name="name" value="魔法封印"/>
-        <string name="desc" value="[最高等級:20]\n對周圍多個怪物進行封印。成為封印狀態的怪物不能使用技能, 對BOSS無效\n必需技能: #c魔力激化等級3以上#"/>
+        <string name="desc" value="[最高等级:20]\n对周围多个怪物进行封印。成为封印状态的怪物不能使用技能, 对BOSS无效\n必需技能: #c魔力激化等级3以上#"/>
         <string name="h1" value="Use 12 MP, 38% chance of sealing up for 10 sec."/>
         <string name="h2" value="Use 12 MP, 41% chance of sealing up for 11 sec."/>
         <string name="h3" value="Use 12 MP, 44% chance of sealing up for 11 sec."/>
@@ -3604,8 +3604,8 @@
     </imgdir>
 
     <imgdir name="2111005">
-        <string name="name" value="極速詠唱"/>
-        <string name="desc" value="[最高等級:20]\n消耗更多的HP和MP, 提高魔法攻擊速度.\n必需技能: #c魔力激化等級3以上#"/>
+        <string name="name" value="极速咏唱"/>
+        <string name="desc" value="[最高等级:20]\n消耗更多的HP和MP, 提高魔法攻击速度.\n必需技能: #c魔力激化等级3以上#"/>
         <string name="h1" value="Use HP 58, MP 53 to boost up the magic attacking speed to level 2 for 10 sec."/>
         <string name="h2" value="Use HP 56, MP 51 to boost up the magic attacking speed to level 2 for 20 sec."/>
         <string name="h3" value="Use HP 54, MP 49 to boost up the magic attacking speed to level 2 for 30 sec."/>
@@ -3629,8 +3629,8 @@
     </imgdir>
 
     <imgdir name="2111006">
-        <string name="name" value="火毒合擊"/>
-        <string name="desc" value="[最高等級:30]\n混合火和毒屬性的魔法攻擊一個怪物,一定的幾率使怪物中毒。"/>
+        <string name="name" value="火毒合击"/>
+        <string name="desc" value="[最高等级:30]\n混合火和毒属性的魔法攻击一个怪物,一定的几率使怪物中毒。"/>
         <string name="h1"
                 value="Use MP 14, Attack 80, Mastery 15%; With 41% success rate, poisons the enemy for 4 sec."/>
         <string name="h2"
@@ -3694,12 +3694,12 @@
     </imgdir>
 
     <imgdir name="221">
-        <string name="bookName" value="魔導士之路(冰雷)"/>
+        <string name="bookName" value="魔导士之路(冰雷)"/>
     </imgdir>
 
     <imgdir name="2210000">
         <string name="name" value="冰雷抵抗"/>
-        <string name="desc" value="[最高等級:20]\n提高對冰雷屬性的魔法抗性."/>
+        <string name="desc" value="[最高等级:20]\n提高对冰雷属性的魔法抗性."/>
         <string name="h1" value="23% Increased Ice &amp; Lightning Resistance"/>
         <string name="h2" value="26% Increased Ice &amp; Lightning Resistance"/>
         <string name="h3" value="29% Increased Ice &amp; Lightning Resistance"/>
@@ -3723,8 +3723,8 @@
     </imgdir>
 
     <imgdir name="2210001">
-        <string name="name" value="魔力激發"/>
-        <string name="desc" value="[最高等級:30]\n消耗更多的MP,提高自己的魔法攻擊力"/>
+        <string name="name" value="魔力激发"/>
+        <string name="desc" value="[最高等级:30]\n消耗更多的MP,提高自己的魔法攻击力"/>
         <string name="h1" value="Use 105% MP, Magic Attack 102%"/>
         <string name="h2" value="Use 110% MP, Magic Attack 104%"/>
         <string name="h3" value="Use 115% MP, Magic Attack 106%"/>
@@ -3758,8 +3758,8 @@
     </imgdir>
 
     <imgdir name="2211002">
-        <string name="name" value="冰風暴"/>
-        <string name="desc" value="[最高等級:30]\n使用冰塊攻擊。命中時有非冰屬性的怪物凍結, 最多傷害6個怪物。"/>
+        <string name="name" value="冰风暴"/>
+        <string name="desc" value="[最高等级:30]\n使用冰块攻击。命中时有非冰属性的怪物冻结, 最多伤害6个怪物。"/>
         <string name="h1" value="Use MP 21, Attack 32, Mastery 15%, Attack Range 110%"/>
         <string name="h2" value="Use MP 22, Attack 34, Mastery 15%, Attack Range 110%"/>
         <string name="h3" value="Use MP 23, Attack 36, Mastery 15%, Attack Range 110%"/>
@@ -3794,7 +3794,7 @@
 
     <imgdir name="2211003">
         <string name="name" value="落雷凝聚"/>
-        <string name="desc" value="[最高等級:30]\n集合雷氣製造槍攻擊一個怪物.怪物遭受雷屬性攻擊."/>
+        <string name="desc" value="[最高等级:30]\n集合雷气制造枪攻击一个怪物.怪物遭受雷属性攻击."/>
         <string name="h1" value="Use MP 10, Attack 80, Mastery 15%"/>
         <string name="h2" value="Use MP 10, Attack 90, Mastery 15%"/>
         <string name="h3" value="Use MP 11, Attack 95, Mastery 15%"/>
@@ -3829,7 +3829,7 @@
 
     <imgdir name="2211004">
         <string name="name" value="魔法封印"/>
-        <string name="desc" value="[最高等級:20]\n對周圍多個的怪物進行封印。成為封印狀態的怪物不能使用技能, 對BOSS無效\n必需技能: #c魔力激化等級3以上#"/>
+        <string name="desc" value="[最高等级:20]\n对周围多个的怪物进行封印。成为封印状态的怪物不能使用技能, 对BOSS无效\n必需技能: #c魔力激化等级3以上#"/>
         <string name="h1" value="Use 12 MP, 38% chance of sealing up for 10 sec."/>
         <string name="h2" value="Use 12 MP, 41% chance of sealing up for 11 sec."/>
         <string name="h3" value="Use 12 MP, 44% chance of sealing up for 11 sec."/>
@@ -3853,8 +3853,8 @@
     </imgdir>
 
     <imgdir name="2211005">
-        <string name="name" value="極速詠唱"/>
-        <string name="desc" value="[最高等級:20]\n消耗更多的HP和MP,提高魔法攻擊速度。\n必需技能: #c魔力激化等級3以上#"/>
+        <string name="name" value="极速咏唱"/>
+        <string name="desc" value="[最高等级:20]\n消耗更多的HP和MP,提高魔法攻击速度。\n必需技能: #c魔力激化等级3以上#"/>
         <string name="h1" value="Use HP 58, MP 53 to boost up the magic attacking speed to level 2 for 10 sec."/>
         <string name="h2" value="Use HP 56, MP 51 to boost up the magic attacking speed to level 2 for 20 sec."/>
         <string name="h3" value="Use HP 54, MP 49 to boost up the magic attacking speed to level 2 for 30 sec."/>
@@ -3878,8 +3878,8 @@
     </imgdir>
 
     <imgdir name="2211006">
-        <string name="name" value="冰雷合擊"/>
-        <string name="desc" value="[最高等級:30]\n混合冰和雷屬性的魔法攻擊一個怪物。一定的幾率怪物被凍結。"/>
+        <string name="name" value="冰雷合击"/>
+        <string name="desc" value="[最高等级:30]\n混合冰和雷属性的魔法攻击一个怪物。一定的几率怪物被冻结。"/>
         <string name="h1" value="Use MP 14, Attack 80, Mastery 15%, freezes enemy for 1 sec."/>
         <string name="h2" value="Use MP 14, Attack 84, Mastery 15%, freezes enemy for 1 sec."/>
         <string name="h3" value="Use MP 14, Attack 87, Mastery 15%, freezes enemy for 1 sec."/>
@@ -3918,7 +3918,7 @@
 
     <imgdir name="2310000">
         <string name="name" value="魔法抵抗"/>
-        <string name="desc" value="[最高等級:20]\n提高對所有屬性魔法攻擊的抗性。"/>
+        <string name="desc" value="[最高等级:20]\n提高对所有属性魔法攻击的抗性。"/>
         <string name="h1" value="12% increase in tolerance against element-based spell attacks."/>
         <string name="h2" value="14% increase in tolerance against element-based spell attacks."/>
         <string name="h3" value="16% increase in tolerance against element-based spell attacks."/>
@@ -3942,8 +3942,8 @@
     </imgdir>
 
     <imgdir name="2311001">
-        <string name="name" value="淨化"/>
-        <string name="desc" value="[最高等級:20]\n一定範圍內怪物的魔法無效，同時治療包括自己及周邊組員的狀態異常。"/>
+        <string name="name" value="净化"/>
+        <string name="desc" value="[最高等级:20]\n一定范围内怪物的魔法无效，同时治疗包括自己及周边组员的状态异常。"/>
         <string name="h1" value="Use MP 15, Area Affected: 110%, Dispel Rate: 34%"/>
         <string name="h2" value="Use MP 15, Area Affected: 120%, Dispel Rate: 38%"/>
         <string name="h3" value="Use MP 15, Area Affected: 130%, Dispel Rate: 42%"/>
@@ -3967,8 +3967,8 @@
     </imgdir>
 
     <imgdir name="2311002">
-        <string name="name" value="時空門"/>
-        <string name="desc" value="[最高等級:20]\n製造通向最近村落的時空門，使組隊成員可以通過時空門回到最近的村落。在傳送點按↑可以移動\n必需技能 : #c淨化等級3以上#"/>
+        <string name="name" value="时空门"/>
+        <string name="desc" value="[最高等级:20]\n制造通向最近村落的时空门，使组队成员可以通过时空门回到最近的村落。在传送点按↑可以移动\n必需技能 : #c净化等级3以上#"/>
         <string name="h1" value="MP -80, use 1 Magic Rock, Portal works for 30 sec."/>
         <string name="h2" value="MP -77, use 1 Magic Rock, Portal works for 40 sec."/>
         <string name="h3" value="MP -74, use 1 Magic Rock, Portal works for 50 sec."/>
@@ -3992,8 +3992,8 @@
     </imgdir>
 
     <imgdir name="2311003">
-        <string name="name" value="神聖祈禱"/>
-        <string name="desc" value="[最高等級:30]\n組隊時候,能得到更多經驗值。只有兩個人以上的組隊狀態下才能發揮100%效果。\n必需技能 : #c淨化等級3以上#"/>
+        <string name="name" value="神圣祈祷"/>
+        <string name="desc" value="[最高等级:30]\n组队时候,能得到更多经验值。只有两个人以上的组队状态下才能发挥100%效果。\n必需技能 : #c净化等级3以上#"/>
         <string name="h1" value="MP - 51; For 32 sec., all members of the party gain 102% EXP"/>
         <string name="h2" value="MP - 52; For 35 sec., all members of the party gain 104% EXP"/>
         <string name="h3" value="MP - 53; For 38 sec., all members of the party gain 106% EXP"/>
@@ -4027,8 +4027,8 @@
     </imgdir>
 
     <imgdir name="2311004">
-        <string name="name" value="聖光"/>
-        <string name="desc" value="[最高等級:30]\n利用神聖光芒攻擊多個怪物。對亡靈族怪物和惡魔怪物造成更多傷害。"/>
+        <string name="name" value="圣光"/>
+        <string name="desc" value="[最高等级:30]\n利用神圣光芒攻击多个怪物。对亡灵族怪物和恶魔怪物造成更多伤害。"/>
         <string name="h1" value="MP - 21, Attack 60, Mastery 15%"/>
         <string name="h2" value="MP - 22, Attack 62, Mastery 15%"/>
         <string name="h3" value="MP - 23, Attack 64, Mastery 15%"/>
@@ -4062,8 +4062,8 @@
     </imgdir>
 
     <imgdir name="2311005">
-        <string name="name" value="喚化術"/>
-        <string name="desc" value="[最高等級:30]\n使周圍怪物變成蝸牛,攻擊力和移動速度均下降。對BOSS無效,最多變化6個怪物。"/>
+        <string name="name" value="唤化术"/>
+        <string name="desc" value="[最高等级:30]\n使周围怪物变成蜗牛,攻击力和移动速度均下降。对BOSS无效,最多变化6个怪物。"/>
         <string name="h1" value="MP - 88, use 1 Magic Rock; Changes for 5 sec., with 52% success rate"/>
         <string name="h2" value="MP - 86, use 1 Magic Rock; Changes for 6 sec., with 54% success rate"/>
         <string name="h3" value="MP - 84, use 1 Magic Rock; Changes for 6 sec., with 56% success rate"/>
@@ -4097,8 +4097,8 @@
     </imgdir>
 
     <imgdir name="2311006">
-        <string name="name" value="聖龍召喚"/>
-        <string name="desc" value="[最高等級:30]\n召喚聖龍守護主人，並攻擊怪物。技能點增加，可以召喚更強的龍。"/>
+        <string name="name" value="圣龙召唤"/>
+        <string name="desc" value="[最高等级:30]\n召唤圣龙守护主人，并攻击怪物。技能点增加，可以召唤更强的龙。"/>
         <string name="h1" value="MP - 32, use 1 Summoning Rock; For 10 sec., summon the dragon with Attack 64"/>
         <string name="h2" value="MP - 34, use 1 Summoning Rock; For 15 sec., summon the dragon with Attack 68"/>
         <string name="h3" value="MP - 36, use 1 Summoning Rock; For 20 sec., summon the dragon with Attack 72"/>
@@ -4132,12 +4132,12 @@
     </imgdir>
 
     <imgdir name="311">
-        <string name="bookName" value="遊俠之路"/>
+        <string name="bookName" value="游侠之路"/>
     </imgdir>
 
     <imgdir name="3110000">
-        <string name="name" value="疾風步"/>
-        <string name="desc" value="[最高等級:20]\n增加移動速度。"/>
+        <string name="name" value="疾风步"/>
+        <string name="desc" value="[最高等级:20]\n增加移动速度。"/>
         <string name="h1" value="Speed + 2"/>
         <string name="h2" value="Speed + 4"/>
         <string name="h3" value="Speed + 6"/>
@@ -4162,7 +4162,7 @@
 
     <imgdir name="3110001">
         <string name="name" value="致命箭"/>
-        <string name="desc" value="[最高等級:20]\n即使怪物靠得很近也能射箭，一定幾率必殺怪物。"/>
+        <string name="desc" value="[最高等级:20]\n即使怪物靠得很近也能射箭，一定几率必杀怪物。"/>
         <string name="h1"
                 value="32% success rate, Damage 110%; Kills the monster with HP at 20% or lower at 1% success rate"/>
         <string name="h2"
@@ -4206,8 +4206,8 @@
     </imgdir>
 
     <imgdir name="3111002">
-        <string name="name" value="替身術"/>
-        <string name="desc" value="[最高等級:20]\n一定時間製造自己的分身。分身存在的時候, 怪物攻擊分身。"/>
+        <string name="name" value="替身术"/>
+        <string name="desc" value="[最高等级:20]\n一定时间制造自己的分身。分身存在的时候, 怪物攻击分身。"/>
         <string name="h1" value="MP - 23; For 5 sec., summons HP 500 puppet"/>
         <string name="h2" value="MP - 23; For 5 sec., summons HP 600 puppet"/>
         <string name="h3" value="MP - 23; For 10 sec., summons HP 700 puppet"/>
@@ -4232,7 +4232,7 @@
 
     <imgdir name="3111003">
         <string name="name" value="烈火箭"/>
-        <string name="desc" value="[最高等級:30]\n用火屬性的箭攻擊多個怪物。最多攻擊6個怪物，只有裝備弓箭才能使用。"/>
+        <string name="desc" value="[最高等级:30]\n用火属性的箭攻击多个怪物。最多攻击6个怪物，只有装备弓箭才能使用。"/>
         <string name="h1" value="MP - 20, Damage 50%"/>
         <string name="h2" value="MP - 20, Damage 55%"/>
         <string name="h3" value="MP - 20, Damage 60%"/>
@@ -4267,7 +4267,7 @@
 
     <imgdir name="3111004">
         <string name="name" value="箭雨"/>
-        <string name="desc" value="[最高等級:30]\n向天空射多支箭以攻擊多個怪物。最多攻擊6個,只有裝備弓箭才能使用。\n必需技能 : #c貫穿箭等級5以上#"/>
+        <string name="desc" value="[最高等级:30]\n向天空射多支箭以攻击多个怪物。最多攻击6个,只有装备弓箭才能使用。\n必需技能 : #c贯穿箭等级5以上#"/>
         <string name="h1" value="MP - 18, Damage 60%"/>
         <string name="h2" value="MP - 18, Damage 65%"/>
         <string name="h3" value="MP - 18, Damage 70%"/>
@@ -4301,8 +4301,8 @@
     </imgdir>
 
     <imgdir name="3111005">
-        <string name="name" value="銀鷹召喚"/>
-        <string name="desc" value="[最高等級:30]\n召喚銀色老鷹.在一定的時間內攻擊附近的怪物。\n必需技能 : #c替身術等級5以上#"/>
+        <string name="name" value="银鹰召唤"/>
+        <string name="desc" value="[最高等级:30]\n召唤银色老鹰.在一定的时间内攻击附近的怪物。\n必需技能 : #c替身术等级5以上#"/>
         <string name="h1"
                 value="MP - 32, use 1 Summoning Rock; summons a hawk for 103 sec.; attack +23 ; 50% chance of stunning"/>
         <string name="h2"
@@ -4366,8 +4366,8 @@
     </imgdir>
 
     <imgdir name="3111006">
-        <string name="name" value="四連箭"/>
-        <string name="desc" value="[最高等級:30]\n向一個怪物連續射4支箭。"/>
+        <string name="name" value="四连箭"/>
+        <string name="desc" value="[最高等级:30]\n向一个怪物连续射4支箭。"/>
         <string name="h1" value="MP - 26, Damage 52%, attack 4 times"/>
         <string name="h2" value="MP - 26, Damage 54%, attack 4 times"/>
         <string name="h3" value="MP - 26, Damage 56%, attack 4 times"/>
@@ -4401,12 +4401,12 @@
     </imgdir>
 
     <imgdir name="321">
-        <string name="bookName" value="狙擊手之路"/>
+        <string name="bookName" value="狙击手之路"/>
     </imgdir>
 
     <imgdir name="3210000">
-        <string name="name" value="疾風步"/>
-        <string name="desc" value="[最高等級:20]\n增加移動速度。"/>
+        <string name="name" value="疾风步"/>
+        <string name="desc" value="[最高等级:20]\n增加移动速度。"/>
         <string name="h1" value="Speed + 2"/>
         <string name="h2" value="Speed + 4"/>
         <string name="h3" value="Speed + 6"/>
@@ -4431,7 +4431,7 @@
 
     <imgdir name="3210001">
         <string name="name" value="致命箭"/>
-        <string name="desc" value="[最高等級:20]\n即使怪物靠得很近的時候也能發射弩，一定幾率必殺怪物。"/>
+        <string name="desc" value="[最高等级:20]\n即使怪物靠得很近的时候也能发射弩，一定几率必杀怪物。"/>
         <string name="h1"
                 value="32% success rate, Damage 110%; Kills the monster with HP at 20% or lower at 1% success rate"/>
         <string name="h2"
@@ -4475,8 +4475,8 @@
     </imgdir>
 
     <imgdir name="3211002">
-        <string name="name" value="替身術"/>
-        <string name="desc" value="[最高等級:20]\n一定時間製造自己的分身。分身存在的時候, 怪物攻擊分身。"/>
+        <string name="name" value="替身术"/>
+        <string name="desc" value="[最高等级:20]\n一定时间制造自己的分身。分身存在的时候, 怪物攻击分身。"/>
         <string name="h1" value="MP - 23; For 5 sec., summons HP 500 puppet"/>
         <string name="h2" value="MP - 23; For 5 sec., summons HP 600 puppet"/>
         <string name="h3" value="MP - 23; For 10 sec., summons HP 700 puppet"/>
@@ -4501,7 +4501,7 @@
 
     <imgdir name="3211003">
         <string name="name" value="寒冰箭"/>
-        <string name="desc" value="[最高等級:30]\n用冰屬性的箭攻擊多個怪物。最多攻擊6個怪物，只有裝備弩弓才能使用."/>
+        <string name="desc" value="[最高等级:30]\n用冰属性的箭攻击多个怪物。最多攻击6个怪物，只有装备弩弓才能使用."/>
         <string name="h1" value="MP - 20, Damage 100%, freezes enemies for 1 sec."/>
         <string name="h2" value="MP - 20, Damage 102%, freezes enemies for 1 sec."/>
         <string name="h3" value="MP - 20, Damage 104%, freezes enemies for 1 sec."/>
@@ -4535,8 +4535,8 @@
     </imgdir>
 
     <imgdir name="3211004">
-        <string name="name" value="升龍弩"/>
-        <string name="desc" value="[最高等級:30]\n向地下射箭然後鑽上來攻擊怪物。最多攻擊6個怪物,只有裝備弩弓才能使用.\n必需技能 : #c貫穿箭等級5以上#"/>
+        <string name="name" value="升龙弩"/>
+        <string name="desc" value="[最高等级:30]\n向地下射箭然后钻上来攻击怪物。最多攻击6个怪物,只有装备弩弓才能使用.\n必需技能 : #c贯穿箭等级5以上#"/>
         <string name="h1" value="MP - 18, Damage 60%"/>
         <string name="h2" value="MP - 18, Damage 65%"/>
         <string name="h3" value="MP - 18, Damage 70%"/>
@@ -4570,8 +4570,8 @@
     </imgdir>
 
     <imgdir name="3211005">
-        <string name="name" value="金鷹召喚"/>
-        <string name="desc" value="[最高等級:30]\n召喚金色老鷹。在一定的時間內攻擊附近的怪物。\n必需技能 : #c替身術等級5以上#"/>
+        <string name="name" value="金鹰召唤"/>
+        <string name="desc" value="[最高等级:30]\n召唤金色老鹰。在一定的时间内攻击附近的怪物。\n必需技能 : #c替身术等级5以上#"/>
         <string name="h1"
                 value="MP - 32, use 1 Summoning Rock; summons an eagle that attacks 13 times in 180 sec.; 50% chance of stunning"/>
         <string name="h2"
@@ -4635,8 +4635,8 @@
     </imgdir>
 
     <imgdir name="3211006">
-        <string name="name" value="四連箭"/>
-        <string name="desc" value="[最高等級:30]\n向單個怪物連續射4支箭。"/>
+        <string name="name" value="四连箭"/>
+        <string name="desc" value="[最高等级:30]\n向单个怪物连续射4支箭。"/>
         <string name="h1" value="MP - 26, Damage 52%, attack 4 times"/>
         <string name="h2" value="MP - 26, Damage 54%, attack 4 times"/>
         <string name="h3" value="MP - 26, Damage 56%, attack 4 times"/>
@@ -4670,12 +4670,12 @@
     </imgdir>
 
     <imgdir name="411">
-        <string name="bookName" value="暗殺者之路"/>
+        <string name="bookName" value="暗杀者之路"/>
     </imgdir>
 
     <imgdir name="4110000">
-        <string name="name" value="藥劑精通"/>
-        <string name="desc" value="[最高等級:20]\n提升使用各種恢復藥水的效果，對按百分比恢復的道具不適用。"/>
+        <string name="name" value="药剂精通"/>
+        <string name="desc" value="[最高等级:20]\n提升使用各种恢复药水的效果，对按百分比恢复的道具不适用。"/>
         <string name="h1" value="Recovery rate 103%, Duration of Effect 103%"/>
         <string name="h2" value="Recovery rate 106%, Duration of Effect 106%"/>
         <string name="h3" value="Recovery rate 109%, Duration of Effect 109%"/>
@@ -4699,8 +4699,8 @@
     </imgdir>
 
     <imgdir name="4111001">
-        <string name="name" value="幸運術"/>
-        <string name="desc" value="[最高等級:20]\n一定時間內，全隊獲得更多金幣。"/>
+        <string name="name" value="幸运术"/>
+        <string name="desc" value="[最高等级:20]\n一定时间内，全队获得更多金币。"/>
         <string name="h1" value="MP - 45; For 25 sec., Meso Drop Rate + 3%"/>
         <string name="h2" value="MP - 45; For 30 sec., Meso Drop Rate + 6%"/>
         <string name="h3" value="MP - 45; For 35 sec., Meso Drop Rate + 9%"/>
@@ -4725,7 +4725,7 @@
 
     <imgdir name="4111002">
         <string name="name" value="影分身"/>
-        <string name="desc" value="[最高等級:30]\n召喚影分身。沒有HP,和角色做一樣的動作，會自動消失。"/>
+        <string name="desc" value="[最高等级:30]\n召唤影分身。没有HP,和角色做一样的动作，会自动消失。"/>
         <string name="h1" value="MP - 200, 1 Summoning Rock; Summon for 60 sec., Attack 20%, Skill 21%"/>
         <string name="h2" value="MP - 195, 1 Summoning Rock; Summon for 60 sec., Attack 24%, Skill 21%"/>
         <string name="h3" value="MP - 190, 1 Summoning Rock; Summon for 60 sec., Attack 28%, Skill 21%"/>
@@ -4759,8 +4759,8 @@
     </imgdir>
 
     <imgdir name="4111003">
-        <string name="name" value="影網術"/>
-        <string name="desc" value="[最高等級:20]\n以自身的影子做成蜘蛛網，纏住6個以下的多個怪物。被纏住的怪物無法動彈。"/>
+        <string name="name" value="影网术"/>
+        <string name="desc" value="[最高等级:20]\n以自身的影子做成蜘蛛网，缠住6个以下的多个怪物。被缠住的怪物无法动弹。"/>
         <string name="h1" value="MP - 10; For 5 sec., holds the enemies with 42% success rate"/>
         <string name="h2" value="MP - 10; For 5 sec., holds the enemies with 44% success rate"/>
         <string name="h3" value="MP - 10; For 5 sec., holds the enemies with 46% success rate"/>
@@ -4784,8 +4784,8 @@
     </imgdir>
 
     <imgdir name="4111004">
-        <string name="name" value="楓幣攻擊"/>
-        <string name="desc" value="[最高等級:30]\n使用金幣進行攻擊，按投擲金幣的比例傷害怪物。是無視物理防禦或魔法防禦的攻擊。\n必需技能 : #c聚財術等級5以上#"/>
+        <string name="name" value="枫币攻击"/>
+        <string name="desc" value="[最高等级:30]\n使用金币进行攻击，按投掷金币的比例伤害怪物。是无视物理防御或魔法防御的攻击。\n必需技能 : #c聚财术等级5以上#"/>
         <string name="h1" value="Uses Min. 50, Max. 220 mesos; Damage + 50% with 1% success rate"/>
         <string name="h2" value="Uses Min. 60, Max. 240 mesos; Damage + 50% with 1% success rate"/>
         <string name="h3" value="Uses Min. 70, Max. 260 mesos; Damage + 50% with 1% success rate"/>
@@ -4819,8 +4819,8 @@
     </imgdir>
 
     <imgdir name="4111005">
-        <string name="name" value="風魔手裏劍"/>
-        <string name="desc" value="[最高等級:30]\n消耗MP製作大飛鏢，攻擊怪物。"/>
+        <string name="name" value="风魔手里剑"/>
+        <string name="desc" value="[最高等级:30]\n消耗MP制作大飞镖，攻击怪物。"/>
         <string name="h1" value="MP - 16; Uses 3 throwing stars to attack upto 4 enemies, Damage 65%"/>
         <string name="h2" value="MP - 16; Uses 3 throwing stars to attack upto 4 enemies, Damage 70%"/>
         <string name="h3" value="MP - 16; Uses 3 throwing stars to attack upto 4 enemies, Damage 75%"/>
@@ -4855,7 +4855,7 @@
 
     <imgdir name="4111006">
         <string name="name" value="二段跳"/>
-        <string name="desc" value="[最高等級:20]\n跳躍後在空中使用的話，能再一次跳躍。技能點上升跳躍力也會上升。\n必需技能 : #c多重飛鏢等級5以上#"/>
+        <string name="desc" value="[最高等级:20]\n跳跃后在空中使用的话，能再一次跳跃。技能点上升跳跃力也会上升。\n必需技能 : #c多重飞镖等级5以上#"/>
         <string name="h1" value="MP - 60, Jumps a certain distance"/>
         <string name="h2" value="MP - 57, Jumps a certain distance"/>
         <string name="h3" value="MP - 54, Jumps a certain distance"/>
@@ -4883,8 +4883,8 @@
     </imgdir>
 
     <imgdir name="4210000">
-        <string name="name" value="強化盾"/>
-        <string name="desc" value="[最高等級:20]\n提高盾牌的物理防禦力,必須裝備盾牌。"/>
+        <string name="name" value="强化盾"/>
+        <string name="desc" value="[最高等级:20]\n提高盾牌的物理防御力,必须装备盾牌。"/>
         <string name="h1" value="Shield def. + 5%; Has to be equipped"/>
         <string name="h2" value="Shield def. + 10%; Has to be equipped"/>
         <string name="h3" value="Shield def. + 15%; Has to be equipped"/>
@@ -4908,8 +4908,8 @@
     </imgdir>
 
     <imgdir name="4211001">
-        <string name="name" value="血魔轉換"/>
-        <string name="desc" value="[最高等級:30]\n消耗MP恢復HP。只有HP在一半以下才可以使用, 如果中途做動作或遭受攻擊就停止"/>
+        <string name="name" value="血魔转换"/>
+        <string name="desc" value="[最高等级:30]\n消耗MP恢复HP。只有HP在一半以下才可以使用, 如果中途做动作或遭受攻击就停止"/>
         <string name="h1" value="MP - 15, Recovery rate 9%; Damage during the recovery if hit: 200%"/>
         <string name="h2" value="MP - 15, Recovery rate 18%; Damage during the recovery if hit: 196%"/>
         <string name="h3" value="MP - 15, Recovery rate 27%; Damage during the recovery if hit: 192%"/>
@@ -4943,8 +4943,8 @@
     </imgdir>
 
     <imgdir name="4211002">
-        <string name="name" value="落葉斬"/>
-        <string name="desc" value="[最高等級:30]\n瞬間攻擊一個怪物，一定幾率使其昏迷。"/>
+        <string name="name" value="落叶斩"/>
+        <string name="desc" value="[最高等级:30]\n瞬间攻击一个怪物，一定几率使其昏迷。"/>
         <string name="h1" value="MP - 12, Damage 210%, Stunner 22%"/>
         <string name="h2" value="MP - 12, Damage 220%, Stunner 24%"/>
         <string name="h3" value="MP - 12, Damage 230%, Stunner 26%"/>
@@ -4978,8 +4978,8 @@
     </imgdir>
 
     <imgdir name="4211003">
-        <string name="name" value="勇者掠奪術"/>
-        <string name="desc" value="[最高等級:20]\n攻擊怪物時候讓金幣掉落。掉落金幣數量隨技能等級和傷害增加而增加。\n必需技能 : #c金錢炸彈等級3以上#"/>
+        <string name="name" value="勇者掠夺术"/>
+        <string name="desc" value="[最高等级:20]\n攻击怪物时候让金币掉落。掉落金币数量随技能等级和伤害增加而增加。\n必需技能 : #c金钱炸弹等级3以上#"/>
         <string name="h1" value="MP - 31; For 90 sec., monster&apos;s Meso Drop Rate if attacked: 22%"/>
         <string name="h2" value="MP - 32; For 90 sec., monster&apos;s Meso Drop Rate if attacked: 24%"/>
         <string name="h3" value="MP - 33; For 90 sec., monster&apos;s Meso Drop Rate if attacked: 26%"/>
@@ -5003,8 +5003,8 @@
     </imgdir>
 
     <imgdir name="4211004">
-        <string name="name" value="分身術"/>
-        <string name="desc" value="[最高等級:30]\n召喚分身，攻擊周圍怪物。最多攻擊6個怪物。"/>
+        <string name="name" value="分身术"/>
+        <string name="desc" value="[最高等级:30]\n召唤分身，攻击周围怪物。最多攻击6个怪物。"/>
         <string name="h1" value="MP - 10, Damage 110%, 1 &quot;other self&quot; will attack enemies"/>
         <string name="h2" value="MP - 10, Damage 120%, 1 &quot;other self&quot; will attack enemies"/>
         <string name="h3" value="MP - 10, Damage 130%, 1 &quot;other self&quot; will attack enemies"/>
@@ -5038,8 +5038,8 @@
     </imgdir>
 
     <imgdir name="4211005">
-        <string name="name" value="楓幣護盾"/>
-        <string name="desc" value="[最高等級:20]\n用金幣代替傷害的50%。每次收到傷害時根據比例消耗金幣。\n必需技能 : #c轉化術等級3以上#"/>
+        <string name="name" value="枫币护盾"/>
+        <string name="desc" value="[最高等级:20]\n用金币代替伤害的50%。每次收到伤害时根据比例消耗金币。\n必需技能 : #c转化术等级3以上#"/>
         <string name="h1" value="MP - 20, Save up 200 mesos, 90% of the guarded damage replaced with mesos"/>
         <string name="h2" value="MP - 20, Save up 400 mesos, 90% of the guarded damage replaced with mesos"/>
         <string name="h3" value="MP - 20, Save up 600 mesos, 89% of the guarded damage replaced with mesos"/>
@@ -5063,8 +5063,8 @@
     </imgdir>
 
     <imgdir name="4211006">
-        <string name="name" value="楓幣炸彈"/>
-        <string name="desc" value="[最高等級:30]\n引爆前方掉落在地上的金幣來攻擊怪物，只能引爆屬於自己的金幣。"/>
+        <string name="name" value="枫币炸弹"/>
+        <string name="desc" value="[最高等级:30]\n引爆前方掉落在地上的金币来攻击怪物，只能引爆属于自己的金币。"/>
         <string name="h1" value="MP - 18, Mastery 50%, Explode upto 10"/>
         <string name="h2" value="MP - 18, Mastery 52%, Explode upto 10"/>
         <string name="h3" value="MP - 18, Mastery 54%, Explode upto 10"/>
@@ -5098,98 +5098,98 @@
     </imgdir>
 
     <imgdir name="900">
-        <string name="bookName" value="管理員技能書(普通)"/>
+        <string name="bookName" value="管理员技能书(普通)"/>
     </imgdir>
 
     <imgdir name="9001000">
-        <string name="name" value="速鬥激發(普通)"/>
-        <string name="desc" value="[最高等級 : 1]\n15分內增加角色的移動速度和跳躍力。"/>
+        <string name="name" value="速斗激发(普通)"/>
+        <string name="desc" value="[最高等级 : 1]\n15分内增加角色的移动速度和跳跃力。"/>
         <string name="h1" value="Moving Speed + 40, Jump + 20 for 30 Minutes (Only for self)"/>
     </imgdir>
 
     <imgdir name="9001001">
-        <string name="name" value="超級狂龍斬"/>
-        <string name="desc" value="[最高等級 : 1]\n巨龍的咆哮，能打敗15只以下的敵人。"/>
+        <string name="name" value="超级狂龙斩"/>
+        <string name="desc" value="[最高等级 : 1]\n巨龙的咆哮，能打败15只以下的敌人。"/>
         <string name="h1" value="Damage 1000%, Full Screen Attack"/>
     </imgdir>
 
     <imgdir name="9001002">
-        <string name="name" value="縮地大法"/>
-        <string name="desc" value="[最高等級 : 1]\n用『上下左右』方向鍵可以瞬間移動一定的距離."/>
+        <string name="name" value="缩地大法"/>
+        <string name="desc" value="[最高等级 : 1]\n用『上下左右』方向键可以瞬间移动一定的距离."/>
         <string name="h1" value="Teleport "/>
     </imgdir>
 
     <imgdir name="910">
-        <string name="bookName" value="管理員技能書(超級)"/>
+        <string name="bookName" value="管理员技能书(超级)"/>
     </imgdir>
 
     <imgdir name="9101000">
-        <string name="name" value="治癒+魔法無效"/>
-        <string name="desc" value="[最高等級 : 1]\n敵人的魔法效果無效化，治癒自己和周邊角色的狀態異常，恢復HP。"/>
+        <string name="name" value="治愈+魔法无效"/>
+        <string name="desc" value="[最高等级 : 1]\n敌人的魔法效果无效化，治愈自己和周边角色的状态异常，恢复HP。"/>
         <string name="h1" value="Heal + Dispel"/>
     </imgdir>
 
     <imgdir name="9101001">
-        <string name="name" value="速鬥激發(超級)"/>
-        <string name="desc" value="[最高等級 : 1]\n15分內增加周邊角色的移動速度和跳躍力。"/>
+        <string name="name" value="速斗激发(超级)"/>
+        <string name="desc" value="[最高等级 : 1]\n15分内增加周边角色的移动速度和跳跃力。"/>
         <string name="h1" value="Moving Speed + 40, Jump + 20 for 30 Minutes"/>
     </imgdir>
 
     <imgdir name="9101002">
-        <string name="name" value="聖化之力"/>
-        <string name="desc" value="[最高等級 : 1]\n15分內周邊角色打怪時，取得更多經驗值。"/>
+        <string name="name" value="圣化之力"/>
+        <string name="desc" value="[最高等级 : 1]\n15分内周边角色打怪时，取得更多经验值。"/>
         <string name="h1" value="EXP 150% for 30 Minutes"/>
     </imgdir>
 
     <imgdir name="9101003">
         <string name="name" value="祝福"/>
-        <string name="desc" value="[最高等級 : 1]\n15分內周邊角色的各種能力值大幅增加。"/>
+        <string name="desc" value="[最高等级 : 1]\n15分内周边角色的各种能力值大幅增加。"/>
         <string name="h1" value="Attack &amp; Magic Attack + 20, Others + 100 for 30 Minutes"/>
     </imgdir>
 
     <imgdir name="9101004">
-        <string name="name" value="隱藏術"/>
-        <string name="desc" value="[最高等級 : 1]\n隱藏自己，其他角色看不見。使用技能會被解除。"/>
+        <string name="name" value="隐藏术"/>
+        <string name="desc" value="[最高等级 : 1]\n隐藏自己，其他角色看不见。使用技能会被解除。"/>
         <string name="h1" value="Hide"/>
     </imgdir>
 
     <imgdir name="9101005">
-        <string name="name" value="復活"/>
-        <string name="desc" value="[最高等級 : 1]\n使得死亡的角色復活。"/>
+        <string name="name" value="复活"/>
+        <string name="desc" value="[最高等级 : 1]\n使得死亡的角色复活。"/>
         <string name="h1" value="Ressurect"/>
     </imgdir>
 
     <imgdir name="9101006">
-        <string name="name" value="超級狂龍斬"/>
-        <string name="desc" value="[最高等級 : 1]\n巨龍的咆哮，能打敗15只以下的敵人。"/>
+        <string name="name" value="超级狂龙斩"/>
+        <string name="desc" value="[最高等级 : 1]\n巨龙的咆哮，能打败15只以下的敌人。"/>
         <string name="h1" value="Damage 1000%, Full Screen Attack"/>
     </imgdir>
 
     <imgdir name="9101007">
-        <string name="name" value="縮地大法"/>
-        <string name="desc" value="[最高等級 : 1]\n用『上下左右』方向鍵可以瞬間移動一定的距離."/>
+        <string name="name" value="缩地大法"/>
+        <string name="desc" value="[最高等级 : 1]\n用『上下左右』方向键可以瞬间移动一定的距离."/>
         <string name="h1" value="Teleport "/>
     </imgdir>
 
     <imgdir name="9101008">
-        <string name="name" value="神聖之火"/>
-        <string name="desc" value="[最高等級:1]15分鐘內,強化肉體全體最大HP和最大MP提升60%"/>
+        <string name="name" value="神圣之火"/>
+        <string name="desc" value="[最高等级:1]15分钟内,强化肉体全体最大HP和最大MP提升60%"/>
         <string name="h1" value="Max HP, Max MP 60% increase."/>
     </imgdir>
 
     <imgdir name="0001005">
-        <string name="name" value="英雄之回聲"/>
-        <string name="desc" value="[最高等級 : 1]\n增加周邊角色的物理攻擊力和魔法攻擊力。 \n#c冷卻時間 : 2小時#"/>
+        <string name="name" value="英雄之回声"/>
+        <string name="desc" value="[最高等级 : 1]\n增加周边角色的物理攻击力和魔法攻击力。 \n#c冷却时间 : 2小时#"/>
         <string name="h1" value="MP -30 Weapon attack +4%, Magic attack +4%  for 40Minutes"/>
     </imgdir>
 
     <imgdir name="112">
-        <string name="bookName" value="終極英雄"/>
+        <string name="bookName" value="终极英雄"/>
     </imgdir>
 
     <imgdir name="1121000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 ,  For 30Secs, all stats + 1% "/>
         <string name="h2" value="MP - 10 ,  For 60Secs, all stats + 1% "/>
         <string name="h3" value="MP - 10 ,  For 90Secs, all stats + 2% "/>
@@ -5223,8 +5223,8 @@
     </imgdir>
 
     <imgdir name="1121001">
-        <string name="name" value="絕對引力"/>
-        <string name="desc" value="把遠處的敵人最多能6只吸到自己面前."/>
+        <string name="name" value="绝对引力"/>
+        <string name="desc" value="把远处的敌人最多能6只吸到自己面前."/>
         <string name="h1" value="MP - 10 , Range 100%, Success rate 42%"/>
         <string name="h2" value="MP - 10 , Range 100%, Success rate 44%"/>
         <string name="h3" value="MP - 10 , Range 100%, Success rate 46%"/>
@@ -5258,8 +5258,8 @@
     </imgdir>
 
     <imgdir name="1121002">
-        <string name="name" value="格擋"/>
-        <string name="desc" value="憑藉著強韌的精神，受到敵人的攻擊仍不會後退。"/>
+        <string name="name" value="格挡"/>
+        <string name="desc" value="凭借着强韧的精神，受到敌人的攻击仍不会后退。"/>
         <string name="h1" value="MP - 30 ,For 10secs, prevent from getting knock-backed  with success rate  42%."/>
         <string name="h2" value="MP - 30 ,For 20Secs, prevent from getting Knock-backed with success rate 44%."/>
         <string name="h3" value="MP - 30 ,For 30Secs, prevent from getting Knock-backed with success rate 46%."/>
@@ -5293,8 +5293,8 @@
     </imgdir>
 
     <imgdir name="1120003">
-        <string name="name" value="進階鬥氣"/>
-        <string name="desc" value="[最高等級：30]\n最高鬥氣量增加為10，而以一定幾率鬥氣量以兩個為單位累積，需完成鬥氣集中才可提升技能。\n必要技能：#c鬥氣集中等級30以上#"/>
+        <string name="name" value="进阶斗气"/>
+        <string name="desc" value="[最高等级：30]\n最高斗气量增加为10，而以一定几率斗气量以两个为单位累积，需完成斗气集中才可提升技能。\n必要技能：#c斗气集中等级30以上#"/>
         <string name="h1" value="Damage + 1% , Max Combo counter 1 , Recharge 2 combo counter with success rate  31%."/>
         <string name="h2" value="Damage + 2% , Max Combo counter 1 , Recharge 2 combo counter with success rate  32%."/>
         <string name="h3" value="Damage + 3% , Max Combo counter 1 , Recharge 2 combo counter with success rate  33%."/>
@@ -5349,8 +5349,8 @@
     </imgdir>
 
     <imgdir name="1120004">
-        <string name="name" value="武神防禦"/>
-        <string name="desc" value="永久強化盔甲,減弱傷害值."/>
+        <string name="name" value="武神防御"/>
+        <string name="desc" value="永久强化盔甲,减弱伤害值."/>
         <string name="h1" value="  Damage taken from enemy - 0.5% ."/>
         <string name="h2" value="  Damage taken from enemy - 1% ."/>
         <string name="h3" value="  Damage taken from enemy - 1.5% ."/>
@@ -5384,8 +5384,8 @@
     </imgdir>
 
     <imgdir name="1120005">
-        <string name="name" value="究極神盾"/>
-        <string name="desc" value="一定概率下用盾牌擋住敵人的攻擊.近距離攻擊防禦成功的話,攻擊自己的敵人2秒內處於昏迷狀態.只有裝備盾牌的時候技能才有效."/>
+        <string name="name" value="究极神盾"/>
+        <string name="desc" value="一定概率下用盾牌挡住敌人的攻击.近距离攻击防御成功的话,攻击自己的敌人2秒内处于昏迷状态.只有装备盾牌的时候技能才有效."/>
         <string name="h1" value="Block against enemies attack with success rate 0.5%"/>
         <string name="h2" value="Block against enemies attack with success rate 1%"/>
         <string name="h3" value="Block against enemies attack with success rate 1.5%"/>
@@ -5419,8 +5419,8 @@
     </imgdir>
 
     <imgdir name="1121006">
-        <string name="name" value="究極突刺"/>
-        <string name="desc" value="向前攻擊,能把自己前面的10個敵人推開."/>
+        <string name="name" value="究极突刺"/>
+        <string name="desc" value="向前攻击,能把自己前面的10个敌人推开."/>
         <string name="h1" value="MP - 22 , Damage 72%, Range 80%"/>
         <string name="h2" value="MP - 24 , Damage 74%, Range 80%"/>
         <string name="h3" value="MP - 26 , Damage 76%, Range 80%"/>
@@ -5454,8 +5454,8 @@
     </imgdir>
 
     <imgdir name="1121008">
-        <string name="name" value="無雙劍舞"/>
-        <string name="desc" value="把眼前的好幾個敵人,連續攻擊2次."/>
+        <string name="name" value="无双剑舞"/>
+        <string name="desc" value="把眼前的好几个敌人,连续攻击2次."/>
         <string name="h1" value="MP - 16 , Damage 135%, Attack 1 enemy."/>
         <string name="h2" value="MP - 16 , Damage 140%, Attack 1 enemy."/>
         <string name="h3" value="MP - 16 , Damage 145%, Attack 1 enemy."/>
@@ -5489,8 +5489,8 @@
     </imgdir>
 
     <imgdir name="1121010">
-        <string name="name" value="鬥氣爆發"/>
-        <string name="desc" value="使用10個鬥氣能量,在一定時間內提高攻擊力\n#c冷卻時間 : 8分#"/>
+        <string name="name" value="斗气爆发"/>
+        <string name="desc" value="使用10个斗气能量,在一定时间内提高攻击力\n#c冷却时间 : 8分#"/>
         <string name="h1" value="MP - 11 , Weapon attack + 11 for 10secs"/>
         <string name="h2" value="MP - 12 , Weapon attack + 12 for 20secs"/>
         <string name="h3" value="MP - 13 , fWeapon attack + 12 for 30secs"/>
@@ -5524,18 +5524,18 @@
     </imgdir>
 
     <imgdir name="1121011">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
     <imgdir name="122">
-        <string name="bookName" value="光之聖騎士"/>
+        <string name="bookName" value="光之圣骑士"/>
     </imgdir>
 
     <imgdir name="1221000">
-        <string name="name" value="冒險島勇士"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="冒险岛勇士"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 ,  For 30Secs, all stats + 1% "/>
         <string name="h2" value="MP - 10 ,  For 60Secs, all stats + 1% "/>
         <string name="h3" value="MP - 10 ,  For 90Secs, all stats + 2% "/>
@@ -5569,8 +5569,8 @@
     </imgdir>
 
     <imgdir name="1221001">
-        <string name="name" value="絕對引力"/>
-        <string name="desc" value="把遠處的敵人最多能6只吸到自己面前."/>
+        <string name="name" value="绝对引力"/>
+        <string name="desc" value="把远处的敌人最多能6只吸到自己面前."/>
         <string name="h1" value="MP - 10 , Range 100%, Success rate 42%"/>
         <string name="h2" value="MP - 10 , Range 100%, Success rate 44%"/>
         <string name="h3" value="MP - 10 , Range 100%, Success rate 46%"/>
@@ -5604,8 +5604,8 @@
     </imgdir>
 
     <imgdir name="1221002">
-        <string name="name" value="格擋"/>
-        <string name="desc" value="憑藉著強韌的精神，受到敵人的攻擊仍不會後退。"/>
+        <string name="name" value="格挡"/>
+        <string name="desc" value="凭借着强韧的精神，受到敌人的攻击仍不会后退。"/>
         <string name="h1" value="MP - 30 ,For 10secs, prevent from getting knock-backed  with success rate  42%."/>
         <string name="h2" value="MP - 30 ,For 20Secs, prevent from getting Knock-backed with success rate 44%."/>
         <string name="h3" value="MP - 30 ,For 30Secs, prevent from getting Knock-backed with success rate 46%."/>
@@ -5639,8 +5639,8 @@
     </imgdir>
 
     <imgdir name="1221003">
-        <string name="name" value="聖靈之劍"/>
-        <string name="desc" value="在一定時間內賦予劍聖屬性。若已到時間或使用屬性攻擊便會取消。"/>
+        <string name="name" value="圣灵之剑"/>
+        <string name="desc" value="在一定时间内赋予剑圣属性。若已到时间或使用属性攻击便会取消。"/>
         <string name="h1" value="MP - 20 , Damage increases by 102% for 15secs"/>
         <string name="h2" value="MP - 20 , Damage increases by 104% for 30secs"/>
         <string name="h3" value="MP - 20 , Damage increases by 106% for 45secs"/>
@@ -5664,8 +5664,8 @@
     </imgdir>
 
     <imgdir name="1221004">
-        <string name="name" value="聖靈之棍"/>
-        <string name="desc" value="在一定時間內賦予棍聖屬性。若以到時間或使用屬性攻擊便會取消。"/>
+        <string name="name" value="圣灵之棍"/>
+        <string name="desc" value="在一定时间内赋予棍圣属性。若以到时间或使用属性攻击便会取消。"/>
         <string name="h1" value="MP - 20 , Damage increases by 102% for 15secs"/>
         <string name="h2" value="MP - 20 , Damage increases by 104% for 30secs"/>
         <string name="h3" value="MP - 20 , Damage increases by 106% for 45secs"/>
@@ -5689,8 +5689,8 @@
     </imgdir>
 
     <imgdir name="1220005">
-        <string name="name" value="武神防禦"/>
-        <string name="desc" value="永久強化盔甲,減弱傷害值."/>
+        <string name="name" value="武神防御"/>
+        <string name="desc" value="永久强化盔甲,减弱伤害值."/>
         <string name="h1" value="  Damage taken from enemy - 0.5% ."/>
         <string name="h2" value="  Damage taken from enemy - 1% ."/>
         <string name="h3" value="  Damage taken from enemy - 1.5% ."/>
@@ -5724,8 +5724,8 @@
     </imgdir>
 
     <imgdir name="1220006">
-        <string name="name" value="究極神盾"/>
-        <string name="desc" value="一定概率下用盾牌擋住敵人的攻擊.近距離攻擊防禦的話,攻擊自己的敵人2秒內處於昏迷狀態.只有裝備盾牌的時候技能才有效."/>
+        <string name="name" value="究极神盾"/>
+        <string name="desc" value="一定概率下用盾牌挡住敌人的攻击.近距离攻击防御的话,攻击自己的敌人2秒内处于昏迷状态.只有装备盾牌的时候技能才有效."/>
         <string name="h1" value="Block against enemies attack with success rate 0.5%"/>
         <string name="h2" value="Block against enemies attack with success rate 1%"/>
         <string name="h3" value="Block against enemies attack with success rate 1.5%"/>
@@ -5759,8 +5759,8 @@
     </imgdir>
 
     <imgdir name="1221007">
-        <string name="name" value="究極突刺"/>
-        <string name="desc" value="向前攻擊,能把自己前面的敵人推開."/>
+        <string name="name" value="究极突刺"/>
+        <string name="desc" value="向前攻击,能把自己前面的敌人推开."/>
         <string name="h1" value="MP - 22 , Damage 72%, Range 80%"/>
         <string name="h2" value="MP - 24 , Damage 74%, Range 80%"/>
         <string name="h3" value="MP - 26 , Damage 76%, Range 80%"/>
@@ -5794,8 +5794,8 @@
     </imgdir>
 
     <imgdir name="1221009">
-        <string name="name" value="騎士衝擊波"/>
-        <string name="desc" value="給一個敵人一次強攻擊"/>
+        <string name="name" value="骑士冲击波"/>
+        <string name="desc" value="给一个敌人一次强攻击"/>
         <string name="h1" value="MP - 17 , Damage 170%"/>
         <string name="h2" value="MP - 17 , Damage 190%"/>
         <string name="h3" value="MP - 17 , Damage 210%"/>
@@ -5829,8 +5829,8 @@
     </imgdir>
 
     <imgdir name="1220010">
-        <string name="name" value="屬性強化"/>
-        <string name="desc" value="使用屬性攻擊的時候傷害上升, 一定幾率造成昏迷狀態.\n必要技能 : #c屬性攻擊 30級#"/>
+        <string name="name" value="属性强化"/>
+        <string name="desc" value="使用属性攻击的时候伤害上升, 一定几率造成昏迷状态.\n必要技能 : #c属性攻击 30级#"/>
         <string name="h1" value="Damage 260%, Charge remains intact on a success rate 10%."/>
         <string name="h2" value="Damage 270%, Charge remains intact on a success rate 20%."/>
         <string name="h3" value="Damage 280%, Charge remains intact on a success rate 30%."/>
@@ -5844,8 +5844,8 @@
     </imgdir>
 
     <imgdir name="1221011">
-        <string name="name" value="鬼神之擊"/>
-        <string name="desc" value="用大錘子敲地,攻擊15只以下的敵人.受到攻擊的敵人體力只剩1."/>
+        <string name="name" value="鬼神之击"/>
+        <string name="desc" value="用大锤子敲地,攻击15只以下的敌人.受到攻击的敌人体力只剩1."/>
         <string name="h1" value="MP - 31 , Damage 420%, Terms between skills 680secs"/>
         <string name="h2" value="MP - 32 , Damage 440%, Terms between skills 660secs"/>
         <string name="h3" value="MP - 33 , Damage 460%, Terms between skills 640secs"/>
@@ -5879,18 +5879,18 @@
     </imgdir>
 
     <imgdir name="1221012">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
     <imgdir name="132">
-        <string name="bookName" value="黑暗力量的黑騎士"/>
+        <string name="bookName" value="黑暗力量的黑骑士"/>
     </imgdir>
 
     <imgdir name="1321000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 , for 30secs, all stats +  1% "/>
         <string name="h2" value="MP - 10 , for 60secs, all stats +  1% "/>
         <string name="h3" value="MP - 10 , for 90secs, all stats +  2% "/>
@@ -5924,8 +5924,8 @@
     </imgdir>
 
     <imgdir name="1321001">
-        <string name="name" value="絕對引力"/>
-        <string name="desc" value="把遠處的敵人吸到自己面前."/>
+        <string name="name" value="绝对引力"/>
+        <string name="desc" value="把远处的敌人吸到自己面前."/>
         <string name="h1" value="MP - 10 , Range 100%, Success rate 42%"/>
         <string name="h2" value="MP - 10 , Range 100%, Success rate 44%"/>
         <string name="h3" value="MP - 10 , Range 100%, Success rate 46%"/>
@@ -5959,8 +5959,8 @@
     </imgdir>
 
     <imgdir name="1321002">
-        <string name="name" value="格擋"/>
-        <string name="desc" value="憑藉著強韌的精神，受到敵人的攻擊仍不會後退。"/>
+        <string name="name" value="格挡"/>
+        <string name="desc" value="凭借着强韧的精神，受到敌人的攻击仍不会后退。"/>
         <string name="h1" value="MP - 30 ,For 10secs, prevent from getting knock-backed  with success rate  42%."/>
         <string name="h2" value="MP - 30 ,For 20Secs, prevent from getting Knock-backed with success rate 44%."/>
         <string name="h3" value="MP - 30 ,For 30Secs, prevent from getting Knock-backed with success rate 46%."/>
@@ -5994,8 +5994,8 @@
     </imgdir>
 
     <imgdir name="1321003">
-        <string name="name" value="究極突刺"/>
-        <string name="desc" value="向前方猛烈刺擊，打倒所有阻擋在面前的敵人。"/>
+        <string name="name" value="究极突刺"/>
+        <string name="desc" value="向前方猛烈刺击，打倒所有阻挡在面前的敌人。"/>
         <string name="h1" value="MP - 22 , Damage 72%, Range 80%"/>
         <string name="h2" value="MP - 24 , Damage 74%, Range 80%"/>
         <string name="h3" value="MP - 26 , Damage 76%, Range 80%"/>
@@ -6029,8 +6029,8 @@
     </imgdir>
 
     <imgdir name="1320005">
-        <string name="name" value="武神防禦"/>
-        <string name="desc" value="永久強化盔甲,減弱傷害值."/>
+        <string name="name" value="武神防御"/>
+        <string name="desc" value="永久强化盔甲,减弱伤害值."/>
         <string name="h1" value="  Damage taken from enemy - 0.5% ."/>
         <string name="h2" value="  Damage taken from enemy - 1% ."/>
         <string name="h3" value="  Damage taken from enemy - 1.5% ."/>
@@ -6065,7 +6065,7 @@
 
     <imgdir name="1320006">
         <string name="name" value="黑暗力量"/>
-        <string name="desc" value="HP下降到一定水平的話,黑騎士內心中沉睡的靈魂爆發,使攻擊傷害增加. 體力恢復的話,技能效果消失."/>
+        <string name="desc" value="HP下降到一定水平的话,黑骑士内心中沉睡的灵魂爆发,使攻击伤害增加. 体力恢复的话,技能效果消失."/>
         <string name="h1" value="When HP falls to 11% and below, Damage increases by 113%"/>
         <string name="h2" value="When HP falls to 12% and below, Damage increases by 116%"/>
         <string name="h3" value="When HP falls to 13% and below, Damage increases by 119%"/>
@@ -6099,8 +6099,8 @@
     </imgdir>
 
     <imgdir name="1321007">
-        <string name="name" value="暗之靈魂"/>
-        <string name="desc" value="召喚靈魂助力. 用靈魂助力的力永久地提高武器熟練度."/>
+        <string name="name" value="暗之灵魂"/>
+        <string name="desc" value="召唤灵魂助力. 用灵魂助力的力永久地提高武器熟练度."/>
         <string name="h1" value="MP - 114 , Summon Beholder for 11 Minutes,  Mastery + 5% ."/>
         <string name="h2" value="MP - 108 , Summon Beholder for 12 Minutes,  Mastery + 5% ."/>
         <string name="h3" value="MP - 102 , Summon Beholder for 13 Minutes,  Mastery + 10% ."/>
@@ -6114,8 +6114,8 @@
     </imgdir>
 
     <imgdir name="1320008">
-        <string name="name" value="闇靈治癒"/>
-        <string name="desc" value="靈魂治癒在每一定時間內補充黑騎士的體力.技能級別上升,HP恢復量也上升.\n必要技能 : #c靈魂助力 1級 以上#"/>
+        <string name="name" value="暗灵治愈"/>
+        <string name="desc" value="灵魂治愈在每一定时间内补充黑骑士的体力.技能级别上升,HP恢复量也上升.\n必要技能 : #c灵魂助力 1级 以上#"/>
         <string name="h1" value="For every 10secs, recovers  HP + 40 ."/>
         <string name="h2" value="For every 10secs, recovers  HP + 55 ."/>
         <string name="h3" value="For every 10secs, recovers  HP + 70 ."/>
@@ -6144,9 +6144,9 @@
     </imgdir>
 
     <imgdir name="1320009">
-        <string name="name" value="黑暗守護"/>
+        <string name="name" value="黑暗守护"/>
         <string name="desc"
-                value="靈魂祝福在每一定時間使用狀態. 根據技能等級不同發動物理防禦力, 魔法防禦力, 迴避率, 命中率, 物理攻擊力上升的狀態.\n必要技能 : #c靈魂助力 1級 以上#"/>
+                value="灵魂祝福在每一定时间使用状态. 根据技能等级不同发动物理防御力, 魔法防御力, 回避率, 命中率, 物理攻击力上升的状态.\n必要技能 : #c灵魂助力 1级 以上#"/>
         <string name="h1" value="Buff for Weapon def on every 58secs for a duration of 20secs.  "/>
         <string name="h2" value="Buff for Weapon def on every 56secs for a duration of 20secs.  "/>
         <string name="h3" value="Buff for Weapon def on every 54secs for a duration of 20secs.  "/>
@@ -6190,18 +6190,18 @@
     </imgdir>
 
     <imgdir name="1321010">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condtion"/>
     </imgdir>
 
     <imgdir name="212">
-        <string name="bookName" value="最頂級火毒魔法"/>
+        <string name="bookName" value="最顶级火毒魔法"/>
     </imgdir>
 
     <imgdir name="2121000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 , for 30secs, all stats +1%"/>
         <string name="h2" value="MP - 10 , for 60secs,  all stats + 1% ."/>
         <string name="h3" value="MP - 10 , for 90secs,  all stats + 2% ."/>
@@ -6235,8 +6235,8 @@
     </imgdir>
 
     <imgdir name="2121001">
-        <string name="name" value="核爆術"/>
-        <string name="desc" value="一定時間內集中周圍的微小顆粒的能量，一次性引爆強烈的爆炸"/>
+        <string name="name" value="核爆术"/>
+        <string name="desc" value="一定时间内集中周围的微小颗粒的能量，一次性引爆强烈的爆炸"/>
         <string name="h1" value="MP - 25 , Max Attack 160, Skill 35"/>
         <string name="h2" value="MP - 25 , Max Attack 170, Skill 35"/>
         <string name="h3" value="MP - 25 , Max Attack 180, Skill 35"/>
@@ -6270,8 +6270,8 @@
     </imgdir>
 
     <imgdir name="2121002">
-        <string name="name" value="魔法反擊"/>
-        <string name="desc" value="改變魔法的流向來攻擊敵人.一次最多返還敵人的20%體力"/>
+        <string name="name" value="魔法反击"/>
+        <string name="desc" value="改变魔法的流向来攻击敌人.一次最多返还敌人的20%体力"/>
         <string name="h1"
                 value="MP - 26 , for duration of 10secs, with success rate 31%, returns 55% of magic damage received back to enemy.."/>
         <string name="h2"
@@ -6335,8 +6335,8 @@
     </imgdir>
 
     <imgdir name="2121003">
-        <string name="name" value="炎靈地獄"/>
-        <string name="desc" value="火鳳球用火柱環繞怪物,給予持續傷害。被火鳳球抓住的人冰系抗性降低。"/>
+        <string name="name" value="炎灵地狱"/>
+        <string name="desc" value="火凤球用火柱环绕怪物,给予持续伤害。被火凤球抓住的人冰系抗性降低。"/>
         <string name="h1" value="MP - 15 , Basic attack 62, Mastery 15%, for 10secs, attack up to 2 enemies. "/>
         <string name="h2" value="MP - 15 , Basic attack 64, Mastery 15%, for 10secs, attack up to 2 enemies. "/>
         <string name="h3" value="MP - 15 , Basic attack 66, Mastery 15%, for 10secs, attack up to 2 enemies. "/>
@@ -6370,8 +6370,8 @@
     </imgdir>
 
     <imgdir name="2121004">
-        <string name="name" value="魔力無限"/>
-        <string name="desc" value="一定時間內搜集周圍的魔力,不消耗魔法值. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="魔力无限"/>
+        <string name="desc" value="一定时间内搜集周围的魔力,不消耗魔法值. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="For 11secs, Mana is left intacted."/>
         <string name="h2" value="For 12secs, Mana is left intacted."/>
         <string name="h3" value="For 13secs, Mana is left intacted."/>
@@ -6405,8 +6405,8 @@
     </imgdir>
 
     <imgdir name="2121005">
-        <string name="name" value="召喚冰魔"/>
-        <string name="desc" value="一定時間內召喚冰屬性的冰破魔獸. 最多攻擊3只敵人.\n必要技能 : #c火鳳球等級5以上#"/>
+        <string name="name" value="召唤冰魔"/>
+        <string name="desc" value="一定时间内召唤冰属性的冰破魔兽. 最多攻击3只敌人.\n必要技能 : #c火凤球等级5以上#"/>
         <string name="h1" value="MP - 13 , Basic attack 153, for 15secs"/>
         <string name="h2" value="MP - 16 , Basic attack 156, for 20secs"/>
         <string name="h3" value="MP - 19 , Basic attack 159, for 25secs"/>
@@ -6440,8 +6440,8 @@
     </imgdir>
 
     <imgdir name="2121006">
-        <string name="name" value="劇毒麻痺"/>
-        <string name="desc" value="給一個敵人傷害後,一定時間內使之麻痺."/>
+        <string name="name" value="剧毒麻痹"/>
+        <string name="desc" value="给一个敌人伤害后,一定时间内使之麻痹."/>
         <string name="h1" value="MP - 16 , Basic attack 133, Mastery 15%, for 5secs"/>
         <string name="h2" value="MP - 16 , Basic attack 136, Mastery 15%, for 5secs"/>
         <string name="h3" value="MP - 16 , Basic attack 139, Mastery 15%, for 5secs"/>
@@ -6476,7 +6476,7 @@
 
     <imgdir name="2121007">
         <string name="name" value="火流星"/>
-        <string name="desc" value="從天空召喚隕石,向15只以下的多數怪物給予強烈的火焰傷害."/>
+        <string name="desc" value="从天空召唤陨石,向15只以下的多数怪物给予强烈的火焰伤害."/>
         <string name="h1" value="MP - 2100 , Basic attack 330"/>
         <string name="h2" value="MP - 2200 , Basic attack 340"/>
         <string name="h3" value="MP - 2300 , Basic attack 350"/>
@@ -6510,18 +6510,18 @@
     </imgdir>
 
     <imgdir name="2121008">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
     <imgdir name="222">
-        <string name="bookName" value="最頂級冰雷魔法"/>
+        <string name="bookName" value="最顶级冰雷魔法"/>
     </imgdir>
 
     <imgdir name="2221000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 , for 30secs , all stats + 1% ."/>
         <string name="h2" value="MP - 10 , for 60secs , all stats + 1% ."/>
         <string name="h3" value="MP - 10 , for 90secs , all stats + 2% ."/>
@@ -6555,8 +6555,8 @@
     </imgdir>
 
     <imgdir name="2221001">
-        <string name="name" value="核爆術"/>
-        <string name="desc" value="一定時間內搜集周圍離子的力量,引起一次性大爆炸"/>
+        <string name="name" value="核爆术"/>
+        <string name="desc" value="一定时间内搜集周围离子的力量,引起一次性大爆炸"/>
         <string name="h1" value="MP - 25 , Max attack 160, Mastery 35%"/>
         <string name="h2" value="MP - 25 , Max attack 170, Mastery 35%"/>
         <string name="h3" value="MP - 25 , Max attack 180, Mastery 35%"/>
@@ -6590,8 +6590,8 @@
     </imgdir>
 
     <imgdir name="2221002">
-        <string name="name" value="魔法反擊"/>
-        <string name="desc" value="B改變魔法的流向來攻擊敵人.一次最多返還敵人的20%體力"/>
+        <string name="name" value="魔法反击"/>
+        <string name="desc" value="B改变魔法的流向来攻击敌人.一次最多返还敌人的20%体力"/>
         <string name="h1"
                 value="MP - 26 , for duration of 10secs, with success rate 31%, returns 55% of magic damage received back to enemy.."/>
         <string name="h2"
@@ -6655,8 +6655,8 @@
     </imgdir>
 
     <imgdir name="2221003">
-        <string name="name" value="寒冰地獄"/>
-        <string name="desc" value="凍結多數怪物,給予持續傷害.被冰鳳球抓住的人火系抗性降低."/>
+        <string name="name" value="寒冰地狱"/>
+        <string name="desc" value="冻结多数怪物,给予持续伤害.被冰凤球抓住的人火系抗性降低."/>
         <string name="h1" value="MP - 15 , Basic attack 42, Mastery 15%, for 10secs, attack up to 2 enemies."/>
         <string name="h2" value="MP - 15 , Basic attack 44, Mastery 15%, for 10secs, attack up to 2 enemies."/>
         <string name="h3" value="MP - 15 , Basic attack 46, Mastery 15%, for 10secs, attack up to 2 enemies."/>
@@ -6690,8 +6690,8 @@
     </imgdir>
 
     <imgdir name="2221004">
-        <string name="name" value="魔力無限"/>
-        <string name="desc" value="一定時間內搜集周圍的魔力,不消耗魔法值 \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="魔力无限"/>
+        <string name="desc" value="一定时间内搜集周围的魔力,不消耗魔法值 \n#c冷却时间 : 10分#"/>
         <string name="h1" value="For 11secs, Mana is left intacted."/>
         <string name="h2" value="For 12secs, Mana is left intacted."/>
         <string name="h3" value="For 13secs, Mana is left intacted."/>
@@ -6725,8 +6725,8 @@
     </imgdir>
 
     <imgdir name="2221005">
-        <string name="name" value="召喚火炎神"/>
-        <string name="desc" value="一定時間內召喚火屬性的火魔獸. 最多攻擊3只敵人.\n必要技能 : #c冰鳳球等級5以上#"/>
+        <string name="name" value="召唤火炎神"/>
+        <string name="desc" value="一定时间内召唤火属性的火魔兽. 最多攻击3只敌人.\n必要技能 : #c冰凤球等级5以上#"/>
         <string name="h1" value="MP - 13 , Basic attack 183, for 15secs"/>
         <string name="h2" value="MP - 16 , Basic attack 186, for 20secs"/>
         <string name="h3" value="MP - 19 , Basic attack 189, for 25secs"/>
@@ -6760,8 +6760,8 @@
     </imgdir>
 
     <imgdir name="2221006">
-        <string name="name" value="閃電連擊"/>
-        <string name="desc" value="使用高壓電,給敵人電屬性攻擊.被電擊的敵人周圍要是有其他敵人,同樣會受傷害."/>
+        <string name="name" value="闪电连击"/>
+        <string name="desc" value="使用高压电,给敌人电属性攻击.被电击的敌人周围要是有其他敌人,同样会受伤害."/>
         <string name="h1" value="MP - 16 , Basic attack 103, Mastery 15%, Damage up to  2enemies."/>
         <string name="h2" value="MP - 16 , Basic attack 106, Mastery 15%, Damage up to  2enemies."/>
         <string name="h3" value="MP - 16 , Basic attack 109, Mastery 15%, Damage up to  2enemies."/>
@@ -6795,8 +6795,8 @@
     </imgdir>
 
     <imgdir name="2221007">
-        <string name="name" value="暴風雪"/>
-        <string name="desc" value="從天空掉冰槍,給15只以下的怪物強烈的冰屬性傷害."/>
+        <string name="name" value="暴风雪"/>
+        <string name="desc" value="从天空掉冰枪,给15只以下的怪物强烈的冰属性伤害."/>
         <string name="h1" value="MP - 2100 , Basic attack 330"/>
         <string name="h2" value="MP - 2200 , Basic attack 340"/>
         <string name="h3" value="MP - 2300 , Basic attack 350"/>
@@ -6830,18 +6830,18 @@
     </imgdir>
 
     <imgdir name="2221008">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
     <imgdir name="232">
-        <string name="bookName" value="最頂級神聖魔法"/>
+        <string name="bookName" value="最顶级神圣魔法"/>
     </imgdir>
 
     <imgdir name="2321000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 , for 30secs , all stats + 1% ."/>
         <string name="h2" value="MP - 10 , for 60secs , all stats + 1% ."/>
         <string name="h3" value="MP - 10 , for 90secs , all stats + 2% ."/>
@@ -6875,8 +6875,8 @@
     </imgdir>
 
     <imgdir name="2321001">
-        <string name="name" value="核爆術"/>
-        <string name="desc" value="一定時間內搜集周圍離子的力量,引起一次性大爆炸"/>
+        <string name="name" value="核爆术"/>
+        <string name="desc" value="一定时间内搜集周围离子的力量,引起一次性大爆炸"/>
         <string name="h1" value="MP - 25 , Max attack 160, Mastery 35"/>
         <string name="h2" value="MP - 25 , Max attack 170, Mastery 35"/>
         <string name="h3" value="MP - 25 , Max attack 180, Mastery 35"/>
@@ -6910,8 +6910,8 @@
     </imgdir>
 
     <imgdir name="2321002">
-        <string name="name" value="魔法反擊"/>
-        <string name="desc" value="用內力,改變魔法的流向來攻擊敵人.一次最多返還敵人的20%體力"/>
+        <string name="name" value="魔法反击"/>
+        <string name="desc" value="用内力,改变魔法的流向来攻击敌人.一次最多返还敌人的20%体力"/>
         <string name="h1" value="MP - 26 , success rate 10secs 31%, Return 55%of magic damage received to enemy.."/>
         <string name="h2" value="MP - 27 , success rate 20secs 32%, Return 60%of magic damage received to enemy.."/>
         <string name="h3" value="MP - 28 , success rate 30secs 33%, Return 65%of magic damage received to enemy.."/>
@@ -6945,8 +6945,8 @@
     </imgdir>
 
     <imgdir name="2321003">
-        <string name="name" value="召喚神龍"/>
-        <string name="desc" value="一定時間內召喚聖龍.最多攻擊3個敵人\n必需技能 : #c聖龍召喚等級15以上#"/>
+        <string name="name" value="召唤神龙"/>
+        <string name="desc" value="一定时间内召唤圣龙.最多攻击3个敌人\n必需技能 : #c圣龙召唤等级15以上#"/>
         <string name="h1" value="MP - 13 , Basic attack 113, for 15secs"/>
         <string name="h2" value="MP - 16 , Basic attack 116, for 20secs"/>
         <string name="h3" value="MP - 19 , Basic attack 119, for 25secs"/>
@@ -6980,8 +6980,8 @@
     </imgdir>
 
     <imgdir name="2321004">
-        <string name="name" value="魔力無限"/>
-        <string name="desc" value="一定時間內搜集周圍的魔力,不消耗魔法值 \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="魔力无限"/>
+        <string name="desc" value="一定时间内搜集周围的魔力,不消耗魔法值 \n#c冷却时间 : 10分#"/>
         <string name="h1" value="For 11secs, Mana is left intacted."/>
         <string name="h2" value="For 12secs, Mana is left intacted."/>
         <string name="h3" value="For 13secs, Mana is left intacted."/>
@@ -7015,8 +7015,8 @@
     </imgdir>
 
     <imgdir name="2321005">
-        <string name="name" value="聖盾護鎧"/>
-        <string name="desc" value="一定時間內防止組隊成員中異常狀態. \n#c冷卻時間 : 2分#"/>
+        <string name="name" value="圣盾护铠"/>
+        <string name="desc" value="一定时间内防止组队成员中异常状态. \n#c冷却时间 : 2分#"/>
         <string name="h1" value="MP - 12 , for 11secs."/>
         <string name="h2" value="MP - 14 , for 12secs."/>
         <string name="h3" value="MP - 16 , for 13secs."/>
@@ -7050,8 +7050,8 @@
     </imgdir>
 
     <imgdir name="2321006">
-        <string name="name" value="復甦之光"/>
-        <string name="desc" value="用神聖的光召喚組隊成員的靈魂,使之復活."/>
+        <string name="name" value="复苏之光"/>
+        <string name="desc" value="用神圣的光召唤组队成员的灵魂,使之复活."/>
         <string name="h1" value="MP - 85 , Terms between skills : 57Minutes"/>
         <string name="h2" value="MP - 80 , Terms between skills : 54Minutes"/>
         <string name="h3" value="MP - 75 , Terms between skills : 51Minutes"/>
@@ -7066,7 +7066,7 @@
 
     <imgdir name="2321007">
         <string name="name" value="天使之箭"/>
-        <string name="desc" value="用神聖的弓箭,給一個敵人聖屬性攻擊."/>
+        <string name="desc" value="用神圣的弓箭,给一个敌人圣属性攻击."/>
         <string name="h1" value="MP - 16 , Basic attack 123, Mastery 15%"/>
         <string name="h2" value="MP - 16 , Basic attack 126, Mastery 15%"/>
         <string name="h3" value="MP - 16 , Basic attack 129, Mastery 15%"/>
@@ -7101,7 +7101,7 @@
 
     <imgdir name="2321008">
         <string name="name" value="天怒"/>
-        <string name="desc" value="從天空掉落神聖的光,給15只以下的敵人給予聖屬性傷害"/>
+        <string name="desc" value="从天空掉落神圣的光,给15只以下的敌人给予圣属性伤害"/>
         <string name="h1" value="MP - 2100 , Basic attack 430"/>
         <string name="h2" value="MP - 2200 , Basic attack 440"/>
         <string name="h3" value="MP - 2300 , Basic attack 450"/>
@@ -7135,18 +7135,18 @@
     </imgdir>
 
     <imgdir name="2321009">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
     <imgdir name="312">
-        <string name="bookName" value="弓箭達人"/>
+        <string name="bookName" value="弓箭达人"/>
     </imgdir>
 
     <imgdir name="3121000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 , for 30secs,  all stats + 1% ."/>
         <string name="h2" value="MP - 10 , for 60secs,  all stats + 1% ."/>
         <string name="h3" value="MP - 10 , for 90secs,  all stats + 2% ."/>
@@ -7180,8 +7180,8 @@
     </imgdir>
 
     <imgdir name="3121002">
-        <string name="name" value="會心之眼"/>
-        <string name="desc" value="賦予組隊成員針對敵人尋找弱點並給予敵人致命傷的能力."/>
+        <string name="name" value="会心之眼"/>
+        <string name="desc" value="赋予组队成员针对敌人寻找弱点并给予敌人致命伤的能力."/>
         <string name="h1" value="MP - 29 , for 10secs , Critical rate 1%, Damage + 11% ."/>
         <string name="h2" value="MP - 29 , for 20secs , Critical rate 1%, Damage + 12% ."/>
         <string name="h3" value="MP - 29 , for 30secs , Critical rate 2%, Damage + 13% ."/>
@@ -7215,8 +7215,8 @@
     </imgdir>
 
     <imgdir name="3121003">
-        <string name="name" value="龍魂之箭"/>
-        <string name="desc" value="召喚龍的靈魂發射強有力的箭. 被箭射中的敵人被退後很遠"/>
+        <string name="name" value="龙魂之箭"/>
+        <string name="desc" value="召唤龙的灵魂发射强有力的箭. 被箭射中的敌人被退后很远"/>
         <string name="h1" value="MP - 24 , attack 42%, attacks up to 4 enemies"/>
         <string name="h2" value="MP - 24 , attack 44%, attacks up to 4 enemies"/>
         <string name="h3" value="MP - 24 , attack 46%, attacks up to 4 enemies"/>
@@ -7250,8 +7250,8 @@
     </imgdir>
 
     <imgdir name="3121004">
-        <string name="name" value="暴風神射"/>
-        <string name="desc" value="像暴風雨一樣快速之的發射箭. 摁住此技能鍵的狀態可持續發射"/>
+        <string name="name" value="暴风神射"/>
+        <string name="desc" value="像暴风雨一样快速之的发射箭. 摁住此技能键的状态可持续发射"/>
         <string name="h1" value="MP - 6 , Damage 51%"/>
         <string name="h2" value="MP - 6 , Damage 52%"/>
         <string name="h3" value="MP - 6 , Damage 53%"/>
@@ -7285,8 +7285,8 @@
     </imgdir>
 
     <imgdir name="3120005">
-        <string name="name" value="弓術精通"/>
-        <string name="desc" value="提高弓系武器的熟練度和攻擊力. 只可適用於拿弓系武器的時候.\n必要技能 : #c精準之弓 20級#"/>
+        <string name="name" value="弓术精通"/>
+        <string name="desc" value="提高弓系武器的熟练度和攻击力. 只可适用于拿弓系武器的时候.\n必要技能 : #c精准之弓 20级#"/>
         <string name="h1" value="Bow Mastery 65%"/>
         <string name="h2" value="Bow Mastery 65%"/>
         <string name="h3" value="Bow Mastery 65%, Weapon attack + 1 ."/>
@@ -7320,8 +7320,8 @@
     </imgdir>
 
     <imgdir name="3121006">
-        <string name="name" value="召喚鳳凰"/>
-        <string name="desc" value="一定時間內召喚火屬性的火鳳凰. 最多攻擊4隻怪物.\n必要技能 : #c銀鷹召喚 15級 以上#"/>
+        <string name="name" value="召唤凤凰"/>
+        <string name="desc" value="一定时间内召唤火属性的火凤凰. 最多攻击4只怪物.\n必要技能 : #c银鹰召唤 15级 以上#"/>
         <string name="h1" value="MP - 42 , Basic attack 305, for 113secs."/>
         <string name="h2" value="MP - 44 , Basic attack 310, for 116secs."/>
         <string name="h3" value="MP - 46 , Basic attack 315, for 119secs."/>
@@ -7355,8 +7355,8 @@
     </imgdir>
 
     <imgdir name="3121007">
-        <string name="name" value="牽制射擊"/>
-        <string name="desc" value="用一定幾率攻擊敵人的腿部,使敵人降低移動速度."/>
+        <string name="name" value="牵制射击"/>
+        <string name="desc" value="用一定几率攻击敌人的腿部,使敌人降低移动速度."/>
         <string name="h1"
                 value="MP - 12 , within 35secs , with success rate 11%, decreases enemy&apos;s speed by 2 for 5secs"/>
         <string name="h2"
@@ -7421,7 +7421,7 @@
 
     <imgdir name="3121008">
         <string name="name" value="念力集中"/>
-        <string name="desc" value="一定時間內攻擊力上升,技能使用時的魔法值也下降.\n#c 冷卻時間 : 6分#"/>
+        <string name="desc" value="一定时间内攻击力上升,技能使用时的魔法值也下降.\n#c 冷却时间 : 6分#"/>
         <string name="h1" value="MP - 11 , Weapon Attack increases by 11, Mana spend -2%, for 60secs"/>
         <string name="h2" value="MP - 12 , Weapon Attack increases by 12, Mana spend -4%, for 60secs"/>
         <string name="h3" value="MP - 13 , Weapon Attack increases by 12, Mana spend -6%, for 60secs"/>
@@ -7455,18 +7455,18 @@
     </imgdir>
 
     <imgdir name="3121009">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
     <imgdir name="322">
-        <string name="bookName" value="弩弓的達人"/>
+        <string name="bookName" value="弩弓的达人"/>
     </imgdir>
 
     <imgdir name="3221000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 , for 30secs , all stats + 1% ."/>
         <string name="h2" value="MP - 10 , for 60secs , all stats + 1% ."/>
         <string name="h3" value="MP - 10 , for 90secs , all stats + 2% ."/>
@@ -7501,7 +7501,7 @@
 
     <imgdir name="3221001">
         <string name="name" value="光速神弩"/>
-        <string name="desc" value="復活龍的靈魂射箭.穿越敵人時吸收能量,變的更強."/>
+        <string name="desc" value="复活龙的灵魂射箭.穿越敌人时吸收能量,变的更强."/>
         <string name="h1" value="MP - 18 , Max Attacks 320%, Attacks up to 4 enemies"/>
         <string name="h2" value="MP - 18 , Max Attacks 340%, Attacks up to 4 enemies"/>
         <string name="h3" value="MP - 18 , Max Attacks 360%, Attacks up to 4 enemies"/>
@@ -7535,8 +7535,8 @@
     </imgdir>
 
     <imgdir name="3221002">
-        <string name="name" value="會心之眼"/>
-        <string name="desc" value="賦予組隊成員針對敵人尋找弱點並給予敵人致命傷的能力."/>
+        <string name="name" value="会心之眼"/>
+        <string name="desc" value="赋予组队成员针对敌人寻找弱点并给予敌人致命伤的能力."/>
         <string name="h1" value="MP - 29 , for 10secs, critical rate 1%, Damage 11% ."/>
         <string name="h2" value="MP - 29 , for 20secs, critical rate 1%, Damage 12% ."/>
         <string name="h3" value="MP - 29 , for 30secs, critical rate 2%, Damage 13% ."/>
@@ -7570,8 +7570,8 @@
     </imgdir>
 
     <imgdir name="3221003">
-        <string name="name" value="龍魂之箭"/>
-        <string name="desc" value="召喚龍的靈魂發射強有力的箭. 被箭射中的敵人被退後很遠"/>
+        <string name="name" value="龙魂之箭"/>
+        <string name="desc" value="召唤龙的灵魂发射强有力的箭. 被箭射中的敌人被退后很远"/>
         <string name="h1" value="MP - 24 , Attacks 42%, Attacks up to  4 enemies"/>
         <string name="h2" value="MP - 24 , Attacks 44%, Attacks up to  4 enemies"/>
         <string name="h3" value="MP - 24 , Attacks 46%, Attacks up to  4 enemies"/>
@@ -7605,8 +7605,8 @@
     </imgdir>
 
     <imgdir name="3220004">
-        <string name="name" value="弩術精通"/>
-        <string name="desc" value="提高弩弓系武器的熟練度和攻擊力. 必須持有弩弓的時候才適用.\n必要技能 : #c精準之弩 20級#"/>
+        <string name="name" value="弩术精通"/>
+        <string name="desc" value="提高弩弓系武器的熟练度和攻击力. 必须持有弩弓的时候才适用.\n必要技能 : #c精准之弩 20级#"/>
         <string name="h1" value="Cross bow Mastery 65%"/>
         <string name="h2" value="Cross bow Mastery 65%"/>
         <string name="h3" value="Cross bow Mastery 65%, Weapon attack + 1 ."/>
@@ -7640,8 +7640,8 @@
     </imgdir>
 
     <imgdir name="3221005">
-        <string name="name" value="召喚銀隼"/>
-        <string name="desc" value="一定時間內召喚冰屬性的冰鳳凰. 最多可攻擊4隻怪物.\n必要技能 : #c金鷹召喚 15級 以上#"/>
+        <string name="name" value="召唤银隼"/>
+        <string name="desc" value="一定时间内召唤冰属性的冰凤凰. 最多可攻击4只怪物.\n必要技能 : #c金鹰召唤 15级 以上#"/>
         <string name="h1" value="MP - 42 , Attack 255%, for 113secs"/>
         <string name="h2" value="MP - 44 , Attack 260%, for 116secs"/>
         <string name="h3" value="MP - 46 , Attack 265%, for 119secs"/>
@@ -7675,8 +7675,8 @@
     </imgdir>
 
     <imgdir name="3221006">
-        <string name="name" value="黑暗狙擊"/>
-        <string name="desc" value="瞄準敵人的眼睛,阻礙視野. 一定時間內降低敵人的命中率."/>
+        <string name="name" value="黑暗狙击"/>
+        <string name="desc" value="瞄准敌人的眼睛,阻碍视野. 一定时间内降低敌人的命中率."/>
         <string name="h1"
                 value="MP - 12 , For 35secs, with success rate  11%, enemy&apos;s accuracy decreases by 1% for 5secs"/>
         <string name="h2"
@@ -7740,8 +7740,8 @@
     </imgdir>
 
     <imgdir name="3221007">
-        <string name="name" value="必殺狙擊"/>
-        <string name="desc" value="瞄準敵人的要害,一擊打倒敵人."/>
+        <string name="name" value="必杀狙击"/>
+        <string name="desc" value="瞄准敌人的要害,一击打倒敌人."/>
         <string name="h1" value="MP - 40 , Terms between skills 300secs"/>
         <string name="h2" value="MP - 39 , Terms between skills 290secs"/>
         <string name="h3" value="MP - 38 , Terms between skills 280secs"/>
@@ -7775,8 +7775,8 @@
     </imgdir>
 
     <imgdir name="3221008">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
@@ -7785,8 +7785,8 @@
     </imgdir>
 
     <imgdir name="4121000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 , for 30secs , all stats + 1% ."/>
         <string name="h2" value="MP - 10 , for 60secs , all stats + 1% ."/>
         <string name="h3" value="MP - 10 , for 90secs , all stats + 2% ."/>
@@ -7820,8 +7820,8 @@
     </imgdir>
 
     <imgdir name="4120002">
-        <string name="name" value="瞬身迴避"/>
-        <string name="desc" value="以極快的反射神經躲避敵人的攻擊."/>
+        <string name="name" value="瞬身回避"/>
+        <string name="desc" value="以极快的反射神经躲避敌人的攻击."/>
         <string name="h1" value="Avoid enemy&apos;s attack with success rate 1%"/>
         <string name="h2" value="Avoid enemy&apos;s attack with success rate 2%"/>
         <string name="h3" value="Avoid enemy&apos;s attack with success rate 3%"/>
@@ -7855,8 +7855,8 @@
     </imgdir>
 
     <imgdir name="4121003">
-        <string name="name" value="挑釁"/>
-        <string name="desc" value="最多可以把6只敵人陷入挑釁狀態.隨著敵人的防禦力上升敵人掉落的經驗值和物品掉落率上升.\n必需技能: #c假動作等級10以上#"/>
+        <string name="name" value="挑衅"/>
+        <string name="desc" value="最多可以把6只敌人陷入挑衅状态.随着敌人的防御力上升敌人掉落的经验值和物品掉落率上升.\n必需技能: #c假动作等级10以上#"/>
         <string name="h1" value="MP - 21 , Increases  11% of enemy&apos;s def, Exp, item drop rate."/>
         <string name="h2" value="MP - 22 , Increases  12% of enemy&apos;s def, Exp, item drop rate."/>
         <string name="h3" value="MP - 23 , Increases  13% of enemy&apos;s def, Exp, item drop rate."/>
@@ -7890,8 +7890,8 @@
     </imgdir>
 
     <imgdir name="4121004">
-        <string name="name" value="忍影瞬殺"/>
-        <string name="desc" value="[最高等級 : 30]\n給一定範圍內的敵人持續的傷害.一次不能攻擊6只以上,HP不掉到1以下.\n必要技能 : #c假動作等級5以上#"/>
+        <string name="name" value="忍影瞬杀"/>
+        <string name="desc" value="[最高等级 : 30]\n给一定范围内的敌人持续的伤害.一次不能攻击6只以上,HP不掉到1以下.\n必要技能 : #c假动作等级5以上#"/>
         <string name="h1" value="MP - 16 , Damage 62%, for 4secs, attack range 110%"/>
         <string name="h2" value="MP - 16 , Damage 64%, for 4secs, attack range 110%"/>
         <string name="h3" value="MP - 16 , Damage 66%, for 4secs, attack range 110%"/>
@@ -7925,8 +7925,8 @@
     </imgdir>
 
     <imgdir name="4120005">
-        <string name="name" value="飛毒殺"/>
-        <string name="desc" value="在飛鏢上塗抹毒藥攻擊敵人使它一定幾率中毒受持續傷害.最多可重複3次,敵人的HP不會掉落1以下."/>
+        <string name="name" value="飞毒杀"/>
+        <string name="desc" value="在飞镖上涂抹毒药攻击敌人使它一定几率中毒受持续伤害.最多可重复3次,敌人的HP不会掉落1以下."/>
         <string name="h1" value="Attack 31, for 2secs, success rate 12%"/>
         <string name="h2" value="Attack 32, for 2secs, success rate 12%"/>
         <string name="h3" value="Attack 33, for 2secs, success rate 12%"/>
@@ -7960,8 +7960,8 @@
     </imgdir>
 
     <imgdir name="4121006">
-        <string name="name" value="無形鏢"/>
-        <string name="desc" value="一下子消耗飛鏢200個後,一定時間內可以不消耗飛鏢攻擊敵人."/>
+        <string name="name" value="无形镖"/>
+        <string name="desc" value="一下子消耗飞镖200个后,一定时间内可以不消耗飞镖攻击敌人."/>
         <string name="h1" value="MP - 15 , for 62secs"/>
         <string name="h2" value="MP - 15 , for 64secs"/>
         <string name="h3" value="MP - 15 , for 66secs"/>
@@ -7995,8 +7995,8 @@
     </imgdir>
 
     <imgdir name="4121007">
-        <string name="name" value="四飛閃"/>
-        <string name="desc" value="一下子扔4個飛鏢攻擊."/>
+        <string name="name" value="四飞闪"/>
+        <string name="desc" value="一下子扔4个飞镖攻击."/>
         <string name="h1" value="MP - 11, Damage 102%"/>
         <string name="h2" value="MP - 11, Damage 104%"/>
         <string name="h3" value="MP - 11, Damage 106%"/>
@@ -8030,8 +8030,8 @@
     </imgdir>
 
     <imgdir name="4121008">
-        <string name="name" value="忍術風影"/>
-        <string name="desc" value="隱藏的忍者快速之旋轉使敵人左右推開."/>
+        <string name="name" value="忍术风影"/>
+        <string name="desc" value="隐藏的忍者快速之旋转使敌人左右推开."/>
         <string name="h1" value="MP - 16 , Damage 42%, with success rate  42%, Push enemies 100 "/>
         <string name="h2" value="MP - 16 , Damage 44%, with success rate  44%, Push enemies 100 "/>
         <string name="h3" value="MP - 16 , Damage 46%, with success rate  46%, Push enemies 100 "/>
@@ -8065,8 +8065,8 @@
     </imgdir>
 
     <imgdir name="4121009">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
@@ -8075,8 +8075,8 @@
     </imgdir>
 
     <imgdir name="4221000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比."/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比."/>
         <string name="h1" value="MP - 10 , for 30secs , all stats + 1% ."/>
         <string name="h2" value="MP - 10 , for 60secs , all stats + 1% ."/>
         <string name="h3" value="MP - 10 , for 90secs , all stats + 2% ."/>
@@ -8110,8 +8110,8 @@
     </imgdir>
 
     <imgdir name="4221001">
-        <string name="name" value="致命暗殺"/>
-        <string name="desc" value="用隱身悄悄地靠近敵人附近後，突然攻擊4次敵人的要害.最後一擊以一定幾率給敵人致命傷."/>
+        <string name="name" value="致命暗杀"/>
+        <string name="desc" value="用隐身悄悄地靠近敌人附近后，突然攻击4次敌人的要害.最后一击以一定几率给敌人致命伤."/>
         <string name="h1"
                 value="MP - 21, Attack 34%, for 6secs, accumulative damage, Critical Damage 105%, for success rate 32%"/>
         <string name="h2"
@@ -8175,8 +8175,8 @@
     </imgdir>
 
     <imgdir name="4220002">
-        <string name="name" value="瞬身迴避"/>
-        <string name="desc" value="以極快的反射神經躲避敵人的攻擊."/>
+        <string name="name" value="瞬身回避"/>
+        <string name="desc" value="以极快的反射神经躲避敌人的攻击."/>
         <string name="h1" value="With success rate of 11%, avoid enemy&apos;s attack"/>
         <string name="h2" value="With success rate of 12%, avoid enemy&apos;s attack"/>
         <string name="h3" value="With success rate of 13%, avoid enemy&apos;s attack"/>
@@ -8210,8 +8210,8 @@
     </imgdir>
 
     <imgdir name="4221003">
-        <string name="name" value="挑釁"/>
-        <string name="desc" value="最多可以挑釁6隻怪物.隨著敵人的防禦力上升敵人掉落的經驗值和物品掉落率上升\n必需技能 : #c假動作等級10以上#"/>
+        <string name="name" value="挑衅"/>
+        <string name="desc" value="最多可以挑衅6只怪物.随着敌人的防御力上升敌人掉落的经验值和物品掉落率上升\n必需技能 : #c假动作等级10以上#"/>
         <string name="h1" value="MP - 21 , Increases  11% of enemy&apos;s def, Exp, item drop rate."/>
         <string name="h2" value="MP - 22 , Increases  12% of enemy&apos;s def, Exp, item drop rate."/>
         <string name="h3" value="MP - 23 , Increases  13% of enemy&apos;s def, Exp, item drop rate."/>
@@ -8245,8 +8245,8 @@
     </imgdir>
 
     <imgdir name="4221004">
-        <string name="name" value="忍影瞬殺"/>
-        <string name="desc" value="躲藏的同伴突然出現在一定時間內持續攻擊敵人.\n一次無法攻擊6只以上,HP不會掉到1以下.\n必要技能 : #c假動作 5級 以上#"/>
+        <string name="name" value="忍影瞬杀"/>
+        <string name="desc" value="躲藏的同伴突然出现在一定时间内持续攻击敌人.\n一次无法攻击6只以上,HP不会掉到1以下.\n必要技能 : #c假动作 5级 以上#"/>
         <string name="h1" value="MP - 16 , Damage 62%, for 4Secs, Attack range 110%"/>
         <string name="h2" value="MP - 16 , Damage 64%, for 4Secs, Attack range 110%"/>
         <string name="h3" value="MP - 16 , Damage 66%, for 4Secs, Attack range 110%"/>
@@ -8280,8 +8280,8 @@
     </imgdir>
 
     <imgdir name="4220005">
-        <string name="name" value="飛毒殺"/>
-        <string name="desc" value="在短劍上塗抹毒藥攻擊敵人,使它一定的幾率陷入中毒狀態受持續傷害.最多可重複3次,敵人的HP不會掉到1以下."/>
+        <string name="name" value="飞毒杀"/>
+        <string name="desc" value="在短剑上涂抹毒药攻击敌人,使它一定的几率陷入中毒状态受持续伤害.最多可重复3次,敌人的HP不会掉到1以下."/>
         <string name="h1" value="Attack 31, for 2secs, Success rate 12%"/>
         <string name="h2" value="Attack 32, for 2secs, Success rate 12%"/>
         <string name="h3" value="Attack 33, for 2secs, Success rate 12%"/>
@@ -8315,8 +8315,8 @@
     </imgdir>
 
     <imgdir name="4221006">
-        <string name="name" value="煙幕彈"/>
-        <string name="desc" value="為了從危險中迅速逃脫仍煙幕彈.煙幕彈內的組隊成員在煙幕彈狀態下不受敵人的傷害.\n#c冷卻時間 : 10分#"/>
+        <string name="name" value="烟幕弹"/>
+        <string name="desc" value="为了从危险中迅速逃脱仍烟幕弹.烟幕弹内的组队成员在烟幕弹状态下不受敌人的伤害.\n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 16 , for 31secs, Range 110%"/>
         <string name="h2" value="MP - 17 , for 32secs, Range 110%"/>
         <string name="h3" value="MP - 18 , for 33secs, Range 110%"/>
@@ -8350,8 +8350,8 @@
     </imgdir>
 
     <imgdir name="4221007">
-        <string name="name" value="瞬步連擊"/>
-        <string name="desc" value="用迅速的速度砍2次多數敵人.一定幾率使敵人眩暈."/>
+        <string name="name" value="瞬步连击"/>
+        <string name="desc" value="用迅速的速度砍2次多数敌人.一定几率使敌人眩晕."/>
         <string name="h1" value="MP - 16 , Attacks 2 enemies, Damage 260%, Stun with success rate 32%."/>
         <string name="h2" value="MP - 16 , Attacks 2 enemies, Damage 270%, Stun with success rate 34%."/>
         <string name="h3" value="MP - 16 , Attacks 2 enemies, Damage 280%, Stun with success rate 36%."/>
@@ -8385,8 +8385,8 @@
     </imgdir>
 
     <imgdir name="4221008">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著級上升,能恢復異常的能力也上升.. \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着级上升,能恢复异常的能力也上升.. \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP - 30 escape from abnormal condition"/>
     </imgdir>
 
@@ -8397,12 +8397,12 @@
     </imgdir>
 
     <imgdir name="500">
-        <string name="bookName" value="海盜入門"/>
+        <string name="bookName" value="海盗入门"/>
     </imgdir>
 
     <imgdir name="5000000">
-        <string name="name" value="極限迴避"/>
-        <string name="desc" value="[最高等級 : 20]\n增加命中率和迴避率."/>
+        <string name="name" value="极限回避"/>
+        <string name="desc" value="[最高等级 : 20]\n增加命中率和回避率."/>
         <string name="h1" value="Accuracy +1, Avoidability +1"/>
         <string name="h2" value="Accuracy +2, Avoidability +2"/>
         <string name="h3" value="Accuracy +3, Avoidability +3"/>
@@ -8426,8 +8426,8 @@
     </imgdir>
 
     <imgdir name="5001001">
-        <string name="name" value="衝擊拳"/>
-        <string name="desc" value="[最高等級 : 20]\n消耗MP，用拳頭快速之攻擊敵人."/>
+        <string name="name" value="冲击拳"/>
+        <string name="desc" value="[最高等级 : 20]\n消耗MP，用拳头快速之攻击敌人."/>
         <string name="h1" value="MP -6, damage 156%"/>
         <string name="h2" value="MP -6, damage 162%"/>
         <string name="h3" value="MP -6, damage 168%"/>
@@ -8451,8 +8451,8 @@
     </imgdir>
 
     <imgdir name="5001002">
-        <string name="name" value="旋風斬"/>
-        <string name="desc" value="[最高等級 : 20]\n後旋跳，用腿給周圍多數的敵人擊退攻擊."/>
+        <string name="name" value="旋风斩"/>
+        <string name="desc" value="[最高等级 : 20]\n后旋跳，用腿给周围多数的敌人击退攻击."/>
         <string name="h1" value="MP -8, damage 114%, attacks up to 3 monsters"/>
         <string name="h2" value="MP -8, damage 118%, attacks up to 3 monsters"/>
         <string name="h3" value="MP -8, damage 122%, attacks up to 3 monsters"/>
@@ -8476,8 +8476,8 @@
     </imgdir>
 
     <imgdir name="5001003">
-        <string name="name" value="雙子星攻擊"/>
-        <string name="desc" value="[最高等級 : 20]\n同時發射二顆子彈，攻擊敵人."/>
+        <string name="name" value="双子星攻击"/>
+        <string name="desc" value="[最高等级 : 20]\n同时发射二颗子弹，攻击敌人."/>
         <string name="h1" value="MP -4, damage 61%"/>
         <string name="h2" value="MP -4, damage 62%"/>
         <string name="h3" value="MP -4, damage 63%"/>
@@ -8501,8 +8501,8 @@
     </imgdir>
 
     <imgdir name="5001005">
-        <string name="name" value="衝鋒"/>
-        <string name="desc" value="[最高等級 : 10]\n連續兩次敲打左右方向鍵中的某一個，瞬間提高移動速度和跳躍力."/>
+        <string name="name" value="冲锋"/>
+        <string name="desc" value="[最高等级 : 10]\n连续两次敲打左右方向键中的某一个，瞬间提高移动速度和跳跃力."/>
         <string name="h1" value="MP -14, effect sustained for 4 sec."/>
         <string name="h2" value="MP -13, effect sustained for 4 sec."/>
         <string name="h3" value="MP -12, effect sustained for 8 sec."/>
@@ -8520,8 +8520,8 @@
     </imgdir>
 
     <imgdir name="5100000">
-        <string name="name" value="體魄強健"/>
-        <string name="desc" value="[最高等級 : 10]\n升級時，最大HP上使用AP時，提高最大Hp的增加量."/>
+        <string name="name" value="体魄强健"/>
+        <string name="desc" value="[最高等级 : 10]\n升级时，最大HP上使用AP时，提高最大Hp的增加量."/>
         <string name="h1" value="If Level UP, +3 more; if AP applied, +2 more on top of MaxHP"/>
         <string name="h2" value="If Level UP, +6 more; if AP applied, +4 more on top of MaxHP"/>
         <string name="h3" value="If Level UP, +9 more; if AP applied, +6 more on top of MaxHP"/>
@@ -8536,7 +8536,7 @@
 
     <imgdir name="5100001">
         <string name="name" value="精通指虎"/>
-        <string name="desc" value="[最高等級 : 20]\n提高拳甲系武器的熟練度和命中率。只有佩戴拳甲時才可適用."/>
+        <string name="desc" value="[最高等级 : 20]\n提高拳甲系武器的熟练度和命中率。只有佩戴拳甲时才可适用."/>
         <string name="h1" value="Knuckler Mastery 15%, Accuracy +1."/>
         <string name="h2" value="Knuckler Mastery 15%, Accuracy +2."/>
         <string name="h3" value="Knuckler Mastery 20%, Accuracy +3."/>
@@ -8560,8 +8560,8 @@
     </imgdir>
 
     <imgdir name="5101002">
-        <string name="name" value="迴旋肘擊"/>
-        <string name="desc" value="[最高等級 : 20]\n快速之滑向後方，給與背後多數的敵人傷害. "/>
+        <string name="name" value="回旋肘击"/>
+        <string name="desc" value="[最高等级 : 20]\n快速之滑向后方，给与背后多数的敌人伤害. "/>
         <string name="h1" value="MP -12, damage 88%, attacks up to 3 monsters"/>
         <string name="h2" value="MP -12, damage 96%, attacks up to 3 monsters"/>
         <string name="h3" value="MP -14, damage 104%, attacks up to 3 monsters"/>
@@ -8585,8 +8585,8 @@
     </imgdir>
 
     <imgdir name="5101003">
-        <string name="name" value="昇龍拳"/>
-        <string name="desc" value="[最高等級 : 20]\n用拳頭二度連續攻擊，使敵人重傷."/>
+        <string name="name" value="升龙拳"/>
+        <string name="desc" value="[最高等级 : 20]\n用拳头二度连续攻击，使敌人重伤."/>
         <string name="h1" value="MP -15, damage 100%"/>
         <string name="h2" value="MP -15, damage 110%"/>
         <string name="h3" value="MP -15, damage 120%"/>
@@ -8610,8 +8610,8 @@
     </imgdir>
 
     <imgdir name="5101004">
-        <string name="name" value="狂暴衝擊"/>
-        <string name="desc" value="[最高等級 : 20]\n向前方的多數敵人施加拳擊."/>
+        <string name="name" value="狂暴冲击"/>
+        <string name="desc" value="[最高等级 : 20]\n向前方的多数敌人施加拳击."/>
         <string name="h1" value="MP -20, damage 135%, attacks up to 3 monsters"/>
         <string name="h2" value="MP -20, damage 150%, attacks up to 3 monsters"/>
         <string name="h3" value="MP -20, damage 165%, attacks up to 3 monsters"/>
@@ -8636,7 +8636,7 @@
 
     <imgdir name="5101005">
         <string name="name" value="魔力再生"/>
-        <string name="desc" value="[最高等級 : 10]\n消耗自己的HP使之恢復MP."/>
+        <string name="desc" value="[最高等级 : 10]\n消耗自己的HP使之恢复MP."/>
         <string name="h1" value="Uses 10% of MaxHP, Uses 55% of the used HP on MP, 70 seconds until next use"/>
         <string name="h2" value="Uses 10% of MaxHP, Uses 60% of the used HP on MP, 65 seconds until next use"/>
         <string name="h3" value="Uses 10% of MaxHP, Uses 65% of the used HP on MP, 60 seconds until next use"/>
@@ -8651,7 +8651,7 @@
 
     <imgdir name="5101006">
         <string name="name" value="致命快打"/>
-        <string name="desc" value="[最高等級 : 20]\n消耗HP,MP，一定時間內使拳的攻擊速度提升。只有佩戴指節時才可發動技能.\n必要技能 : #c精準之拳5級以上"/>
+        <string name="desc" value="[最高等级 : 20]\n消耗HP,MP，一定时间内使拳的攻击速度提升。只有佩戴指节时才可发动技能.\n必要技能 : #c精准之拳5级以上"/>
         <string name="h1" value="HP -29, MP -29; Improves speed of Knuckler for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; Improves speed of Knuckler for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; Improves speed of Knuckler for 30 sec."/>
@@ -8675,8 +8675,8 @@
     </imgdir>
 
     <imgdir name="5101007">
-        <string name="name" value="偽裝術"/>
-        <string name="desc" value="[最高等級 : 10]\n為了不受怪物攻擊地移動，戴上橡木桶變裝。有時可能會被好奇的怪物們發現，所以要格外小心。俯臥時被發現的概率減少."/>
+        <string name="name" value="伪装术"/>
+        <string name="desc" value="[最高等级 : 10]\n为了不受怪物攻击地移动，戴上橡木桶变装。有时可能会被好奇的怪物们发现，所以要格外小心。俯卧时被发现的概率减少."/>
         <string name="h1" value="MP -12; sustained for 12 sec., 35 sec. until next use; 37% failure rate"/>
         <string name="h2" value="MP -12; sustained for 14 sec., 35 sec. until next use; 34% failure rate"/>
         <string name="h3" value="MP -14; sustained for 16 sec., 30 sec. until next use; 31% failure rate"/>
@@ -8690,12 +8690,12 @@
     </imgdir>
 
     <imgdir name="520">
-        <string name="bookName" value="槍手指南"/>
+        <string name="bookName" value="枪手指南"/>
     </imgdir>
 
     <imgdir name="5200000">
-        <string name="name" value="精通槍法"/>
-        <string name="desc" value="[最高等級 : 20]\n提升槍系武器的熟練度和命中率。只適用於有裝備槍的時候。"/>
+        <string name="name" value="精通枪法"/>
+        <string name="desc" value="[最高等级 : 20]\n提升枪系武器的熟练度和命中率。只适用于有装备枪的时候。"/>
         <string name="h1" value="Gun mastery +15%, Accuracy +1, Bullet Count +10"/>
         <string name="h2" value="Gun mastery +15%, Accuracy +2, Bullet Count +20"/>
         <string name="h3" value="Gun mastery +20%, Accuracy +3, Bullet Count +30"/>
@@ -8720,7 +8720,7 @@
 
     <imgdir name="5201001">
         <string name="name" value="散射"/>
-        <string name="desc" value="[最高等級 : 20]\n極短的時間內開槍，攻擊多數敵人。"/>
+        <string name="desc" value="[最高等级 : 20]\n极短的时间内开枪，攻击多数敌人。"/>
         <string name="h1" value="MP -11, damage 75%, attacks up to 3 monsters"/>
         <string name="h2" value="MP -12, damage 80%, attacks up to 3 monsters"/>
         <string name="h3" value="MP -13, damage 85%, attacks up to 3 monsters"/>
@@ -8744,8 +8744,8 @@
     </imgdir>
 
     <imgdir name="5201002">
-        <string name="name" value="炸彈投擲"/>
-        <string name="desc" value="[最高等級 : 20]\n扔炸彈攻擊敵人，根據按鍵時間決定射程。"/>
+        <string name="name" value="炸弹投掷"/>
+        <string name="desc" value="[最高等级 : 20]\n扔炸弹攻击敌人，根据按键时间决定射程。"/>
         <string name="h1" value="MP -18, damage 45%, attacks 3 monsters"/>
         <string name="h2" value="MP -18, damage 50%, attacks 3 monsters"/>
         <string name="h3" value="MP -18, damage 55%, attacks 3 monsters"/>
@@ -8770,7 +8770,7 @@
 
     <imgdir name="5201003">
         <string name="name" value="迅雷再起"/>
-        <string name="desc" value="[最高等級 : 20]\n消耗HP,MP，在一定時間內提升槍的攻擊速度。只適用於裝備槍的時候。\n必要技能 : #c精準之槍5級以上#"/>
+        <string name="desc" value="[最高等级 : 20]\n消耗HP,MP，在一定时间内提升枪的攻击速度。只适用于装备枪的时候。\n必要技能 : #c精准之枪5级以上#"/>
         <string name="h1" value="HP -29, MP -29; Improves gun speed for 10 sec."/>
         <string name="h2" value="HP -28, MP -28; Improves gun speed for 20 sec."/>
         <string name="h3" value="HP -27, MP -27; Improves gun speed for 30 sec."/>
@@ -8794,8 +8794,8 @@
     </imgdir>
 
     <imgdir name="5201004">
-        <string name="name" value="偽裝射擊"/>
-        <string name="desc" value="[最高等級 : 20]\n假裝射擊的同時發射迷惑旗，使多數怪物們驚慌。同時能攻擊3只以下的怪物。"/>
+        <string name="name" value="伪装射击"/>
+        <string name="desc" value="[最高等级 : 20]\n假装射击的同时发射迷惑旗，使多数怪物们惊慌。同时能攻击3只以下的怪物。"/>
         <string name="h1" value="MP -10, damage 63%; 43% possibility of the monsters being stunned for 1 sec."/>
         <string name="h2" value="MP -10, damage 66%; 46% possibility of the monsters being stunned for 1 sec."/>
         <string name="h3" value="MP -10, damage 69%; 49% possibility of the monsters being stunned for 1 sec."/>
@@ -8819,8 +8819,8 @@
     </imgdir>
 
     <imgdir name="5201005">
-        <string name="name" value="緩降術"/>
-        <string name="desc" value="[最高等級 : 10]\n比目前的跳躍滯空時間更久的跳躍。"/>
+        <string name="name" value="缓降术"/>
+        <string name="desc" value="[最高等级 : 10]\n比目前的跳跃滞空时间更久的跳跃。"/>
         <string name="h1" value="MP -50, descending speed: 280"/>
         <string name="h2" value="MP -46, descending speed: 260"/>
         <string name="h3" value="MP -42, descending speed: 240"/>
@@ -8834,8 +8834,8 @@
     </imgdir>
 
     <imgdir name="5201006">
-        <string name="name" value="脫離戰場"/>
-        <string name="desc" value="[最高等級 : 20]\n利用槍的後座力，一邊射擊，一邊向後方移動。\n必要技能 : #c輕羽鞋5級以上#"/>
+        <string name="name" value="脱离战场"/>
+        <string name="desc" value="[最高等级 : 20]\n利用枪的后座力，一边射击，一边向后方移动。\n必要技能 : #c轻羽鞋5级以上#"/>
         <string name="h1" value="MP -14, damage 70%"/>
         <string name="h2" value="MP -14, damage 80%"/>
         <string name="h3" value="MP -14, damage 90%"/>
@@ -8859,12 +8859,12 @@
     </imgdir>
 
     <imgdir name="511">
-        <string name="bookName" value="格鬥家之路"/>
+        <string name="bookName" value="格斗家之路"/>
     </imgdir>
 
     <imgdir name="5110000">
-        <string name="name" value="致命暗襲"/>
-        <string name="desc" value="[最高等級 : 20]\n攻擊迷惑狀態的敵人時，以一定的概率出現爆擊。"/>
+        <string name="name" value="致命暗袭"/>
+        <string name="desc" value="[最高等级 : 20]\n攻击迷惑状态的敌人时，以一定的概率出现爆击。"/>
         <string name="h1" value="22% success rate, 3% additional damage"/>
         <string name="h2" value="24% success rate, 6% additional damage"/>
         <string name="h3" value="26% success rate, 9% additional damage"/>
@@ -8888,8 +8888,8 @@
     </imgdir>
 
     <imgdir name="5110001">
-        <string name="name" value="蓄能激發"/>
-        <string name="desc" value="[最高等級 : 40]\n攻擊時獲得一定量的能量補充，能量充沛時就會自動啟動攻擊和阿基裡斯效果使之可以使用利用能量的技能。"/>
+        <string name="name" value="蓄能激发"/>
+        <string name="desc" value="[最高等级 : 40]\n攻击时获得一定量的能量补充，能量充沛时就会自动启动攻击和阿基里斯效果使之可以使用利用能量的技能。"/>
         <string name="h1" value="Once triggered, sustained for 31 sec., Accuracy +1, Avoidability +1"/>
         <string name="h2" value="Once triggered, sustained for 31 sec., Accuracy +1, Avoidability +1"/>
         <string name="h3" value="Once triggered, sustained for 32 sec., Accuracy +2, Avoidability +2"/>
@@ -8964,8 +8964,8 @@
     </imgdir>
 
     <imgdir name="5111002">
-        <string name="name" value="能量暴擊"/>
-        <string name="desc" value="[最高等級 : 30]\n散發能量，使近距離的多數怪物收到傷害。只有 #c能量充沛#的狀態下才可以使用。\n必要技能 : #c能量獲得1級以上#"/>
+        <string name="name" value="能量暴击"/>
+        <string name="desc" value="[最高等级 : 30]\n散发能量，使近距离的多数怪物收到伤害。只有 #c能量充沛#的状态下才可以使用。\n必要技能 : #c能量获得1级以上#"/>
         <string name="h1" value="Damage 246%, attacks up to 2 monsters"/>
         <string name="h2" value="Damage 252%, attacks up to 2 monsters"/>
         <string name="h3" value="Damage 258%, attacks up to 2 monsters"/>
@@ -8999,8 +8999,8 @@
     </imgdir>
 
     <imgdir name="5111004">
-        <string name="name" value="損人利己"/>
-        <string name="desc" value="[最高等級 : 20]\n利用能量，使敵人的一些HP變為自己的HP。只有#c能量充沛#的狀態下才可以使用。\n必要技能 : #c能量獲得1級以上#"/>
+        <string name="name" value="损人利己"/>
+        <string name="desc" value="[最高等级 : 20]\n利用能量，使敌人的一些HP变为自己的HP。只有#c能量充沛#的状态下才可以使用。\n必要技能 : #c能量获得1级以上#"/>
         <string name="h1" value="Damage 265%, 11% of the damage used to recover HP"/>
         <string name="h2" value="Damage 270%, 11% of the damage used to recover HP"/>
         <string name="h3" value="Damage 275%, 12% of the damage used to recover HP"/>
@@ -9024,9 +9024,9 @@
     </imgdir>
 
     <imgdir name="5111005">
-        <string name="name" value="鬥神附體"/>
+        <string name="name" value="斗神附体"/>
         <string name="desc"
-                value="[最高等級 : 20]\n120秒 期間會變成超人狀態. \n可使用的技能: 碎石亂擊, 急速拳, 能量爆破, 能量耗轉, 冒險島勇士, 勇士的意志, 極速領域, 伺機待發"/>
+                value="[最高等级 : 20]\n120秒 期间会变成超人状态. \n可使用的技能: 碎石乱击, 急速拳, 能量爆破, 能量耗转, 冒险岛勇士, 勇士的意志, 极速领域, 伺机待发"/>
         <string name="h1" value="MP -22; weapon &amp; magic att. +2, waiting time until next use : 860 sec."/>
         <string name="h2" value="MP -24; weapon &amp; magic att. +4, waiting time until next use : 840 sec."/>
         <string name="h3" value="MP -26; weapon &amp; magic att. +6, waiting time until next use : 820 sec."/>
@@ -9050,8 +9050,8 @@
     </imgdir>
 
     <imgdir name="5111006">
-        <string name="name" value="衝擊波"/>
-        <string name="desc" value="[最高等級 : 30]\n猛烈地撞擊大地引起衝擊，給多數的怪物傷害。只有在 #c超人變形, 超級變身# 狀態下使用.\n必要技能 : #c超人變形 1級以上#"/>
+        <string name="name" value="冲击波"/>
+        <string name="desc" value="[最高等级 : 30]\n猛烈地撞击大地引起冲击，给多数的怪物伤害。只有在 #c超人变形, 超级变身# 状态下使用.\n必要技能 : #c超人变形 1级以上#"/>
         <string name="h1" value="MP -18, damage 265%, attacks up to 4 monsters"/>
         <string name="h2" value="MP -18, damage 280%, attacks up to 4 monsters"/>
         <string name="h3" value="MP -18, damage 295%, attacks up to 4 monsters"/>
@@ -9085,12 +9085,12 @@
     </imgdir>
 
     <imgdir name="521">
-        <string name="bookName" value="神槍手之路"/>
+        <string name="bookName" value="神枪手之路"/>
     </imgdir>
 
     <imgdir name="5210000">
-        <string name="name" value="3連發"/>
-        <string name="desc" value="[最高等級 : 20]\n雙彈射殺使用時的彈數和攻擊力增加。\n必要技能 : #c雙彈射擊 20等級# "/>
+        <string name="name" value="3连发"/>
+        <string name="desc" value="[最高等级 : 20]\n双弹射杀使用时的弹数和攻击力增加。\n必要技能 : #c双弹射击 20等级# "/>
         <string name="h1" value="MP -13, damage 95%"/>
         <string name="h2" value="MP -13, damage 100%"/>
         <string name="h3" value="MP -14, damage 105%"/>
@@ -9114,8 +9114,8 @@
     </imgdir>
 
     <imgdir name="5211001">
-        <string name="name" value="章魚砲台"/>
-        <string name="desc" value="[最高等級 : 30]\n召喚幫助攻擊的章魚。但召喚的章魚不會動。\n#c冷卻時間 : 10秒#"/>
+        <string name="name" value="章鱼砲台"/>
+        <string name="desc" value="[最高等级 : 30]\n召唤帮助攻击的章鱼。但召唤的章鱼不会动。\n#c冷却时间 : 10秒#"/>
         <string name="h1" value="MP -11, attack rate 84, sustained for 10 sec."/>
         <string name="h2" value="MP -11, attack rate 88, sustained for 10 sec."/>
         <string name="h3" value="MP -12, attack rate 92, sustained for 10 sec."/>
@@ -9149,8 +9149,8 @@
     </imgdir>
 
     <imgdir name="5211002">
-        <string name="name" value="海鷗突擊隊"/>
-        <string name="desc" value="[最高等級 : 30]\n召喚能向敵人扔炸彈的海鷗。海鷗一旦發現敵人就會仍炸彈。\n#c冷卻時間 : 5秒#"/>
+        <string name="name" value="海鸥突击队"/>
+        <string name="desc" value="[最高等级 : 30]\n召唤能向敌人扔炸弹的海鸥。海鸥一旦发现敌人就会仍炸弹。\n#c冷却时间 : 5秒#"/>
         <string name="h1" value="MP -11, attack rate 218, sustained for 10 sec."/>
         <string name="h2" value="MP -11, attack rate 226, sustained for 10 sec."/>
         <string name="h3" value="MP -11, attack rate 234, sustained for 10 sec."/>
@@ -9184,8 +9184,8 @@
     </imgdir>
 
     <imgdir name="5211004">
-        <string name="name" value="火焰噴射"/>
-        <string name="desc" value="[最高等級 : 30]\n給近距離的敵人火屬性攻擊。受到攻擊的敵人在一定時間受到連續傷害。"/>
+        <string name="name" value="火焰喷射"/>
+        <string name="desc" value="[最高等级 : 30]\n给近距离的敌人火属性攻击。受到攻击的敌人在一定时间受到连续伤害。"/>
         <string name="h1" value="MP -25, damage 73%, attacks 2 monsters"/>
         <string name="h2" value="MP -25, damage 76%, attacks 2 monsters"/>
         <string name="h3" value="MP -25, damage 79%, attacks 2 monsters"/>
@@ -9219,8 +9219,8 @@
     </imgdir>
 
     <imgdir name="5211005">
-        <string name="name" value="寒霜噴射"/>
-        <string name="desc" value="[最高等級 : 30]\n給近距離的敵人冷屬性攻擊。受到攻擊的敵人在一定時間內處於結冰狀態。"/>
+        <string name="name" value="寒霜喷射"/>
+        <string name="desc" value="[最高等级 : 30]\n给近距离的敌人冷属性攻击。受到攻击的敌人在一定时间内处于结冰状态。"/>
         <string name="h1" value="MP -25, damage 72%, attacks 2 monsters"/>
         <string name="h2" value="MP -25, damage 74%, attacks 2 monsters"/>
         <string name="h3" value="MP -25, damage 76%, attacks 2 monsters"/>
@@ -9254,8 +9254,8 @@
     </imgdir>
 
     <imgdir name="5211006">
-        <string name="name" value="指定攻擊"/>
-        <string name="desc" value="[最高等級 : 30]\n向敵人派遣瞄準用鸚鵡。以後所有的攻擊都指向鸚鵡跟隨的敵人。"/>
+        <string name="name" value="指定攻击"/>
+        <string name="desc" value="[最高等级 : 30]\n向敌人派遣瞄准用鹦鹉。以后所有的攻击都指向鹦鹉跟随的敌人。"/>
         <string name="h1" value="MP -20, damage 148%"/>
         <string name="h2" value="MP -20, damage 156%"/>
         <string name="h3" value="MP -20, damage 164%"/>
@@ -9289,12 +9289,12 @@
     </imgdir>
 
     <imgdir name="512">
-        <string name="bookName" value="拳霸的終點"/>
+        <string name="bookName" value="拳霸的终点"/>
     </imgdir>
 
     <imgdir name="5121000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比。"/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比。"/>
         <string name="h1" value="MP -10; all stats +1% for 30 sec."/>
         <string name="h2" value="MP -10; all stats +1% for 60 sec."/>
         <string name="h3" value="MP -10; all stats +2% for 90 sec."/>
@@ -9328,8 +9328,8 @@
     </imgdir>
 
     <imgdir name="5121001">
-        <string name="name" value="魔龍降臨"/>
-        <string name="desc" value="召喚沉睡的龍，給與多數的敵人傷害。"/>
+        <string name="name" value="魔龙降临"/>
+        <string name="desc" value="召唤沉睡的龙，给与多数的敌人伤害。"/>
         <string name="h1" value="MP -21, damage 275%, attacks 4 monsters"/>
         <string name="h2" value="MP -21, damage 290%, attacks 4 monsters"/>
         <string name="h3" value="MP -22, damage 305%, attacks 4 monsters"/>
@@ -9363,8 +9363,8 @@
     </imgdir>
 
     <imgdir name="5121002">
-        <string name="name" value="元氣彈"/>
-        <string name="desc" value="爆發聚集的能量攻擊敵人。如果周圍有其他怪物，超能量會轉移給與怪物累計傷害。只能#c能量充沛#的狀態下使用。\n必要技能 : #c能量獲得1級以上#"/>
+        <string name="name" value="元气弹"/>
+        <string name="desc" value="爆发聚集的能量攻击敌人。如果周围有其他怪物，超能量会转移给与怪物累计伤害。只能#c能量充沛#的状态下使用。\n必要技能 : #c能量获得1级以上#"/>
         <string name="h1" value="damage 300%, attacks 2 monsters"/>
         <string name="h2" value="damage 320%, attacks 2 monsters"/>
         <string name="h3" value="damage 340%, attacks 2 monsters"/>
@@ -9398,9 +9398,9 @@
     </imgdir>
 
     <imgdir name="5121003">
-        <string name="name" value="鬥神降世"/>
+        <string name="name" value="斗神降世"/>
         <string name="desc"
-                value="120秒內變成超級狀態，變身時外形會變，且可以使用超級變身特有的技能。\n可使用技能 : 碎石亂擊, 金手指, 索命, 急速拳, 能量爆破, 能量耗轉, 冒險島勇士, 勇士的意志, 極速領域, 伺機待發\n必要技能 : #c超人變形 20級以上#"/>
+                value="120秒内变成超级状态，变身时外形会变，且可以使用超级变身特有的技能。\n可使用技能 : 碎石乱击, 金手指, 索命, 急速拳, 能量爆破, 能量耗转, 冒险岛勇士, 勇士的意志, 极速领域, 伺机待发\n必要技能 : #c超人变形 20级以上#"/>
         <string name="h1" value="MP -22; weapon &amp; magic att. +41, waiting time until next use : 740 sec."/>
         <string name="h2" value="MP -24; weapon &amp; magic att. +42, waiting time until next use : 720 sec."/>
         <string name="h3" value="MP -26; weapon &amp; magic att. +43, waiting time until next use : 700 sec."/>
@@ -9424,9 +9424,9 @@
     </imgdir>
 
     <imgdir name="5121004">
-        <string name="name" value="閃．爆破"/>
+        <string name="name" value="闪．爆破"/>
         <string name="desc"
-                value="超越極限的快速之攻擊，給一個敵人帶來大的傷害，只能在超級變身狀態下使用，具有眩暈效果。只有在 #c超級變身# 狀態下才可以使用.\n必要技能 : #c超級變身 1級以上#"/>
+                value="超越极限的快速之攻击，给一个敌人带来大的伤害，只能在超级变身状态下使用，具有眩晕效果。只有在 #c超级变身# 状态下才可以使用.\n必要技能 : #c超级变身 1级以上#"/>
         <string name="h1" value="MP -20; attacks a monster 8 times with damage 90% per hit"/>
         <string name="h2" value="MP -20; attacks a monster 8 times with damage 100% per hit"/>
         <string name="h3" value="MP -20; attacks a monster 8 times with damage 110% per hit"/>
@@ -9460,8 +9460,8 @@
     </imgdir>
 
     <imgdir name="5121005">
-        <string name="name" value="閃．索命"/>
-        <string name="desc" value="給與遠距離怪物傷害，並身體向前移動，只能在超級變身狀態下使用。只有在 #c超級變身# 狀態下使用。\n必要技能 : #c超級變身 1級以上#"/>
+        <string name="name" value="闪．索命"/>
+        <string name="desc" value="给与远距离怪物伤害，并身体向前移动，只能在超级变身状态下使用。只有在 #c超级变身# 状态下使用。\n必要技能 : #c超级变身 1级以上#"/>
         <string name="h1" value="MP -11, damage 210%, attacks 2 monsters"/>
         <string name="h2" value="MP -12, damage 220%, attacks 2 monsters"/>
         <string name="h3" value="MP -13, damage 230%, attacks 2 monsters"/>
@@ -9495,8 +9495,8 @@
     </imgdir>
 
     <imgdir name="5121007">
-        <string name="name" value="閃．連殺"/>
-        <string name="desc" value="極快的速度在近距離的一個怪物攻擊6下。"/>
+        <string name="name" value="闪．连杀"/>
+        <string name="desc" value="极快的速度在近距离的一个怪物攻击6下。"/>
         <string name="h1" value="MP -21, damage 94%"/>
         <string name="h2" value="MP -21, damage 98%"/>
         <string name="h3" value="MP -22, damage 102%"/>
@@ -9530,14 +9530,14 @@
     </imgdir>
 
     <imgdir name="5121008">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著等級上升,能恢復異常的能力也上升。 \n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着等级上升,能恢复异常的能力也上升。 \n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP -30, cured from the state of being seduced"/>
     </imgdir>
 
     <imgdir name="5121009">
-        <string name="name" value="最終極速"/>
-        <string name="desc" value="消耗HP,MP,一定時間內使武器的攻擊速度上升。可與其他武器速度提升技能重複，組隊成員全部能收到這些技能的效果。\n必要技能 : #c急速拳 20級以上#"/>
+        <string name="name" value="最终极速"/>
+        <string name="desc" value="消耗HP,MP,一定时间内使武器的攻击速度上升。可与其他武器速度提升技能重复，组队成员全部能收到这些技能的效果。\n必要技能 : #c急速拳 20级以上#"/>
         <string name="h1" value="HP -78, MP -78; boosts weapon attack speed for 110 sec."/>
         <string name="h2" value="HP -76, MP -76; boosts weapon attack speed for 120 sec."/>
         <string name="h3" value="HP -74, MP -74; boosts weapon attack speed for 130 sec."/>
@@ -9561,8 +9561,8 @@
     </imgdir>
 
     <imgdir name="5121010">
-        <string name="name" value="時間置換"/>
-        <string name="desc" value="初始化自己和團隊使用的全部的技能和冷卻時間。只是本技能的冷卻時間不能初始化。"/>
+        <string name="name" value="时间置换"/>
+        <string name="desc" value="初始化自己和团队使用的全部的技能和冷却时间。只是本技能的冷却时间不能初始化。"/>
         <string name="h1" value="MP -195; waiting time until next use : 49 min."/>
         <string name="h2" value="MP -190; waiting time until next use : 48 min."/>
         <string name="h3" value="MP -185; waiting time until next use : 47 min."/>
@@ -9595,12 +9595,12 @@
     </imgdir>
 
     <imgdir name="522">
-        <string name="bookName" value="槍神的終點"/>
+        <string name="bookName" value="枪神的终点"/>
     </imgdir>
 
     <imgdir name="5221000">
-        <string name="name" value="楓葉祝福"/>
-        <string name="desc" value="一定時間內把組隊成員的所有屬性點提高一定的百分比。"/>
+        <string name="name" value="枫叶祝福"/>
+        <string name="desc" value="一定时间内把组队成员的所有属性点提高一定的百分比。"/>
         <string name="h1" value="MP -10; Improves all stats by 1% for 30 sec."/>
         <string name="h2" value="MP -10; Improves all stats by 1% for 60 sec."/>
         <string name="h3" value="MP -10; Improves all stats by 1% for 90 sec."/>
@@ -9634,8 +9634,8 @@
     </imgdir>
 
     <imgdir name="5220001">
-        <string name="name" value="瞬‧冰火連擊"/>
-        <string name="desc" value="提升烈焰噴射和寒冰噴射技能的傷害值。"/>
+        <string name="name" value="瞬‧冰火连击"/>
+        <string name="desc" value="提升烈焰喷射和寒冰喷射技能的伤害值。"/>
         <string name="h1" value="Damage +6%, dot damage +1%, freeze time +1 sec."/>
         <string name="h2" value="Damage +12%, dot damage +1%, freeze time +1 sec."/>
         <string name="h3" value="Damage +18%, dot damage +1%, freeze time +1 sec."/>
@@ -9669,8 +9669,8 @@
     </imgdir>
 
     <imgdir name="5220002">
-        <string name="name" value="砲台章魚王"/>
-        <string name="desc" value="召喚一隻章魚提升連射速度和傷害值。\n必要技能 : #c章魚炮台30等級#"/>
+        <string name="name" value="砲台章鱼王"/>
+        <string name="desc" value="召唤一只章鱼提升连射速度和伤害值。\n必要技能 : #c章鱼炮台30等级#"/>
         <string name="h1" value="MP -26; attack rate 210, available for 35 sec., 10 sec. until next use"/>
         <string name="h2" value="MP -26; attack rate 220, available for 35 sec., 10 sec. until next use"/>
         <string name="h3" value="MP -27; attack rate 230, available for 35 sec., 10 sec. until next use"/>
@@ -9694,8 +9694,8 @@
     </imgdir>
 
     <imgdir name="5221003">
-        <string name="name" value="海鷗特戰隊"/>
-        <string name="desc" value="召喚炸彈海鷗群的炸彈攻擊，攻擊6個以下的敵人。 \n必要技能 : #c海鷗空襲15級以上#"/>
+        <string name="name" value="海鸥特战队"/>
+        <string name="desc" value="召唤炸弹海鸥群的炸弹攻击，攻击6个以下的敌人。 \n必要技能 : #c海鸥空袭15级以上#"/>
         <string name="h1" value="MP -31, damage 520%, 5 sec. until next use"/>
         <string name="h2" value="MP -32, damage 540%, 5 sec. until next use"/>
         <string name="h3" value="MP -33, damage 560%, 5 sec. until next use"/>
@@ -9730,7 +9730,7 @@
 
     <imgdir name="5221004">
         <string name="name" value="瞬‧迅雷"/>
-        <string name="desc" value="發射非常快的子彈。摁住此技能鍵的狀態可持續。\n必要技能 : #c三連射殺 20等級#"/>
+        <string name="desc" value="发射非常快的子弹。摁住此技能键的状态可持续。\n必要技能 : #c三连射杀 20等级#"/>
         <string name="h1" value="MP -6, damage 82%"/>
         <string name="h2" value="MP -6, damage 84%"/>
         <string name="h3" value="MP -6, damage 86%"/>
@@ -9764,9 +9764,9 @@
     </imgdir>
 
     <imgdir name="5221006">
-        <string name="name" value="海盜船"/>
+        <string name="name" value="海盗船"/>
         <string name="desc"
-                value="登上海盜船，移動速度減慢，不能爬繩爬梯子，但是相對防禦力變強，受到傷害時耐久度減少，耐久度為0時，不能登海盜船。\n可使用技能 : 武裝, 投彈攻擊, 速射, 烈焰噴射, 寒冰噴射, 海鷗空襲, 章魚炮台, 冒險島勇士, 勇士的意志 "/>
+                value="登上海盗船，移动速度减慢，不能爬绳爬梯子，但是相对防御力变强，受到伤害时耐久度减少，耐久度为0时，不能登海盗船。\n可使用技能 : 武装, 投弹攻击, 速射, 烈焰喷射, 寒冰喷射, 海鸥空袭, 章鱼炮台, 冒险岛勇士, 勇士的意志 "/>
         <string name="h1" value="MP -22, weapon &amp; magic def. +10"/>
         <string name="h2" value="MP -24, weapon &amp; magic def. +20"/>
         <string name="h3" value="MP -26, weapon &amp; magic def. +30"/>
@@ -9780,8 +9780,8 @@
     </imgdir>
 
     <imgdir name="5221007">
-        <string name="name" value="海盜加農炮"/>
-        <string name="desc" value="連續發射數發炮彈。只能是「武裝」技能使用後的狀態下才可使用。\n必要技能 : #c武裝 1級以上#"/>
+        <string name="name" value="海盗加农炮"/>
+        <string name="desc" value="连续发射数发炮弹。只能是「武装」技能使用后的状态下才可使用。\n必要技能 : #c武装 1级以上#"/>
         <string name="h1" value="MP -22, attacks 3 times with damage 205%"/>
         <string name="h2" value="MP -22, attacks 3 times with damage 210%"/>
         <string name="h3" value="MP -22, attacks 3 times with damage 215%"/>
@@ -9815,8 +9815,8 @@
     </imgdir>
 
     <imgdir name="5221008">
-        <string name="name" value="海盜魚雷"/>
-        <string name="desc" value="向敵人發射結實的炮彈。只能是「武裝」技能使用後的狀態下才可使用。\n必要技能 : #c武裝 1級以上#"/>
+        <string name="name" value="海盗鱼雷"/>
+        <string name="desc" value="向敌人发射结实的炮弹。只能是「武装」技能使用后的状态下才可使用。\n必要技能 : #c武装 1级以上#"/>
         <string name="h1" value="MP -22, damage 390%, attacks 4 monsters"/>
         <string name="h2" value="MP -22, damage 400%, attacks 4 monsters"/>
         <string name="h3" value="MP -22, damage 410%, attacks 4 monsters"/>
@@ -9850,8 +9850,8 @@
     </imgdir>
 
     <imgdir name="5221009">
-        <string name="name" value="心靈控制"/>
-        <string name="desc" value="誘惑怪物，使怪物在一定時間內攻擊其他怪物。 "/>
+        <string name="name" value="心灵控制"/>
+        <string name="desc" value="诱惑怪物，使怪物在一定时间内攻击其他怪物。 "/>
         <string name="h1" value="MP -31, available for 21 sec., success rate 43 %"/>
         <string name="h2" value="MP -32, available for 22 sec., success rate 46 %"/>
         <string name="h3" value="MP -33, available for 23 sec., success rate 49 %"/>
@@ -9875,15 +9875,15 @@
     </imgdir>
 
     <imgdir name="5221010">
-        <string name="name" value="楓葉淨化"/>
-        <string name="desc" value="從異常狀態中恢復. 隨著等級上升,能恢復異常的能力也上升。\n#c冷卻時間 : 10分#"/>
+        <string name="name" value="枫叶净化"/>
+        <string name="desc" value="从异常状态中恢复. 随着等级上升,能恢复异常的能力也上升。\n#c冷却时间 : 10分#"/>
         <string name="h1" value="MP -30, cured from the state of being seduced."/>
         <string name="h25" value="MP -75, waiting time until next use: 25 min."/>
     </imgdir>
 
     <imgdir name="5220011">
-        <string name="name" value="精準砲擊"/>
-        <string name="desc" value="給與中招的怪物更多的傷害。\n必要技能 : #c導航 30等級#"/>
+        <string name="name" value="精准砲击"/>
+        <string name="desc" value="给与中招的怪物更多的伤害。\n必要技能 : #c导航 30等级#"/>
         <string name="h1" value="MP -35, damage 390%, additional damage +1%"/>
         <string name="h2" value="MP -35, damage 400%, additional damage +2%"/>
         <string name="h3" value="MP -35, damage 410%, additional damage +3%"/>

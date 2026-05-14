@@ -1,7 +1,7 @@
 const METHOD_NOT_IMPLEMENT = "Method Not Implemented";
 /**
  * Keyboard Event Interface
- * 提供鍵盤事件的介面
+ * 提供键盘事件的介面
  *
  * @interface Framework.KeyboardEventInterface
  * @type {KeyboardEventInterface}
@@ -10,29 +10,29 @@ export class KeyboardEventInterface {
 
     /**
      *
-     * 處理鍵盤被壓下按鈕的事件
+     * 处理键盘被压下按钮的事件
      *
      * @abstract
      * @event keydown
-     * @param {Object} e 改寫過後的事件的參數表示按下去的最後一個鍵, 其包含有
-     * altKey, ctrlKey, shiftKey表示是否按下的狀態,
-     * firstTimeStamp 表示剛按下去這個按鈕的時間,
-     * key 存的是按下去的鍵的string,
-     * lastTimeDiff 則為剛按下這個鍵到目前有多久了
-     *  @param {Object} list 目前按下去所有可以被偵測到的鍵
-     *  @param {KeyboardEvent} oriE W3C定義的事件的e
-     * 表示的是目前最新觸控到的位置
+     * @param {Object} e 改写过后的事件的参数表示按下去的最后一个键, 其包含有
+     * altKey, ctrlKey, shiftKey表示是否按下的状态,
+     * firstTimeStamp 表示刚按下去这个按钮的时间,
+     * key 存的是按下去的键的string,
+     * lastTimeDiff 则为刚按下这个键到目前有多久了
+     *  @param {Object} list 目前按下去所有可以被侦测到的键
+     *  @param {KeyboardEvent} oriE W3C定义的事件的e
+     * 表示的是目前最新触控到的位置
      * @example
      *
      * keydown (e, list) {
      *     if(e.key === 'A' && e.key.lastTimeDiff > 3000) {
-     *         console.log('A');     //當A按下超過3秒, 才會印出A
+     *         console.log('A');     //当A按下超过3秒, 才会印出A
      *     }
      *     if(list.A && list.B) {
-     *         console.log('A+B');   //當A和B都被按下時, 才會印出A+B
+     *         console.log('A+B');   //当A和B都被按下时, 才会印出A+B
      *     }
      * }
-     * //FYI: 每個真正的keyCode與相對應的string
+     * //FYI: 每个真正的keyCode与相对应的string
      * _keyCodeToChar = {
      *     8:'Backspace',9:'Tab',13:'Enter',
      *     16:'shiftKey',17:'ctrlKey',18:'altKey',19:'Pause/Break',
@@ -61,17 +61,17 @@ export class KeyboardEventInterface {
 
 
     /**
-     * 處理鍵盤被壓下按鈕的事件, 除了W3C定義的參數外,
-     * Framework尚支援進階的功能history
+     * 处理键盘被压下按钮的事件, 除了W3C定义的参数外,
+     * Framework尚支援进阶的功能history
      *
      * @abstract
      * @event keyup
-     *  @param {Object} e 原生的事件參數
-     *  @param {Object} history 儲存最近幾秒內keyup的按鍵
-     * (可以用來處理類似小朋友齊打交, 發動攻擊技能的Scenario)
-     * history可以設定多久清除一次, 請參考
+     *  @param {Object} e 原生的事件参数
+     *  @param {Object} history 储存最近几秒内keyup的按键
+     * (可以用来处理类似小朋友齐打交, 发动攻击技能的Scenario)
+     * history可以设定多久清除一次, 请参考
      * {{#crossLink "KeyBoardManager/setClearHistoryTime:method"}}{{/crossLink}}
-     *  @param {KeyboardEvent} oriE W3C定義的事件的e
+     *  @param {KeyboardEvent} oriE W3C定义的事件的e
      * @example
      * keyup (e, history) {
      *     var right = history.length >= 3, i;
@@ -81,7 +81,7 @@ export class KeyboardEventInterface {
      *         }
      *     }
      *     if (right) {
-     *         console.log(right);   //當一秒內按了右鍵超過3次, 才會印出true
+     *         console.log(right);   //当一秒内按了右键超过3次, 才会印出true
      *     }
      * },
      */

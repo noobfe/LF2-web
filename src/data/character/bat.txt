@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Bat
+name: 强化Bat
 head: sprite/sys/bat_f.png
 small: sprite/sys/bat_s.png
 file(0-69): sprite/sys/bat_0.png  w: 79  h: 79  row: 10  col: 7

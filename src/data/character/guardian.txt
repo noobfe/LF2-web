@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Guardian
+name: 强化Guardian
 head: sprite/sys/guardian_f.png
 small: sprite/sys/guardian_s.png
 file(0-19): sprite/sys/guardian_0.png  w: 319  h: 259  row: 10  col: 2

@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Henry
+name: 强化Henry
 head: sprite/sys/henry_f.png
 small: sprite/sys/henry_s.png
 file(0-69): sprite/sys/henry_0.png  w: 79  h: 79  row: 10  col: 7

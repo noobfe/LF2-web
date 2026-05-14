@@ -232,10 +232,10 @@ var Framework = (function (Framework) {
         };
 
         /**
-         * 設定需要多久清除一次曾被按壓過key的紀錄, 預設值為一秒
-         * 該設定與 {{#crossLink "Level/keyup:event"}}{{/crossLink}} 有關
+         * 设定需要多久清除一次曾被按压过key的纪录, 预设值为一秒
+         * 该设定与 {{#crossLink "Level/keyup:event"}}{{/crossLink}} 有关
          * @static
-         * @param {number} userClearHistoryTime 需要多久清除一次曾被按壓過key的紀錄
+         * @param {number} userClearHistoryTime 需要多久清除一次曾被按压过key的纪录
          */
         var setClearHistoryTime = function (userClearHistoryTime) {
             _clearHistoryTime = userClearHistoryTime;
@@ -270,8 +270,8 @@ var Framework = (function (Framework) {
         };
 
         /**
-         * 管理KeyBoard所有的事件, 一般來說, 不會在此處處理相關邏輯
-         * 而會在Level進行設定, 請參照
+         * 管理KeyBoard所有的事件, 一般来说, 不会在此处处理相关逻辑
+         * 而会在Level进行设定, 请参照
          * {{#crossLink "Level/keydown:event"}}{{/crossLink}},
          * {{#crossLink "Level/keyup:event"}}{{/crossLink}},
          *
@@ -429,7 +429,7 @@ var Framework = (function (Framework) {
             //     return _keydownList.apply(KeyBoardManagerInstance, arguments);
             // }
             //
-            // /* 為了要像洛克人  按壓一段時間後可以集氣 */
+            // /* 为了要像洛克人  按压一段时间后可以集气 */
             //
             // /**
             //  * Mapping table.

@@ -1,0 +1,854 @@
+﻿----------------------人物篇--------------------
+
+◎基本介绍◎
+
+<bmp_begin> 
+name: xxx 人名 
+head: sprite\sys\xxx_f.bmp  大头照位置 
+small: sprite\sys\xxx_s.bmp  小图示位置 
+file(0-69): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(70-139): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+file(140-209): sprite\sys\xxx_2.bmp w: 79 h: 79 row: 10 col: 7 
+(w: 每一格的宽度 ; h: 每一格的高度 ; row.col: 那一张图总共有几行几列 ;
+ file(xx-xx): 是指这张图载入了几张分割图片,要按数字来编排分割图的号码) 
+walking_frame_rate :走路的动作变换的时间(值愈大，则愈慢)
+walking_speed :移动速度 
+walking_speedz :行时斜移动的速度 
+running_frame_rate :跑步的动作变换的时间
+running_speed :跑速度 
+running_speedz :跑时斜移动的速度 
+heavy_walking_speed :拿重物的移动速度 
+heavy_walking_speedz:拿重物时斜移动的速度 
+heavy_running_speed :拿重物的跑速度 
+heavy_running_speedz:拿重物时斜跑的速度 
+jump_height :跳的高度 
+jump_distance :跳的距离 
+jump_distancez :跳时斜跳的距离 
+dash_height :冲跳的高度 
+dash_distance :冲跳的距离 
+dash_distancez :冲跳时斜冲跳的距离 
+rowing_height 受身时向上的高度(负值)
+rowing_distance 受身时向后的速度
+<bmp_end> 
+
+
+<特别发现>
+强化网页的强化版是如何锁码的？仅是在人名之前加上中文字而已(如:强化)。写入中文字
+会导致编辑器读不到档案(并非所有的字都会)，因此就像锁码一样。锁码的话会
+造成自己也无法改，除非你有另存未锁码的，不然以后你也不能再修改了。
+破解方法(会破解的人大概也没几个)：故意先让lf2.exe执行时人物的dat档出错
+(可以先将其中一张图移开让它图取不到)，它会告诉你出错并终止。然后再去看
+data资料夹中的temporary.txt，它显示出的就是这个错误的dat档的内容。
+          
+
+
+◎人物act(即frame)的分布◎
+
+0 ~ 3:      standing (站立)
+5 ~ 8:      walking (行走)
+9 ~ 11:     running (跑步)
+12 ~ 15:    heavy_obj_walk (拿重物时走路)
+16 ~ 18:    heavy_obj_run (拿重物时跑步)
+19:         heavy_stop_run (拿重物时煞车)
+20 ~ 23:    normal_weapon_atck (拿轻物时攻击)
+25 ~ 28:    normal_weapon_atck (同前，分成两个动作)
+30 ~ 33:    jump_weapon_atck (拿轻物时跳攻击)
+35 ~ 37:    run_weapon_atck (拿轻物时跑攻击)
+40 ~ 43:    dash_weapon_atck (拿轻物时跑跳攻击)
+45 ~ 47:    light_weapon_thw (丢出轻物)
+50 ~ 51:    heavy_weapon_thw (丢出重物)
+52 ~ 54:    sky_lgt_wp_thw (跳时丢出轻物)
+55 ~ 58:    weapon_drink (喝可以喝的道具)
+60 ~ 62:    punch (普通攻击)
+65 ~ 67:    punch (同前，分成两个动作)
+70 ~ 75:    super_punch (重击)
+80 ~ 81:    jump_attack (跳攻击)
+85 ~ 87:    run_attack (跑攻击)
+90 ~ 91:    dash_attack (跑跳攻击)
+95:         dash_defend (跑跳防御) 
+100 ~ 101:  rowing (向后授身)
+103 ~ 107:  rowing (回避、滚地)
+108 ~ 109:  rowing (向前授身)
+110:        defend (防御)
+111:        defend (防御时被打到)
+112 ~ 114:  broken_defend (破挡，即档不住时的动作)
+115 ~ 116:  picking_light (捡起轻物)
+117:        picking_heavy (捡起重物)
+120 ~ 123:  catching (捉住人时的动作)
+130 ~ 144:  picked_caught (被捉，其中有一些是被捉时被打的动作)
+180 ~ 185:  falling (向后跌倒)
+186 ~ 191:  falling (向前跌倒)
+200 ~ 202:  ice (被冰封)
+203 ~ 206:  fire (被火烧)
+207:        tired (累，但不是晕眩)
+210 ~ 212:  jump (跳跃)
+213 ~ 214:  dash (跑跳)
+215:        crouch (爬起)
+218:        stop_running (煞车)
+219:        crouch2 (第二个爬起的动作)
+220 ~ 221:  injured (被打到向后退的动作)
+222 ~ 223:  injured (被打到向前移的动作)
+224 ~ 229:  injured (晕眩)
+230:        lying (躺着的倒地，死亡时会自动不断的重复此动作)
+231:        lying (趴着的倒地，死亡时会自动不断的重复此动作)
+232 ~ 234:  throw_lying_man (摔出被捉住的人)
+399:        dummy (人物模型) ←不可删除，且为人物frame数的上限
+
+※235~398之间的frame就是绝技的动作，是可以任意命名及改变的。
+※有些frame的数量因人而异，例如Bandit的punch是60~61 & 65~66，但Davis是
+  60~63 & 65~68。
+
+
+
+◎frame解说◎
+
+<frame>=动作开始 
+
+72 super_punch=号码和名 
+
+pic: 8 =图档位置(从0开始算)
+
+state:
+0=站立(stand)
+1=行走(walk)
+2=跑步(run)
+3=普通拳脚攻击(punch)
+4=跳(jump)
+5=突进(dash，即跑+跳)
+7=挡(defend)
+8=破挡(broken defend)
+9=捉人(catching)
+10=被捉(picked caught)
+11=被攻击(injured)
+12=fall大于60才会被打到
+13=有冰碎效果
+14=倒在地上(lying，可使com不会追你)
+15=被冰封(ice，可被同盟攻击)
+16=晕眩(tired)可被敌人捉住
+17=喝(weapon drink)可以喝的物件被消耗 
+18=燃烧(fire，可攻击我方同盟)
+19=firen的烈火焚身(burn run)
+301=deep的鬼哭斩(dash sword，此state具有人物上下移动的功能)
+400=woody瞬间转移(teleport，移往最近的敌人)
+401=woody瞬间转移(teleport，移往最近的队友)
+500=rudolf转换成其他角色(transform)
+501=rudolf转换回来(transform_b)
+1700=治疗自己
+9995=变身成LouisEX(transform，任何人都可以)
+9996=爆出盔甲(transform，任何人都可以)
+9997=讯息(come,move之类，能在任何地方看见)
+9998=讯息删除
+9999=毁坏的武器(broken weapon)
+
+<特别说明>18会有冒烟效果，但此state的攻击会伤及我方。
+
+
+wait: 2 =停顿时间 
+
+next: 73 =下一个动作是 
+
+dvx: =向前后行多少 
+dvy: =向天,地行多少 
+dvz: =向上下行多少 
+
+centerx: 是以哪一点作为人物的中央 
+centery: 是以哪一点作为人物的底部(脚的位置)
+
+hit_a: 按攻击时,跳到哪一个frame?
+hit_d: 按防卫时,跳到哪一个frame? 
+hit_j: 按跳时,跳到哪一个frame?
+hit_Ua: 按"防上攻"时,跳到哪一个frame? 
+hit_Uj: 按"防上跳"时,跳到哪一个frame? 
+hit_Da: 按"防下攻"时,跳到哪一个frame? 
+hit_Dj: 按"防下跳"时,跳到哪一个frame? 
+hit_Fa: 按"防前攻"时,跳到哪一个frame? 
+hit_Fj: 按"防前跳"时,跳到哪一个frame? 
+hit_ja: 按"防跳攻"时,跳到哪一个frame? 
+
+<特别说明>
+1.next:0是不断重复此动作，hit_???:的0是指没有设定。
+2.next、hit_? :999是指回到随机动作
+3.next、hit_? :1000是消失
+4.next:1280=rudolf的隐形
+ (使用隐身和变化术也会影响到分身)
+5.next: -??? 会反向进行第???个frame
+
+<特别发现>next:1200~1299是隐形
+
+
+
+◎itr解说◎
+
+itr: =身体攻击动作开始
+
+kind:
+  0=特殊特技
+  1=捉住晕眩(state:16)的人
+  2=捡武器
+  3=强迫抓人
+  6=敌人靠近按A时是重击
+  7=捡武器不影响动作
+  8=injury数值变成治疗多少hp，动作跳至dvx:?
+  9=打中敌人自己hp归0(如John的防护罩)
+  10=henry魔王之乐章效果
+  11=henry魔王之乐章效果
+  14=阻挡
+  15=飞起
+  16=结冰
+  10??=被你打到会跳到第???个frame(如人质的kind)
+
+x: 40 ,w: 35=攻击前~后的距离   y: 5 ,h: 45 攻击上~下的距离 
+
+dvx:3   =打中会往后弹后多远
+dvy:-10 =打中会弹多高(负值是向天空，正值是向地面)
+
+fall: 70 =倒下的机会 
+fall: 0 是敌人只动一下 
+fall: 30 是打两下敌人就晕 
+fall: 40 是打一下往后退打第二下就倒地
+fall: 60 是打一下晕眩打第二下就倒地
+fall: 70 是必定倒地
+
+vrest:15 =同一个frame打到人的中间间隔时间(vrest越小，同一个frame就会打
+          到越多下)。如Davis的升龙霸，原本vrest只有10，若改的更低，则
+          会造成如强化网页的地狱真升龙的连击效果。
+※注意：vrest值最低只能是4，更低的话打到人会卡住。
+(强化网页的地狱吸星万印
+
+arest: (vrest无效)一攻击到一个人，多久后才能再打一个人
+
+
+bdefend: 60 =破挡的机会(即打破敌人防御的机会)
+bdefend: 60打一次就破挡；同fall，如值是16则16+16+16+16大于60所以值是16
+         时打敌人4下就破挡。
+bdefend: 100则完全挡不住，就算按挡也会让你直接被打到，连破挡的动作都跳
+         过。且有防御效果的人物(如Julian.Knight.Louis)也防不住；道具也
+         会直接被毁掉(不论道具的HP有多少)。
+
+injury: 40 =杀伤力(即损害敌人hp多少；玩家的hp是预设值的500)
+
+在injury后面加上以下effect会有特效(仅限于kind:0时有作用)
+effect: 0 拳击 
+effect: 1 利器攻击 
+effect: 2 着火 
+effect: 3 结冰 
+effect: 4 穿过敌人(仅能打中type:1.2.3.4.5.6的物件) 
+effect: 5 (或以上)没效果，也打不中任何东西 
+effect: 20 定身火
+effect: 21 定身火
+effect: 22 定身火
+effect: 30 定身冰
+
+effect可以加上负号(有效果但无声音)。
+若要加大攻击的z轴范围,只要在effect或injury的后面加上zwidth: ??即可
+(没有effect就是加在injury的后面,若有effect则加在effect的后面)
+
+itr_end: =身体攻击动作结束
+
+
+<特别说明>大范围攻击→
+itr:
+kind: 0 x: -x y: -x w: x h: x dvx: ? dvy: ? fall: ? vrest: ? 
+bdefend: ? injury: ? zwidth: x effect: ? 
+itr_end:
+
+x数值越高则范围越大，?数值是看自己高兴填写的。
+
+
+
+◎bdy解说◎
+
+bdy: =身体(受攻击的部分)开始
+
+kind: 0 特殊特技 
+
+x: 26 w: 35 =受攻击前~后的距离   y: 12 h: 66=受攻击上~下的距离 
+
+bdy_end:=身体结束
+
+<frame_end> = 动作结束
+
+若要消耗mp只要在<frame>之后的第一行结尾加上mp: ?? 即可。
+※若mp为1000以上则会变成扣hp，如firen的大轰炸是4300，就会扣40点hp及300
+  点的mp
+
+声音：只要再第一行与第二行之间插入sound: data/???.wav即可
+
+
+
+◎opoint解说◎
+
+若要在某个动作加入发出气功波类型的绝技，只要在frame里加入以下即可： 
+opoint: 
+kind: ? x: ? y: ? action: ? dvx: ? dvy: ? oid: ? facing: ? 
+opoint_end:  
+
+opoint: objectpoint开始 
+
+kind: 1=发出气功波
+
+x:发出的气功的前后位置
+y:发出的气功的天地位置
+
+action: 招式的第几个frame
+
+dvx:向前后飞行的速度
+dvy:向天地飞行的速度
+
+oid:气功波的id(请参考data/data.txt)
+
+facing:数量及正反 (如数量是1个,正向→facing: 0；2个,正向→facing:20 ；
+1个,反向→facing:1 ； 2个,反向→facing: 21)
+前面数字是数量，数量若为1则不须填，但2以上就须填了；后面数字为正反向，
+偶数是正向，奇数是反向。
+
+opoint_end: objectpoint结束
+
+
+
+◎wpoint解说◎
+
+若frame中有wpoint如下：
+
+wpoint: 
+kind: ? x: ? y: ? weaponact: ? attacking: ? cover: ?  dvx: ? dvy: ? 
+dvz: ?
+wpoint_end:
+
+wpoint:是指此动作若拿着武器时则武器会是哪一个。
+
+x.y:武器的位置座标
+
+weaponact:武器的第几个frame
+
+attacking:此时武器有否攻击性(0是无攻击，1是站着时的攻击，2是跳时的攻击
+          ，3是冲时的攻击，4是冲跳时的攻击)
+
+cover: 0是你会盖住武器的图示 1是武器会盖住你的图示
+
+dvx.dvy.dvz:武器会往x.y.z座标移动多少
+
+wpoint_end: 武器指令结束
+
+
+
+◎bpoint解说◎
+
+bpoint:
+   x: 43  y: 38
+bpoint_end:
+
+bpoint: 流血指令开始
+
+x: y: 嘴角的位置
+
+bpoint_end: 流血指令结束
+
+※hp少于1/3时，嘴角才会流血。
+
+
+
+◎抓人◎
+
+若要抓起敌人,则要在itr中写入
+itr: 
+kind: ? x: ? y: ? w: ? h: ? vrest: ? 
+catchingact: ??? ??? caughtact: ??? ??? 
+itr_end:
+
+caughtingact: 指抓住敌人后自己跳到第几个frame(需重复写两次)
+caughtact: 指抓住敌人后敌人跳到第几个frame
+
+
+或者在cpoint中写入
+
+cpoint:
+kind: ?  x: ?  y: ?  vaction: ?  aaction: ?  taction: ?
+injury: ?  hurtable: ?  decrease: ?  throwvx: ?  throwvy: ?
+throwvz: ?  throwinjury: ?
+另外有fronthurtact: ?  backhurtact: ?  dircontrol: ?
+cpoint_end:
+
+
+cpoint: 抓人指令开始
+kind: 抓人状态，1是抓人，2是被抓的(必须配合，1抓2的，否则抓不起来)
+x: x座标，与被抓的x座标配合
+y: y座标，与被抓的y座标配合
+vaction: 敌人的act
+aaction: 按A时自己跳到的act
+taction: 按→A时自己跳到的act
+injury: 被抓的敌人受伤量(正值是受伤+停格，负值是受伤不停格)
+hurtable: 敌人会不会被人打到？(0不会，1会)※但vaction:在133 ~ 144的敌
+          人不会被打到
+decrease: (负值)抓住的时间减少值(总抓住的时间值301/?=抓住的时间)
+throwvx: 丢出去的x速度
+throwvy: 丢出去的y速度
+throwvz: 丢出去的z速度(要按↑↓才会丢斜的)
+throwinjury: 被丢者的受伤量
+※-842150451不知是什幺…
+fronthurtact: (正面被打后的act)
+backhurtact: (背面被打后的act)
+dircontrol: 控制方向(按着→进入此动作会向右转，负数则会相反)
+cpoint_end: 抓人指令结束
+
+throwinjury完全说明
+※throwvx: 不能为0，否则自己会消失。-1是变成被抓者的id(样子)如Rudolf，
+  之后可按DJA变回来，若想再变回去则只能用state: 501
+  可惜的是会无法使用按DJA会使出的招式(会变回来)
+
+
+
+◎关于变身◎
+
+在state的地方写成8???(←???是要写入人物的id)
+并且在要变成的那个人的图档位置做以下的改变：
+
+角色有一个图档时： 
+<bmp_begin> 
+name: xxx 
+head: sprite\sys\xxx_f.bmp 
+small: sprite\sys\xxx_s.bmp 
+file(0-69): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(70-139): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(140-209): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+
+角色有两个图档时： 
+<bmp_begin> 
+name: xxx 
+head: sprite\sys\xxx_f.bmp 
+small: sprite\sys\xxx_s.bmp 
+file(0-69): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(70-139): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+file(140-209): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(210-279): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+
+角色有三个图档时： 
+<bmp_begin> 
+name: xxx 
+head: sprite\sys\xxx_f.bmp 
+small: sprite\sys\xxx_s.bmp 
+file(0-69): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(70-139): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+file(140-209): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(210-279): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+file(280-349): sprite\sys\xxx_2.bmp w: 79 h: 79 row: 10 col: 7 
+file(350-419): sprite\sys\xxx_2.bmp w: 79 h: 79 row: 10 col: 7 
+file(420-489): sprite\sys\xxx_2.bmp w: 79 h: 79 row: 10 col: 7 
+
+角色有四个图档时： 
+<bmp_begin> 
+name: xxx 
+head: sprite\sys\xxx_f.bmp 
+small: sprite\sys\xxx_s.bmp 
+file(0-69): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(70-139): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+file(140-209): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(210-279): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+file(280-349): sprite\sys\xxx_2.bmp w: 79 h: 79 row: 10 col: 7 
+file(350-419): sprite\sys\xxx_3.bmp w: 79 h: 79 row: 10 col: 7 
+file(420-489): sprite\sys\xxx_2.bmp w: 79 h: 79 row: 10 col: 7 
+file(490-559): sprite\sys\xxx_3.bmp w: 79 h: 79 row: 10 col: 7 
+
+角色有五个图档时： 
+<bmp_begin> 
+name: xxx 
+head: sprite\sys\xxx_f.bmp 
+small: sprite\sys\xxx_s.bmp 
+file(0-69): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(70-139): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+file(140-209): sprite\sys\xxx_0.bmp w: 79 h: 79 row: 10 col: 7 
+file(210-279): sprite\sys\xxx_1.bmp w: 79 h: 79 row: 10 col: 7 
+file(280-349): sprite\sys\xxx_2.bmp w: 79 h: 79 row: 10 col: 7 
+file(350-419): sprite\sys\xxx_3.bmp w: 79 h: 79 row: 10 col: 7 
+file(420-489): sprite\sys\xxx_2.bmp w: 79 h: 79 row: 10 col: 7 
+file(490-559): sprite\sys\xxx_3.bmp w: 79 h: 79 row: 10 col: 7 
+file(560-629): sprite\sys\xxx_4.bmp w: 79 h: 79 row: 10 col: 7 
+file(630-699): sprite\sys\xxx_4.bmp w: 79 h: 79 row: 10 col: 7 
+file(700-769): sprite\sys\xxx_4.bmp w: 79 h: 79 row: 10 col: 7 
+
+以此类推............ 
+
+※注意：若需作此改变，则不管你的bmp档有几个图你都要写成70张图的设定值。
+如:Bat_2.bmp这个图档仅有二张图，但设定值必须改成file(280-349)、row:10、
+   col:7这样，否则会没有显示图档。
+图档最多不能超出500个。
+
+
+------------气功波型(即发射出去的)绝技介绍--------------
+
+◎基本解说◎
+
+<bmp_begin>
+file(0-23): sprite\sys\dennis_chase.bmp w: 81 h: 82 row: 4 col: 3
+weapon_hit_sound: data\020.wav
+weapon_drop_sound: data\020.wav
+weapon_broken_sound: data\020.wav
+<bmp_end>
+
+
+file:图档所在,同上面所介绍的
+
+weapon_hit_sound: 打中人的声音
+weapon_drop_sound: 撞到地上的声音
+weapon_broken_sound: 毁坏声音
+
+
+<frame> 0 flying
+pic: 0 state: 3000 wait: 2 next: 40 dvx: 3 dvy: 0 dvz: 0 centerx: 45
+centery: 38 hit_a: 0 hit_d: 0 hit_j: 0
+itr:
+kind: 0 x: 28 y: 30 w: 27 h: 26 dvx: 18 fall: 70 vrest: 15 bdefend: 60
+injury: 65 
+itr_end:
+bdy:
+kind: 0 x: 28 y: 30 w: 27 h: 26
+bdy_end:
+<frame_end>
+
+
+
+◎设定解说◎
+
+此时的 hit_a: 0 hit_d: 0 hit_j: 0是指特殊设定
+
+一般而言，
+hit_a: 时间减少量，(时间总值500/hit_a=持续时间)，数值越低减少越慢
+hit_d: 当时间总值扣完时动作跳到此
+hit_j: z方向移动速度，50为中间，49以下是上移的速度，51以上是下移的速度
+hit_Fa: 追纵的程度，说明如下：
+1= 追敌人的center(因为敌人站在地面，所以会下飘)
+2= 水平追敌
+3= 加速法追敌(追纵力较差)
+4= 天使之祝福(别的dat档用了无效)
+5= 天使之祝福的开始(会追我方的人物很久)
+6= 恶魔之审判的开始(视敌人数目而增加，基本上是一个)
+7= 恶魔之审判,殃殒天降(可以做出打到地面的追踪波)
+8= 吸血蝙蝠的开始(视敌人数目而增加，基本数值是三个，别的dat档用了无效)
+9= 殃殒天降的开始(视敌人数目而增加，基本数值是四个)
+10= 加速(从慢变快)
+11= 极地火山
+12= 吸血蝙蝠
+13= 连环重炮的开始
+14= 连环重炮
+
+
+※当hit_a的时间到后，hit_Fa就会失去效用。
+※追踪功能类型的气功波dvx.dvy.dvz必须是0。
+
+
+气功波state使用
+
+15=  若配合没有bdy则永远不会被打消
+18=  气功会冒烟，且会波及我方。
+3000="波"的飞行(ball-flying，波是指气功波)，打到人和自己的武器会跳到
+     act10，打到别人的武器跳到act20
+3001="波"打中敌时的爆破(hiting)，打到人和自己的武器不消失，正面打到别
+     人的武器act20
+3002=波被取消，即被其他东西打中阻挡而爆破(hit)，打到人和自已的武器不消
+     失，打到别人type1的武器act20
+3003=波的反弹及爆破(rebounding)，打到人和type2的武器不消失，打到别人的
+     武器act20
+3004=波消失(disappear)，打到人和type2.4.6的武器不消失，打到type1的武器
+     act20
+3005="拳气"的飞行(henry wind-flying)，打到东西不消失，打到state3005的
+     act20，无法上下移动，没有影子
+3006=属穿心攻击的波(flying)，打到东西不消失，打到state3005.3006的act20
+
+
+
+◎气功act分布◎
+10: hitting (打中敌人)
+20: hit (气功波本身被打中)
+30: rebounding (被反弹)
+40: disappearing (消失)
+
+
+------------------道具(weapon)的介绍--------------------
+
+◎type:1,4,6的轻型武器◎
+
+weapon_hp: 武器的hp量
+weapon_drop_hurt: 武器着地的损血量
+weapon_hit_sound: 被打到的声音
+weapon_drop_sound: 掉到地上的声音
+weapon_broken_sound: 毁坏的声音
+
+<weapon_strength_list>(武器攻击表开始)
+   entry: 1 normal 
+     dvx: 2  fall: 40  vrest: 10 bdefend: 16  injury: 30  effect: 3
+   entry: 2 jump   
+     dvx: 7  fall: 70  vrest: 10  bdefend: 16   injury: 30  effect: 3
+   entry: 3 run    
+     dvx: 10  fall: 70  vrest: 10  bdefend: 16   injury: 40  effect: 3
+   entry: 4 dash   
+     dvx: 12  fall: 70  vrest: 20  bdefend: 60  injury: 40  effect: 3
+<weapon_strength_list_end>(武器攻击表结束)
+
+在人物的wpoint的attacking使用哪个数字，就会用该entry的攻击方式
+※可以自己新增entry: 5以上的数字，不过人物的attacking就要用5
+
+
+◎轻型道具act的分布◎
+0: in_the_sky (在空中)
+20: on_hand (在手中)
+40: throwing (丢出)
+60: on_ground (在地上)
+64: 可以捡的on_ground
+70: just_on_ground (刚掉到地上的动作)
+71: just_on_on_ground (同上)
+
+state说明
+1000=轻型武器在空中(light weapon-in the sky)
+1001=轻型武器在手中(on hand)，类似arest:1
+1002=轻型武器被投掷(throwing)，重力变弱，打到人act5,10,15
+1003=轻型武器反弹(rebounding)
+1004=轻型武器在地上(on ground)，与itr kind2作用
+
+
+
+◎type 2重型武器◎
+
+大部分与其他weapon相同，仅act.state不同
+
+
+◎重型道具act分布◎
+0: in_the_sky
+10: on_hand
+20: 可以捡的on_ground
+
+state说明
+2000= 重型武器在空中(heavy weapon-...同轻型道具)
+2001= 重型武器在手中
+2002= 重型武器在地上
+2004= 与itr kind2作用
+
+
+
+-------------新增人物、道具、武器、背景方法--------------
+
+id:  0  type: 0  file:data\template.dat =Template
+id: 52  type: 0  file:data\julian.dat =Julian 
+id: 51  type: 0  file:data\firzen.dat =Firzin
+id: 50  type: 0  file:data\louisEX.dat =LouisEX
+id: 38  type: 0  file:data\bat.dat =Bat
+id: 39  type: 0  file:data\justin.dat =Justin 
+id: 37  type: 0  file:data\knight.dat =Knight
+id: 36  type: 0  file:data\jan.dat =Jan
+id: 35  type: 0  file:data\monk.dat =Monk
+id: 34  type: 0  file:data\sorcerer.dat =Sorcerer
+id: 33  type: 0  file:data\jack.dat =Jack
+id: 32  type: 0  file:data\mark.dat =Mark
+id: 31  type: 0  file:data\hunter.dat =Hunter
+id: 30  type: 0  file:data\bandit.dat =Bandit
+id:  1  type: 0  file:data\deep.dat =Deep
+id:  2  type: 0  file:data\john.dat =John
+id:  4  type: 0  file:data\henry.dat =Henry
+id:  5  type: 0  file:data\rudolf.dat =Rudolf
+id:  6  type: 0  file:data\louis.dat =Louis
+id:  7  type: 0  file:data\firen.dat =Firen 
+id:  8  type: 0  file:data\freeze.dat =Freeze 
+id:  9  type: 0  file:data\dennis.dat =Dennis  
+id: 10  type: 0  file:data\woody.dat =Woody
+id: 11  type: 0  file:data\davis.dat =Davis
+
+id: 100  type: 1  file:data\weapon0.dat   #stick =木棒  
+id: 101  type: 1  file:data\weapon2.dat  hoe =镰刀 
+id: 120  type: 1  file:data\weapon4.dat  #knife =小刀 
+id: 121  type: 4  file:data\weapon5.dat  #baseball =棒球 
+id: 122  type: 6  file:data\weapon6.dat  #milk =牛奶
+id: 123  type: 6  file:data\weapon8.dat  #beer =啤酒
+id: 124  type: 1  file:data\weapon9.dat  #< =回力标
+id: 150  type: 2  file:data\weapon1.dat  #stone =岩石
+id: 151  type: 2  file:data\weapon3.dat  #wooden_box =木箱
+id: 217  type: 2  file:data\weapon10.dat #louis_armour =Louis的手脚盔甲
+id: 218  type: 2  file:data\weapon11.dat #louis_armour =Louis的腰部盔甲
+id: 300  type: 5  file:data\criminal.dat #criminal =人质
+
+id: 200  type: 3  file:data\john_ball.dat =John的气功波
+id: 201  type: 1  file:data\henry_arrow1.dat =弓箭
+id: 202  type: 1  file:data\rudolf_weapon.dat =飞镖
+id: 203  type: 3  file:data\deep_ball.dat =破空斩
+id: 204  type: 3  file:data\henry_wind.dat =降龙掌
+id: 205  type: 3  file:data\dennis_ball.dat =Dennis的气功波
+id: 206  type: 3  file:data\woody_ball.dat =Woody的气功波
+id: 207  type: 3  file:data\davis_ball.dat =Davis的气功波
+id: 208  type: 3  file:data\henry_arrow2.dat =穿空矢
+id: 209  type: 3  file:data\freeze_ball.dat =冷冻波
+id: 210  type: 3  file:data\firen_ball.dat =火焰弹
+id: 211  type: 3  file:data\firen_flame.dat =豪火球
+id: 212  type: 3  file:data\freeze_column.dat =冰霜拳
+id: 213  type: 1  file:data\weapon7.dat #ice_sword =冰峰之剑
+id: 214  type: 3  file:data\john_biscuit.dat =气旋斩
+id: 215  type: 3  file:data\dennis_chase.dat =追踪波
+id: 216  type: 3  file:data\jack_ball.dat =Jack的气功波
+id: 219  type: 3  file:data\jan_chaseh.dat =天使的祝福
+id: 220  type: 3  file:data\jan_chase.dat =恶魔的审判
+id: 221  type: 3  file:data\firzen_chasef.dat =殃殒天降中的火球
+id: 222  type: 3  file:data\firzen_chasei.dat =殃殒天降中的冰球
+id: 223  type: 3  file:data\firzen_ball.dat =炎冰砲
+id: 224  type: 3  file:data\bat_ball.dat =激光眼
+id: 225  type: 3  file:data\bat_chase.dat =吸血蝙蝠
+id: 226  type: 3  file:data\justin_ball.dat =超能量摧毁炮
+id: 228  type: 3  file:data\julian_ball.dat =连环重炮
+id: 229  type: 3  file:data\julian_ball2.dat =极级破坏波
+
+id: 998  type: 5  file:data\etc.dat =电脑的指令
+id: 999  type: 5  file:data\broken_weapon.dat =毁坏的物件
+
+id: 4 file: bg\sys\hkc\bg.dat =香港红砌体育馆 
+id: 2 file: bg\sys\lf\bg.dat =狮子山森林 
+id: 3 file: bg\sys\sp\bg.dat =赤柱监狱 
+id: 5 file: bg\sys\gw\bg.dat =万里长城 
+id: 6 file: bg\sys\qi\bg.dat =皇后岛(冰火岛) 
+id: 7 file: bg\sys\ft\bg.dat =禁绝之塔 
+id: 1 file: bg\sys\cuhk\bg.dat =香港中文大学 
+id: 0 file: bg\sys\thv\bg.dat =大堪村 
+id: 10 file: bg\template\1\bg.dat =样本背景1 
+id: 11 file: bg\template\2\bg.dat =样本背景2 
+id: 12 file: bg\template\3\bg.dat =样本背景3 
+
+
+◎id◎
+
+id: ?
+1.id带有特性和像电脑的灵魂一样，如id:1是电脑用deep的战斗模式，id:2是用
+  john的。
+2.特性：id:6有1次盔甲防御效果但不防冰火.Hp小于1/3时按DJA才可变身，id:37
+  有2次盔甲防御效果但不防冰火，id:7.8当HP小于1/5时才可融合，id:8拳脚攻
+  击打到别人的气功波会反弹成冷冻波，id:51mp回复很快、在闯关中以敌军
+  ratio来算等于两个人，id:52有2次防御、防冰火mp又回很快、闯关中以敌军
+  ratio来算等于三个人，id:201.202的道具不受吹笛子、白色龙卷效果影响而且
+  射出去可以救人质，id:209的气功波可将其他气功波反弹成冷冻波，id:210.
+  220.221.222.223.225.224.226.228的气功波不会被id:209的效果影响，id:223
+  .224的气功波绝对只能直发无法上下移动，id:211的气功波state:18不会波及
+  我方。
+3.id:0 ~ 29 在随机选角色(闯关中写成id:1000)会出现，或随机选背景。30 ~39
+  、50 ~59是隐藏人物(背景)，要打lf2.net才会出现，100 ~ 199是会掉落的物
+  品。
+4.(object到object_end之间)档案(id)的总数不可超过100个，不然会造成游戏
+  无法进入。
+
+
+◎type◎
+
+type:? 
+是指物件的种类 
+0:是没有指定,人物是用这个种类 
+1:轻型武器
+2.重型武器
+3.是气功波的类型,例如davis的气功波
+4.轻型武器(仅可投掷的)(例:棒球) 
+5.一个资料档是包含着特殊的资料(例:criminal档,即人质档) 
+6.可以喝的物件
+
+
+◎file◎
+
+file:?
+是指在哪个资料夹可以找到这个档案
+一般都是写file: data\???.dat；???是指名称,什幺名称可直接打开data这个资
+料夹看
+
+ 
+
+-------------------- 闯关(stage)介绍--------------------
+
+先用stage.dat里的其中一段为例: 
+<stage> id: 42 #stage 5-3 
+<phase> bound: 1500 
+id: 300 hp: 100 act: 40 x: 1300 y: 0 reserve: 5 
+id: 300 hp: 100 act: 50 x: 1300 y: 0 reserve: 5 
+id: 122 x: 300 #milk 
+id: 122 x: 300 #milk 
+id: 122 x: 300 #milk 
+id: 122 x: 300 #milk ratio: .7 
+id: 123 x: 300 #beer 
+id: 123 x: 300 #beer ratio: .7 
+id: 3000 hp: 50 times: 2 ratio: 1 <soldier> 
+id: 1000 hp: 100 times: 2 <boss> 
+id: 34 hp: 100 times: 2 ratio: .5 join: 300
+<phase_end> 
+
+id:人物/道具的id
+
+以下是data.txt没有的id: 
+3000是Bandit或Hunter(随机) 
+1000是主角(id 0-29,随机) 
+300 是人质(要出现甚幺人质,跟act有关,如act: 0就是monk,请用编辑器查看
+           criminal.dat)
+
+hp:人物的hp
+join:人物加入时的hp 
+times:人物重复出现的次数+1 
+ratio:我军人数乘ratio=该人物出现数,如ratio是一以下,例: .5,我军只有一个
+人该人物便不会出现,要两个以上才行
+(2或以上乘.5=1或以上)
+
+<boss>和<soldier>:如果<boss>未死,<soldier>便会不停出现(设定times的话
+soldier就会失效)
+
+bound:可移动范围,数字愈大,移动范围愈大,上限是3200
+
+act:刚出现的指令,例: act:211 也就是该人物会跳到第211个frame
+x:出现位置,例: x:300,该人物/道具便会在bound300的位置出现,可以是负数 
+y:出现高度,例: y:-500,该人物便会从天空降下来(此设定仅对人物有效)
+reserve:人质复活次数(也可以用在别人身上) 
+#????:物件名称(不打也可以)
+
+<stage>闯关开始
+id: xx闯关编号
+#stage x-x哪一关
+<phase>段落开始
+<phase_end>段落结束 
+<stage_end>闯关结束
+<end>全部结束
+ 
+<特别发现>若从data.txt改变<background>的排序则闯关的场地会因之改变，因
+          执行档执行的闯关背景是从第二行至第六行的bg。
+
+※场地上最多物件350个，否则无法发气功波(opoint)
+※喝牛奶的时间99(喝造出来的牛奶时间是249)，喝酒的时间是154
+※武器掉到场外即消失(闯关右侧例外)
+
+
+--------------------背景(bg)介绍---------------------
+
+name: ??? 名称
+width: ? 地图左右的宽度
+zboundary: ? ? 地图上下的范围(第一个数字是上边界的位置，第二个数字是下
+               边界的位置)
+shandow: bg\???\??\???.bmp 影子的图片位置
+shandowsize: ? ? 影子的尺寸(第一个数字是左右宽度，第二个数字是上下的宽
+                 度)，它不会把图片切掉
+※人物站的位置是图片的正中间。
+
+layer: bg\sys\gw\s.bmp 图片位置
+transparency: ?  width: ?  x: ?  y: ?  cc: ?  c1: ?  c2: ?  loop:  ? 
+其他rect: ?  height: ?
+layer_end
+
+layer是有照顺序的，最后面叙述的(玩时)显示在最前面
+※layer_end不能加冒号(:)
+
+transpparency: 0透明度(图片黑色部分，0不透明，1透明)
+width: 794是不会动(图片在整场移动距离=?-794)
+x: x座标
+y: y座标，最高点110
+loop: 多少距离放一个图片
+cc: 多少时间循环一次
+c1: 循环内出现的时间
+c2: 循环内结束的时间
+示意图：
+                        ←╮
+╰→→→→→→→→→→→→╯
+      c1→出现→c2        cc
+
+rect: 色彩填满
+width: 宽度(从x座标算起)
+height: 高度(从y座标算起)
+
+
+
+
+
+~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ END ~ ~ ~ ~ 

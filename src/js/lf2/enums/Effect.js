@@ -2,7 +2,7 @@ import { define } from '../game/define.js';
 
 /**
  * Itr Effect
- * 定義遊戲內部特效的列舉型別
+ * 定义游戏内部特效的列举型别
  *
  * @class lf2.Effect
  * @type {

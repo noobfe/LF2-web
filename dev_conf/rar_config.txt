@@ -1,4 +1,4 @@
-; 下列註解包含自解檔指令碼指令
+; 下列注解包含自解档指令码指令
 
 Path=%ProgramFiles%\OOP\LF2\
 Setup="installer/install.bat"

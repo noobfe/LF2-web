@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Sorcerer
+name: 强化Sorcerer
 head: sprite/sys/sorcerer_f.png
 small: sprite/sys/sorcerer_s.png
 file(0-69): sprite/sys/sorcerer_0.png  w: 79  h: 79  row: 10  col: 7

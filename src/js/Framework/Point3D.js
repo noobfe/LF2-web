@@ -1,7 +1,7 @@
 import { Point } from './Point.js';
 
 /**
- * 提供三維座標的儲存功能
+ * 提供三维座标的储存功能
  * @class {Framework.Point3D}
  * @extends {Framework.Point}
  * @property {Number} z

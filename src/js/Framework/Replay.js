@@ -5,7 +5,7 @@ var Framework = (function (Framework) {
 
     Framework.Replay = (function () {
         /**
-         * 自動測試重播系統
+         * 自动测试重播系统
          *
          * @class Replay
          * @constructor

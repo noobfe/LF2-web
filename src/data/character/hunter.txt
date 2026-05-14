@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Hunter
+name: 强化Hunter
 head: sprite/sys/hunter_f.png
 small: sprite/sys/hunter_s.png
 file(0-69): sprite/sys/hunter_0.png  w: 79  h: 79  row: 10  col: 7

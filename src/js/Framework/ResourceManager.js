@@ -96,7 +96,7 @@ var Framework = (function (Framework) {
                 //data: 'user=admin%20admin&password=12345' //需要自行encode, 且只接受string格式
                 statusCode: {
                     /*404: function() {},
-                     500: function() {},*/	//這部分USER可以自行設定
+                     500: function() {},*/	//这部分USER可以自行设定
                 },
                 success: function (data, textStatus, xmlHttpRequest) {
                 },
@@ -158,8 +158,8 @@ var Framework = (function (Framework) {
         };
 
         var detectAjax = function () {
-            //Constuctor即開始偵測
-            //要有(_requestCount == 0)是為了避免一開始就去執行gameController.start
+            //Constuctor即开始侦测
+            //要有(_requestCount == 0)是为了避免一开始就去执行gameController.start
             ajaxProcessing = (_requestCount !== _responseCount) || (_requestCount === 0);
         };
 
@@ -169,7 +169,7 @@ var Framework = (function (Framework) {
         };
 
         var finishLoading = function () {
-            //由game來控制遊戲開始的時機, 需要是在發出所有request後, 再call這個funciton
+            //由game来控制游戏开始的时机, 需要是在发出所有request后, 再call这个funciton
             detectAjax();
             if (!ajaxProcessing) {
                 stopDetectingAjax();

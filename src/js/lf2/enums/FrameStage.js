@@ -1,35 +1,35 @@
 /**
- * 定義遊戲內Frame狀態的列舉型別
+ * 定义游戏内Frame状态的列举型别
      0=站立(stand)
      1=行走(walk)
      2=跑步(run)
-     3=普通拳腳攻擊(punch)
+     3=普通拳脚攻击(punch)
      4=跳(jump)
-     5=突進(dash，即跑+跳)
-     7=擋(defend)
-     8=破擋(broken defend)
+     5=突进(dash，即跑+跳)
+     7=挡(defend)
+     8=破挡(broken defend)
      9=捉人(catching)
      10=被捉(picked caught)
-     11=被攻擊(injured)
-     12=fall大於60才會被打到
+     11=被攻击(injured)
+     12=fall大于60才会被打到
      13=有冰碎效果
-     14=倒在地上(lying，可使com不會追你)
-     15=被冰封(ice，可被同盟攻擊)
-     16=暈眩(tired)可被敵人捉住
+     14=倒在地上(lying，可使com不会追你)
+     15=被冰封(ice，可被同盟攻击)
+     16=晕眩(tired)可被敌人捉住
      17=喝(weapon drink)可以喝的物件被消耗
-     18=燃燒(fire，可攻擊我方同盟)
+     18=燃烧(fire，可攻击我方同盟)
      19=firen的烈火焚身(burn run)
-     301=deep的鬼哭斬(dash sword，此state具有人物上下移動的功能)
-     400=woody瞬間轉移(teleport，移往最近的敵人)
-     401=woody瞬間轉移(teleport，移往最近的隊友)
-     500=rudolf轉換成其他角色(transform)
-     501=rudolf轉換回來(transform_b)
-     1700=治療自己
-     9995=變身成LouisEX(transform，任何人都可以)
+     301=deep的鬼哭斩(dash sword，此state具有人物上下移动的功能)
+     400=woody瞬间转移(teleport，移往最近的敌人)
+     401=woody瞬间转移(teleport，移往最近的队友)
+     500=rudolf转换成其他角色(transform)
+     501=rudolf转换回来(transform_b)
+     1700=治疗自己
+     9995=变身成LouisEX(transform，任何人都可以)
      9996=爆出盔甲(transform，任何人都可以)
-     9997=訊息(come,move之類，能在任何地方看見)
-     9998=訊息刪除
-     9999=毀壞的武器(broken weapon)
+     9997=讯息(come,move之类，能在任何地方看见)
+     9998=讯息删除
+     9999=毁坏的武器(broken weapon)
 
  * @type {
             {

@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Freeze
+name: 强化Freeze
 head: sprite/sys/freeze_f.png
 small: sprite/sys/freeze_s.png
 file(0-69): sprite/sys/freeze_0.png  w: 79  h: 79  row: 10  col: 7

@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Firen
+name: 强化Firen
 head: sprite/sys/firen_f.png
 small: sprite/sys/firen_s.png
 file(0-69): sprite/sys/firen_0.png  w: 79  h: 79  row: 10  col: 7

@@ -9,45 +9,45 @@ const METHOD_NOT_IMPLEMENT = "Method Not Implemented";
 export class MouseEventInterface {
 
     /**
-     * 處理點擊的事件, 當mousedown + mouseup 都成立時才會被觸發
+     * 处理点击的事件, 当mousedown + mouseup 都成立时才会被触发
      *
      * @abstract
      * @event click
-     * @param {Object} e 事件的參數, 會用到的應該是e.x和e.y兩個參數,
-     * 表示的是目前點擊的絕對位置
+     * @param {Object} e 事件的参数, 会用到的应该是e.x和e.y两个参数,
+     * 表示的是目前点击的绝对位置
      */
     click(e) {
     }
 
     /**
-     * 處理滑鼠點下的事件
+     * 处理滑鼠点下的事件
      *
      * @abstract
      * @event mousedown
-     * @param {Object} e 事件的參數, 會用到的應該是e.x和e.y兩個參數,
-     * 表示的是目前點擊的絕對位置
+     * @param {Object} e 事件的参数, 会用到的应该是e.x和e.y两个参数,
+     * 表示的是目前点击的绝对位置
      */
     mousedown(e) {
     }
 
     /**
-     * 處理滑鼠放開的事件
+     * 处理滑鼠放开的事件
      *
      * @abstract
      * @event mouseup
-     * @param {Object} e 事件的參數, 會用到的應該是e.x和e.y兩個參數,
-     * 表示的是目前放開的絕對位置
+     * @param {Object} e 事件的参数, 会用到的应该是e.x和e.y两个参数,
+     * 表示的是目前放开的绝对位置
      */
     mouseup(e) {
     }
 
     /**
-     * 處理滑鼠移動的事件(不論是否有點下, 都會觸發該事件)
+     * 处理滑鼠移动的事件(不论是否有点下, 都会触发该事件)
      *
      * @abstract
      * @event mousemove
-     * @param {Object} e 事件的參數, 會用到的應該是e.x和e.y兩個參數,
-     * 表示的是目前滑鼠的絕對位置
+     * @param {Object} e 事件的参数, 会用到的应该是e.x和e.y两个参数,
+     * 表示的是目前滑鼠的绝对位置
      */
     mousemove(e) {
     }

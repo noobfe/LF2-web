@@ -4,17 +4,17 @@ var Framework = window.Framework;
 'use strict';
 var Framework = (function (Framework) {
     /**
-     * 支援播放連續圖片的Sprite
+     * 支援播放连续图片的Sprite
      *
      * @param  {Object} options
-     * options.url為要載入的圖片, 當url為一個Array時表示為零散的多張圖片,
-     * 當為string時表示是一張大張的連續動作圖,
-     * 故需要在提供大張連續圖的row和col.
-     * options.speed可以設定這個Sprite播放的速度(fps),
-     * options.loop 則可以設定這個Sprite是否需要不斷重複播放
+     * options.url为要载入的图片, 当url为一个Array时表示为零散的多张图片,
+     * 当为string时表示是一张大张的连续动作图,
+     * 故需要在提供大张连续图的row和col.
+     * options.speed可以设定这个Sprite播放的速度(fps),
+     * options.loop 则可以设定这个Sprite是否需要不断重复播放
      * @example
-     *     new Framework.AnimationSprite({url:['image1.png', 'image2.bmp']}); //多張圖片
-     *     new Framework.AnimationSprite({url:' bigImage.png', col: 10 , row: 7 , loop: true , speed: 6}); //只有一張大型的連續動作圖,speed和loop為非必要項
+     *     new Framework.AnimationSprite({url:['image1.png', 'image2.bmp']}); //多张图片
+     *     new Framework.AnimationSprite({url:' bigImage.png', col: 10 , row: 7 , loop: true , speed: 6}); //只有一张大型的连续动作图,speed和loop为非必要项
      *
      */
     Framework.AnimationSprite = class extends Framework.GameObject {
@@ -48,12 +48,12 @@ var Framework = (function (Framework) {
             };
 
 
-            // 建構子參數判斷
+            // 建构子参数判断
             if (!Framework.Util.isUndefined(options.url)) {
                 if (Framework.Util.isString(options.url)) {
                     this._id = options.url;
                     if (Framework.Util.isUndefined(options.col) || Framework.Util.isUndefined(options.row)) {
-                        Framework.DebugInfo.Log.error('AnimationSprite Error : 建構子參數錯誤，需指定col、row');
+                        Framework.DebugInfo.Log.error('AnimationSprite Error : 建构子参数错误，需指定col、row');
                         throw new SyntaxError('AnimationSprite constructor arguments error');
                     } else {
                         this.col = options.col;
@@ -64,11 +64,11 @@ var Framework = (function (Framework) {
                     this.maxIndex = options.url.length - 1;
                     this.row = options.url.length;
                 } else {
-                    Framework.DebugInfo.Log.error('AnimationSprite Error : 建構子參數錯誤，url格式不正確');
+                    Framework.DebugInfo.Log.error('AnimationSprite Error : 建构子参数错误，url格式不正确');
                     throw new SyntaxError('AnimationSprite constructor arguments error');
                 }
             } else {
-                Framework.DebugInfo.Log.error('AnimationSprite Error : 建構子參數錯誤');
+                Framework.DebugInfo.Log.error('AnimationSprite Error : 建构子参数错误');
                 throw new SyntaxError('AnimationSprite constructor arguments error');
             }
             this.speed = options.speed || 24;
@@ -76,11 +76,11 @@ var Framework = (function (Framework) {
 
 
             if (Framework.Util.isString(options.url)) {
-                //單張圖片切割
+                //单张图片切割
                 Framework.ResourceManager.loadImage({id: this._id, url: this._id});
                 this._type = 'one';
             } else if (Array.isArray(options.url)) {
-                //一堆圖片串成動畫
+                //一堆图片串成动画
                 this._id = [];
                 this._type = 'more';
                 this._id = options.url;
@@ -89,7 +89,7 @@ var Framework = (function (Framework) {
                 }, this);
                 this._isLoadSprite = true;
             } else if (!Framework.Util.isUndefined(options)) {
-                Framework.DebugInfo.Log.error('AnimationSprite 不支援的參數 ' + options);
+                Framework.DebugInfo.Log.error('AnimationSprite 不支援的参数 ' + options);
             }
 
             this.pushSelfToLevel();
@@ -142,14 +142,14 @@ var Framework = (function (Framework) {
 
         /**
          *
-         * 開始播放設定好的AnimationSprite
-         * @param {Object} options options.from和options.to表示要從第幾張播放到第幾張,
-         * 若to < from表示要倒著播放, 可以在此設定要被播放的速度和是否重複播放,
-         * finishPlaying可以設定播放完畢後是否要有callback
-         * (loop: true時, 此callback永遠不會被執行)
+         * 开始播放设定好的AnimationSprite
+         * @param {Object} options options.from和options.to表示要从第几张播放到第几张,
+         * 若to < from表示要倒着播放, 可以在此设定要被播放的速度和是否重复播放,
+         * finishPlaying可以设定播放完毕后是否要有callback
+         * (loop: true时, 此callback永远不会被执行)
          * @example
-         *     start({from:3, to: 5}); //從第三張圖片播放到第五張
-         *     start({from:6, to: 1}); //倒著從第六張圖片播放到第一張
+         *     start({from:3, to: 5}); //从第三张图片播放到第五张
+         *     start({from:6, to: 1}); //倒着从第六张图片播放到第一张
          *     start({from:6, to: 1, loop: false, speed: 1, finishPlaying: function(){
         *         console.log('finish');
         *     }});
@@ -178,14 +178,14 @@ var Framework = (function (Framework) {
         }
 
         /**
-         * 停止播放AnimationSprite, 若已經停止, 則不會發生任何事情
+         * 停止播放AnimationSprite, 若已经停止, 则不会发生任何事情
          */
         stop() {
             this._start = false;
         }
 
         /**
-         * 繼續播放AnimationSprite, 若未曾停止, 則不會發生任何事情
+         * 继续播放AnimationSprite, 若未曾停止, 则不会发生任何事情
          */
         resume() {
             if (!this._start) {
@@ -216,7 +216,7 @@ var Framework = (function (Framework) {
          */
         initialize() {
             //if(this._type === 'one') {              
-            // 故意用 closures 隔離變數的scope
+            // 故意用 closures 隔离变数的scope
             //(function() {
             var i = 0, tmpImg, tmpCanvas, tmpContext, sprite, realWidth, realHeight;
             if (this._type === 'one') {

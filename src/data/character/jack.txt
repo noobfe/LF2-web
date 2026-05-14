@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Jack
+name: 强化Jack
 head: sprite/sys/jack_f.png
 small: sprite/sys/jack_s.png
 file(0-69): sprite/sys/jack_0.png  w: 79  h: 79  row: 10  col: 7

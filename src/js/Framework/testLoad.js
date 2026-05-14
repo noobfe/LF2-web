@@ -2,9 +2,9 @@
 var _isTestMode = true;
 var _isRecordMode = false;
 
-//立即執行函式, 並封裝所有變數避免衝突
+//立即执行函式, 并封装所有变数避免冲突
 (function () {
-    //動態依序載入JS
+    //动态依序载入JS
     //ref: http://blog.darkthread.net/blogs/darkthreadtw/archive/2009/01/15/4061.aspx
     var importJS = function (jsConf, src, lookFor) {
         var headID = document.getElementsByTagName("head")[0];

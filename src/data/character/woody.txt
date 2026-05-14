@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Woody
+name: 强化Woody
 head: sprite/sys/woody_f.png
 small: sprite/sys/woody_s.png
 file(0-69): sprite/sys/woody_0.png  w: 79  h: 79  row: 10  col: 7

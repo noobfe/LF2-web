@@ -92,8 +92,8 @@ var Framework = (function (Framework) {
 
 
         /**
-         * 管理KeyBoard所有的事件, 一般來說, 不會在此處處理相關邏輯
-         * 而會在Level進行設定, 請參照
+         * 管理KeyBoard所有的事件, 一般来说, 不会在此处处理相关逻辑
+         * 而会在Level进行设定, 请参照
          * {{#crossLink "Level/keydown:event"}}{{/crossLink}},
          * {{#crossLink "Level/keyup:event"}}{{/crossLink}},
          *

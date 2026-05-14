@@ -4,7 +4,7 @@ var Framework = window.Framework;
 var Framework = (function (Framework) {
     Framework.FpsAnalysis = function () {
         //在strict mode底下, 不能使用caller, callee, arguments;
-        //FpsAnalysis, user不會用到, 形成沒有意義的防呆
+        //FpsAnalysis, user不会用到, 形成没有意义的防呆
         //if (!(this instanceof arguments.callee))
         //	return new arguments.callee();
         var timeData = new Array(60);

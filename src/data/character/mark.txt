@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Mark
+name: 强化Mark
 head: sprite/sys/mark_f.png
 small: sprite/sys/mark_s.png
 file(0-69): sprite/sys/mark_0.png  w: 79  h: 79  row: 10  col: 7

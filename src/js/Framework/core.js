@@ -2,12 +2,12 @@ var Framework = window.Framework;
 var Framework = (function (Framework) {
     'use strict';
     Framework.exClass = function () {
-        // 如果用了new keyword 就拋例外
+        // 如果用了new keyword 就抛例外
         if (this instanceof Framework.exClass) {
-            Framework.DebugInfo.Log.error('不能再Framework.exClass之前使用new關鍵字');
+            Framework.DebugInfo.Log.error('不能再Framework.exClass之前使用new关键字');
             throw 'can\'t use new keyword on Framework.exClass';
         }
-        // 宣告變數......
+        // 宣告变数......
         var parent, props, childClass, i;
 
         // 抓取parent & child object
@@ -16,7 +16,7 @@ var Framework = (function (Framework) {
                 props = arguments[0];
                 parent = Object;
             } else {
-                Framework.DebugInfo.Log.error('Framework.exClass 參數錯誤');
+                Framework.DebugInfo.Log.error('Framework.exClass 参数错误');
                 throw 'Framework.exClass\'s argument error';
             }
         } else if (arguments.length === 2) {
@@ -26,13 +26,13 @@ var Framework = (function (Framework) {
         // 建立 Child Class 的 Constructor 
         childClass = function () {
             if (Framework.Util.isUndefined(this)) {
-                Framework.DebugInfo.Log.error('必須使用new關鍵字');
+                Framework.DebugInfo.Log.error('必须使用new关键字');
                 throw 'must be use new keyword';
             }
             var that = this.prototype;
 
             var recursionRunConstruction = function r(a, b, arg) {
-                // 不明原因無法使用isUndefined 判斷所以只好用Try了
+                // 不明原因无法使用isUndefined 判断所以只好用Try了
                 try {
                     if (a.hasOwnProperty("__construct")) {
                         r(a.uber, b, arg);
@@ -41,7 +41,7 @@ var Framework = (function (Framework) {
                 } catch (e) {
                 }
             };
-            // 使用遞迴的方式找出所有parent的__construct執行
+            // 使用递回的方式找出所有parent的__construct执行
             recursionRunConstruction(childClass.uber, this, arguments);
             // 
             try {
@@ -64,7 +64,7 @@ var Framework = (function (Framework) {
 
     Framework.Class = function () {
         if (this instanceof Framework.Class) {
-            Framework.DebugInfo.Log.error('不能在Framework.Class之前使用new關鍵字');
+            Framework.DebugInfo.Log.error('不能在Framework.Class之前使用new关键字');
             throw 'can\'t use new keyword on Framework.Class';
         }
         var parent, props, child, f, i;
@@ -78,10 +78,10 @@ var Framework = (function (Framework) {
         // 1. new constructor
         child = function () {
             if (Framework.Util.isUndefined(this)) {
-                Framework.DebugInfo.Log.error('必須使用new關鍵字');
+                Framework.DebugInfo.Log.error('必须使用new关键字');
                 throw 'must be use new keyword';
             }
-            // 這邊應該是要執行uber的constructor，但是會因為參數的順序產生問題..
+            // 这边应该是要执行uber的constructor，但是会因为参数的顺序产生问题..
             if (child.uber && child.uber.hasOwnProperty('__construct')) {
                 child.uber.__construct.apply(this, arguments);
             }
@@ -116,7 +116,7 @@ var Framework = (function (Framework) {
         emptyObj.prototype = createObj.prototype;
         newObj.prototype = new emptyObj;
         newObj.uber = createObj.prototype;
-        //讀出所有的屬性，如果不是內建的就加給obj
+        //读出所有的属性，如果不是内建的就加给obj
         for (var option in options) {
             if (options.hasOwnProperty(option)) {
                 newObj[option] = options[option];

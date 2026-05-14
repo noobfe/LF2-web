@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Louis
+name: 强化Louis
 head: sprite/sys/louis_f.png
 small: sprite/sys/louis_s.png
 file(0-69): sprite/sys/louis_0.png  w: 79  h: 79  row: 10  col: 7

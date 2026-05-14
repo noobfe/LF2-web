@@ -1,5 +1,5 @@
 'use strict';
-//立即執行函式, 並封裝所有變數避免衝突
+//立即执行函式, 并封装所有变数避免冲突
 (function () {
     const jsArray = [
         //Load jszip

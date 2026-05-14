@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化Deep
+name: 强化Deep
 head: sprite/sys/deep_f.png
 small: sprite/sys/deep_s.png
 file(0-69): sprite/sys/deep_0.png  w: 79  h: 79  row: 10  col: 7

@@ -100,7 +100,7 @@ var Framework = (function (Framework) {
             //     if (TestCount <= 10) {
             //         setTimeout(function() { CallFunction(InForm, Agrs); }, 1000);
             //     } else {
-            //         alert("放棄");
+            //         alert("放弃");
             //     }
             // }
             InForm.SetRecordData(Agrs);

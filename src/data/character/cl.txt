@@ -1,5 +1,5 @@
 <bmp_begin>
-name: 強化CL
+name: 强化CL
 head: sprite/sys/cl_f.png
 small: sprite/sys/cl_s.png
 file(0-69): sprite/sys/cl_0.png  w: 99  h: 99  row: 10  col: 7
