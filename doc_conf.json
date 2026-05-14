@@ -1,0 +1,36 @@
+{
+    "tags": {
+        "allowUnknownTags": true,
+        "dictionaries": [
+            "jsdoc",
+            "closure"
+        ]
+    },
+    "opts": {
+        "encoding": "utf8",
+        "destination": "./dist/docs/",
+        "recurse": true,
+        "template": "./node_modules/ink-docstrap/template"
+    },
+    "source": {
+        "include": [
+            "src/js"
+        ],
+        "exclude": [
+        ],
+        "includePattern": ".+\\.js(doc)?$",
+        "excludePattern": "(^|\\/|\\\\)_"
+    },
+    "plugins": [],
+    "templates": {
+        "copyright": "",
+        "navType": "vertical",
+        "theme": "journal",
+        "linenums": true,
+        "collapseSymbols": true,
+        "outputSourcePath": true,
+        "search": true,
+		"outputSourcePath": true,
+		"outputSourceFiles": true
+    }
+}

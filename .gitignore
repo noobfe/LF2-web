@@ -1,0 +1,14 @@
+#ignore thumbnails created by windows
+Thumbs.db
+
+#Intellij files
+.idea/
+
+#Mac files
+*.DS_Store
+# Thumbnails
+._*
+
+node_modules/*
+
+dist/

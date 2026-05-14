@@ -1,0 +1,29 @@
+{
+  "name": "ntut-oop-lab-2017-spring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "gulp",
+    "build:js": "gulp buildJs",
+    "build:css": "gulp buildCss",
+    "docs": "gulp docs"
+  },
+  "license": "GPL-3.0",
+  "dependencies": {
+    "del": "^6.1.1",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jsdoc3": "^3.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "gulp-zip": "^5.1.0",
+    "jsdoc": "^4.0.2",
+    "merge-stream": "^2.0.0"
+  }
+}
