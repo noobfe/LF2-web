@@ -1,3 +1,4 @@
+var Framework = window.Framework;
 // include namespace
 'use strict';
 var Framework = (function (Framework) {
@@ -222,3 +223,5 @@ var Framework = (function (Framework) {
     };
     return Framework;
 })(Framework);
+
+window.Framework = Framework;

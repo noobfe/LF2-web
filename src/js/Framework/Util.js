@@ -1,128 +1,65 @@
-'use strict';
-var Framework = (function (Framework) {
+const isUndefined = (obj) => typeof obj === 'undefined';
+const isNull = (obj) => obj === null;
+const isFunction = (obj) => typeof obj === 'function';
+const isNumber = (obj) => typeof obj === 'number';
+const isObject = (obj) => typeof obj === 'object';
+const isBoolean = (obj) => typeof obj === 'boolean';
+const isString = (obj) => typeof obj === 'string';
+const isCanvas = (obj) => !isUndefined(obj.tagName) && obj.tagName === 'CANVAS';
 
-    var utilClass = function () {
-    };
+const isAbout = (realValue, aboutValue, delta) =>
+    realValue > aboutValue - delta && realValue < aboutValue + delta;
 
-    var isAbout = function (realValue, aboutValue, delta) {
-        if (realValue < aboutValue + delta && realValue > aboutValue - delta) {
-            return true;
-        }
-        else {
-            return false;
-        }
-    };
+const findValueByKey = (targetList, key) => {
+    for (let i = 0, l = targetList.length; i < l; i++) {
+        if (targetList[i].name === key) return targetList[i];
+    }
+    return null;
+};
 
-    var findValueByKey = function (targetList, key) {
-        for (var i = 0, l = targetList.length; i < l; i++) {
-            if (targetList[i].name === key) {
-                return targetList[i];
-            }
-        }
-        return null;
-    };
+const namespace = (ns_string) => {
+    let parts = ns_string.split('.');
+    let parent = Framework;
+    if (parts[0] === 'Framework') parts = parts.slice(1);
+    for (let i = 0; i < parts.length; i++) {
+        if (isUndefined(parent[parts[i]])) parent[parts[i]] = {};
+        parent = parent[parts[i]];
+    }
+    return parts;
+};
 
-    var isUndefined = function (obj) {
-        return (typeof obj === 'undefined');
-    };
+const overrideProperty = (defaultSettings, userSettings) => {
+    for (const key in defaultSettings) {
+        if (isUndefined(userSettings[key])) userSettings[key] = defaultSettings[key];
+    }
+    return userSettings;
+};
 
-    var isNull = function (obj) {
-        return (obj === null);
-    };
+export const Util = {
+    isUndefined, isNull, isFunction, isNumber, isObject,
+    isBoolean, isString, isCanvas, namespace, overrideProperty,
+    isAbout, findValueByKey,
+};
 
-    var isFunction = function (obj) {
-        return (typeof  obj === 'function');
-    };
-
-    var isNumber = function (obj) {
-        return (typeof  obj === 'number');
-    };
-
-    var isObject = function (obj) {
-        return (typeof  obj === 'object');
-    };
-
-    var isBoolean = function (obj) {
-        return (typeof  obj === 'boolean');
-    };
-
-    var isString = function (obj) {
-        return (typeof  obj === 'string');
-    };
-
-    var isCanvas = function (obj) {
-        if (!isUndefined(obj.tagName)) {
-            return (obj.tagName === 'CANVAS');
-        }
-        return false;
-    };
-
-    var namespace = function (ns_string) {
-        var parts = ns_string.split('.'),
-            parent = Framework,
-            i;
-        if (parts[0] === 'Framework') {
-            parts = parts.slice(1);
-        }
-        for (i = 0; i < parts.length; i += 1) {
-            if (isUndefined(parent[parts[i]])) {
-                parent[parts[i]] = {};
-            }
-            parent = parent[parts[i]];
-        }
-        return parts;
-    };
-
-    var overrideProperty = function (defaultSettings, userSettings) {
-        for (var key in defaultSettings) {
-            if (isUndefined(userSettings[key])) {
-                userSettings[key] = defaultSettings[key];
-            }
-        }
-        return userSettings;
-    };
-
-    utilClass.prototype = {
-        isUndefined: isUndefined,
-        isNull: isNull,
-        isFunction: isFunction,
-        isNumber: isNumber,
-        isObject: isObject,
-        isBoolean: isBoolean,
-        isString: isString,
-        isCanvas: isCanvas,
-        namespace: namespace,
-        overrideProperty: overrideProperty,
-        isAbout: isAbout,
-        findValueByKey: findValueByKey
-    };
-
-
-    // 宣告 namespace
-    Framework.Util = new utilClass();
-
-    return Framework;
-})(Framework || {});
-
-if (Framework.Util.isUndefined(Date.prototype.format)) {
-    // Extend Date's function , add format method
+if (isUndefined(Date.prototype.format)) {
     Date.prototype.format = function (format) {
-        var o = {
-            'M+': this.getMonth() + 1, //month
-            'd+': this.getDate(),    //day
-            'h+': this.getHours(),   //hour
-            'm+': this.getMinutes(), //minute
-            's+': this.getSeconds(), //second
-            'q+': Math.floor((this.getMonth() + 3) / 3),  //quarter
-            'S': this.getMilliseconds() //millisecond
+        const o = {
+            'M+': this.getMonth() + 1,
+            'd+': this.getDate(),
+            'h+': this.getHours(),
+            'm+': this.getMinutes(),
+            's+': this.getSeconds(),
+            'q+': Math.floor((this.getMonth() + 3) / 3),
+            'S': this.getMilliseconds(),
         };
-
-        if (/(y+)/.test(format)) format = format.replace(RegExp.$1,
-            (this.getFullYear() + '').substr(4 - RegExp.$1.length));
-        for (var k in o)if (new RegExp('(' + k + ')').test(format))
-            format = format.replace(RegExp.$1,
-                RegExp.$1.length == 1 ? o[k] :
-                    ('00' + o[k]).substr(('' + o[k]).length));
+        if (/(y+)/.test(format))
+            format = format.replace(RegExp.$1, (this.getFullYear() + '').substr(4 - RegExp.$1.length));
+        for (const k in o)
+            if (new RegExp('(' + k + ')').test(format))
+                format = format.replace(RegExp.$1,
+                    RegExp.$1.length == 1 ? o[k] : ('00' + o[k]).substr(('' + o[k]).length));
         return format;
     };
 }
+
+Framework.Util = Util;

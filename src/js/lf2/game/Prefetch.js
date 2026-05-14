@@ -1,3 +1,4 @@
+var lf2 = window.lf2;
 "use strict";
 var lf2 = (function (lf2) {
     const ResourceManager = Framework.ResourceManager;
@@ -60,3 +61,4 @@ var lf2 = (function (lf2) {
     lf2.Prefetch = new Prefetch();
     return lf2;
 })(lf2 || {});
+window.lf2 = lf2;

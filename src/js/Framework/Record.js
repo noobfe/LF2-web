@@ -1,3 +1,4 @@
+var Framework = window.Framework;
 var Framework = (function (Framework) {
     'use strict';
 
@@ -131,3 +132,4 @@ var Framework = (function (Framework) {
 
     return Framework;
 })(Framework || {});
+window.Framework = Framework;

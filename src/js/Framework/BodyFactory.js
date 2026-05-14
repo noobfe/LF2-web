@@ -1,3 +1,4 @@
+var Framework = window.Framework;
 var Framework = (function (Framework) {
     Framework.BodyFactory = function () {
         var b2Vec2 = Box2D.Common.Math.b2Vec2
@@ -78,3 +79,4 @@ var Framework = (function (Framework) {
     };
     return Framework;
 })(Framework || {});
+window.Framework = Framework;

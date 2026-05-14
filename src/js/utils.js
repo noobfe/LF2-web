@@ -281,3 +281,10 @@ Array.prototype.min = function () {
 Math.toRad = function (deg) {
     return deg / 180 * Math.PI;
 };
+
+// In ES Modules, `function` declarations are module-scoped, not global.
+// Expose these utilities on window so IIFE-based files can still call them.
+window.intval = intval;
+window.floatval = floatval;
+window.loadImage = loadImage;
+window.LoadScriptInSequence = LoadScriptInSequence;

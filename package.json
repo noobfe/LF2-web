@@ -1,5 +1,5 @@
 {
-  "name": "ntut-oop-lab-2017-spring",
+  "name": "LF2-web",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,23 +7,21 @@
     "doc": "docs"
   },
   "scripts": {
-    "build": "gulp",
-    "build:js": "gulp buildJs",
-    "build:css": "gulp buildCss",
-    "docs": "gulp docs"
+    "dev": "vite",
+    "build": "node scripts/zip.mjs && vite build",
+    "zip": "node scripts/zip.mjs",
+    "docs": "jsdoc -c doc_conf.json"
   },
   "license": "GPL-3.0",
   "dependencies": {
-    "del": "^6.1.1",
-    "gulp": "^4.0.2",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-jsdoc3": "^3.0.0",
-    "gulp-rename": "^2.0.0",
-    "gulp-sourcemaps": "^3.0.0",
-    "gulp-terser": "^2.1.0",
-    "gulp-zip": "^5.1.0",
-    "jsdoc": "^4.0.2",
-    "merge-stream": "^2.0.0"
+    "jquery": "^3.7.1",
+    "jquery-ui": "^1.14.2",
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-inject": "^5.0.5",
+    "archiver": "^7.0.1",
+    "vite": "^8.0.12",
+    "jsdoc": "^4.0.2"
   }
 }

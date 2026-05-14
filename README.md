@@ -1,39 +1,38 @@
-# OOP Lab Little Fighter 2
+# LF2 Web
 
-《小朋友齊打交（二）》（Little Fighter 2，縮寫：LF2）是一款免費的2D格鬥遊戲，亦是《小朋友齊打交》的延續及《小朋友齊打交系列》第二作，僅供Windows平台下載。該作由香港遊戲開發者王國鴻加上黃浩然二人攜手開發。
-本專案是要將Windows平台移植部分功能到Web上，使其他平台也可以玩LF2
+《小朋友齊打交（二）》（Little Fighter 2，LF2）的 Web 移植版，支援多平台瀏覽器遊玩。
 
-## 如何安裝##
+## 線上遊玩
 
-要安裝本遊戲，請先進入release資料夾，下方有一個執行檔案: [LF2_Setup.exe]，點選後即可安裝本遊戲。
-安裝過程中會安裝需要的VC++ Runtime library
+部署於 Cloudflare Pages，直接用瀏覽器開啟即可。
 
-## 如何執行遊戲
+## 開發
 
-將遊戲安裝完成後，桌面會有一個Little Fighter 2的捷徑，點選後即可執行。
+```bash
+npm install
+npm run dev        # 本地開發服務器 http://localhost:3000
+```
 
-## 系統需求##
+## 建置
 
-- 瀏覽器: Google Chrome 59.0 或以上
-- 記憶體: 2GB 或以上
-- 儲存空間: 100MB 或以上
-- NodeJS 6.9 或以上 (如果需要編譯原始碼的話)
+```bash
+npm run build      # 建置到 dist/
+npm run zip        # 打包資料資源（data.zip / resources.zip / egg.zip）
+npm run docs       # 產生 JSDoc 技術文件
+```
 
-## 備註
+## 部署（Cloudflare Pages）
 
-本遊戲需要一個網頁伺服器才能執行，執行檔內已經含有Apache HTTP Server，不需設定即可執行
-若要查看技術文件，請至docs.html即可。
+1. 將程式碼推送到 GitHub
+2. 在 Cloudflare Pages 連結 GitHub 倉庫
+3. 設定如下：
+   - **Build command**: `npm run build`
+   - **Build output directory**: `dist`
+   - **Node.js version**: 22
 
-## 資料夾說明
+每次推送到 `main` 分支即自動部署。
 
-release: 安裝檔
-docs: 程式文件
-src: JS檔案
-dist: 編譯過的JS檔案
-installer: 所需軟體的安裝檔
-server: Apache Server
-tools: 在開發過程中寫的小程式
+## 系統需求
 
-# 特别说明
-
-此项目用于个人学习，基于https://github.com/s911415/html5-lf2
+- 瀏覽器：Chrome / Edge / Firefox 最新版
+- Node.js 22+（開發用）

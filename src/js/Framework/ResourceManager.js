@@ -1,3 +1,4 @@
+var Framework = window.Framework;
 'use strict';
 var Framework = (function (Framework) {
     const DELAY_TIME = 0;
@@ -386,3 +387,4 @@ var Framework = (function (Framework) {
     })();
     return Framework;
 })(Framework || {});
+window.Framework = Framework;

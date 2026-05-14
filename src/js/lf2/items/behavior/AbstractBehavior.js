@@ -1,72 +1,35 @@
 "use strict";
-var lf2 = (function (lf2) {
-    const METHOD_NOT_IMPLEMENT = "Method Not Implemented";
+
+const METHOD_NOT_IMPLEMENT = "Method Not Implemented";
+
+/**
+ * Abstract Behavior
+ * @class lf2.AbstractBehavior
+ * @abstract
+ */
+export class AbstractBehavior {
     /**
-     * Abstract Behavior
-     *
-     * @class lf2.AbstractBehavior
-     * @abstract
+     * @param {lf2.Ball} ball
+     * @param {lf2.WorldScene} world
      */
-    lf2.AbstractBehavior = class AbstractBehavior {
-        /**
-         * @constructor
-         * @param {lf2.Ball} ball
-         * @param {lf2.WorldScene} world
-         */
-        constructor(ball, world) {
+    constructor(ball, world) {
+        this._ball = ball;
+        this.belongTo = ball.belongTo;
+        this._world = world;
+    }
 
-            /**
-             *
-             * @type {lf2.Ball}
-             * @protected
-             */
-            this._ball = ball;
+    /** @returns {Framework.Point3D} @abstract */
+    getVelocity() { throw METHOD_NOT_IMPLEMENT; }
 
-            /**
-             * @type {lf2.Player}
-             */
-            this.belongTo = ball.belongTo;
-
-            /**
-             *
-             * @type {lf2.WorldScene}
-             * @protected
-             */
-            this._world = world;
+    update() {
+        if (this._ball && !this._ball.alive) {
+            this._ball._behavior = null;
+            this._ball = null;
         }
+    }
 
-        /**
-         *
-         * @returns {Framework.Point3D}
-         * @abstract
-         */
-        getVelocity() {
-            throw METHOD_NOT_IMPLEMENT;
-        }
+    /** @returns {lf2.GameItem} @abstract */
+    getTarget() { throw METHOD_NOT_IMPLEMENT; }
+}
 
-        /**
-         * Updates this object.
-         *
-         * @return  .
-         */
-        update() {
-            if(this._ball && !this._ball.alive){
-                //Remove reference of ball
-                this._ball._behavior = null;
-                this._ball = null;
-            }
-        }
-
-        /**
-         *
-         * @returns {lf2.GameItem}
-         * @abstract
-         */
-        getTarget() {
-            throw METHOD_NOT_IMPLEMENT;
-        }
-    };
-
-
-    return lf2;
-})(lf2 || {});
+lf2.AbstractBehavior = AbstractBehavior;

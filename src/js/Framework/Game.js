@@ -1,3 +1,4 @@
+var Framework = window.Framework;
 // include namespace
 
 'use strict';
@@ -1221,3 +1222,5 @@ const addAssertion = function (assertTarget, assertValue) {
     var recordDiv = document.getElementById("record_div");
     document.getElementById("record_div").innerHTML += '<p>&nbsp;&nbsp;&nbsp;&nbsp;replay.assertEqual("' + assertTarget + '", ' + assertValue + ');</p>';
 };
+
+window.Framework = Framework;

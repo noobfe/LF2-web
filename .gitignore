@@ -1,14 +1,20 @@
-#ignore thumbnails created by windows
+# OS
 Thumbs.db
-
-#Intellij files
-.idea/
-
-#Mac files
 *.DS_Store
-# Thumbnails
 ._*
 
-node_modules/*
+# IDE
+.idea/
+*.iml
+*.njsproj
+*.sln
 
+# Dependencies
+node_modules/
+
+# Build output
 dist/
+
+# Generated zip assets
+src/zip/
+public/zip/

@@ -1,93 +1,46 @@
 "use strict";
-var lf2 = (function (lf2) {
-    const Point = Framework.Point;
-    const Point3D = Framework.Point3D;
-    const METHOD_NOT_IMPLEMENT = "Method Not Implemented";
-    const Utils = lf2.Utils;
-    const GameItem = lf2.GameItem;
-    const MIN_V = GameItem.MIN_V;
-    const GRAVITY = GameItem.GRAVITY;
-    const FRICTION = GameItem.FRICTION;
-    /**
-     * FasterTrackerBehavior
-     *
-     * @class {lf2.FasterTrackerBehavior}
-     * @extends {lf2.AbstractBehavior}
-     */
-    lf2.FasterTrackerBehavior = class FasterTrackerBehavior extends lf2.AbstractBehavior{
-        /**
-         *
-         * @param {lf2.Ball} ball
-         * @param {lf2.WorldScene} world
-         */
-        constructor(ball, world) {
-            super(ball, world);
 
-            this._maxVelocity = new Framework.Point3D(12, 0, 0);
+import { Point3D } from '../../../Framework/Point3D.js';
+import { AbstractBehavior } from './AbstractBehavior.js';
+import { GameItem } from '../GameItem.js';
 
-            /**
-             *
-             * @type {lf2.GameItem}
-             * @private
-             */
-            this._target = null;
-        }
+const FRICTION = GameItem.FRICTION;
 
-        /**
-         * Updates this object.
-         *
-         * @return  .
-         */
-        update() {
-            super.update();
-        }
+export class FasterTrackerBehavior extends AbstractBehavior {
+    constructor(ball, world) {
+        super(ball, world);
 
-        /**
-         *
-         * @returns {Framework.Point3D}
-         */
-        getVelocity() {
-            let vx = this._ball._velocity.x;
+        this._maxVelocity = new Framework.Point3D(12, 0, 0);
+        this._target = null;
+    }
 
-            vx += vx * FRICTION;
+    update() {
+        super.update();
+    }
 
-            return new Point3D(vx, 0, 0);
-        }
+    getVelocity() {
+        let vx = this._ball._velocity.x;
+        vx += vx * FRICTION;
+        return new Point3D(vx, 0, 0);
+    }
 
-        /**
-         *
-         * @returns {lf2.GameItem}
-         */
-        getTarget() {
-            if (this._target && !this._target.alive) this._target = null;
-            if (this._target !== null) return this._target;
+    getTarget() {
+        if (this._target && !this._target.alive) this._target = null;
+        if (this._target !== null) return this._target;
 
-            this._target = this._world.getEnemy(this.belongTo);
+        this._target = this._world.getEnemy(this.belongTo);
+        this._maxVelocity = this._ball._prevVelocity.clone();
 
-            this._maxVelocity = this._ball._prevVelocity.clone();
+        return this._target;
+    }
 
-            return this._target;
-        }
+    get FA() {
+        return 10;
+    }
 
-        /**
-         * Gets the fa.
-         *
-         * @return  {Number}   A get.
-         */
-        get FA() {
-            return 10;
-        }
+    toString() {
+        return 'lf2.FasterTrackerBehavior';
+    }
+}
 
-        /**
-         * Convert this object into a string representation.
-         *
-         * @return  An unknown that represents this object.
-         */
-        toString() {
-            return 'lf2.FasterTrackerBehavior';
-        }
-    };
-
-
-    return lf2;
-})(lf2 || {});
+lf2.FasterTrackerBehavior = FasterTrackerBehavior;

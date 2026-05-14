@@ -1,0 +1,26 @@
+{
+  "env": {
+    "browser": true,
+    "es2017": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2017
+  },
+  "globals": {
+    "Framework": "readonly",
+    "lf2": "writable",
+    "define": "readonly",
+    "$": "readonly",
+    "jQuery": "readonly",
+    "JSZip": "readonly"
+  },
+  "rules": {
+    "no-var": "warn",
+    "prefer-const": "warn",
+    "eqeqeq": ["warn", "always"],
+    "no-unused-vars": "warn",
+    "no-undef": "error",
+    "semi": ["warn", "always"],
+    "no-console": "warn"
+  }
+}

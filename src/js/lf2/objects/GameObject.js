@@ -1,144 +1,88 @@
 "use strict";
-var lf2 = (function (lf2) {
 
+import { BmpInfo } from '../frame/BmpInfo.js';
+import { Frame } from '../frame/Frame.js';
+import { Effect } from '../enums/Effect.js';
+import { Audio } from '../../Framework/Audio.js';
+
+export class GameObject {
     /**
-     * @class {lf2.BmpInfo}
+     * @param {Object} fileInfo
+     * @param {String} context
      */
-    const BmpInfo = lf2.BmpInfo;
+    constructor(fileInfo, context) {
+        this.fileInfo = fileInfo;
+        this.sourceCode = context;
 
-    const ResourceManager = Framework.ResourceManager;
+        this.id = intval(fileInfo.id);
+        this.bmpInfo = new BmpInfo(context);
+        this.frames = GameObject._parseFrames(context, this);
+        this._audio = new Audio();
+    }
 
-    const Effect = lf2.Effect;
+    done() {
+        let arr = [].concat(this.bmpInfo._bmpLoad);
+        return Promise.all(arr);
+    }
 
-    /**
-     * @class {lf2.Frame}
-     */
-    const Frame = lf2.Frame;
+    addPreloadResource(url) {
+        return this.bmpInfo.addPreloadResource(url);
+    }
 
-    /**
-     * GameObject
-     *
-     * @class lf2.GameObject
-     */
-    lf2.GameObject = class GameObject {
-        /**
-         *
-         * @param {Object} fileInfo information of file
-         * @param {String} context source code of dat fiel
-         */
-        constructor(fileInfo, context) {
-            this.fileInfo = fileInfo;
-            this.sourceCode = context;
+    static _parseFrames(context, gameObj) {
+        const FRAME_START_TAG = '<frame>';
+        const FRAME_END_TAG = '<frame_end>';
+        let framesIndex = [], frameContent = [];
 
-            this.id = intval(fileInfo.id);
-            this.bmpInfo = new BmpInfo(context);
-            this.frames = lf2.GameObject._parseFrames(context);
-            this._audio = new Framework.Audio();
+        for (
+            let index = context.indexOf(FRAME_START_TAG);
+            index !== -1;
+            index = context.indexOf(FRAME_START_TAG, index + 1)
+        ) {
+            framesIndex.push(index);
         }
+        framesIndex.forEach((i) => {
+            let str = context.getStringBetween(FRAME_START_TAG, FRAME_END_TAG, i).trim();
+            let frame = new Frame(str, gameObj);
 
-        /**
-         * Promise when all image loaded
-         *
-         * @returns {Promise.<*>}
-         */
-        done() {
-            let arr = [].concat(this.bmpInfo._bmpLoad);
-            return Promise.all(arr);
-        }
+            frameContent[frame.id] = frame;
+        });
 
-        /**
-         * addPreloadResource(url)
-         *
-         * Adds a preload resource.
-         *
-         * @param   url URL of the document.
-         *
-         * @return  .
-         */
-        addPreloadResource(url) {
-            return this.bmpInfo.addPreloadResource(url);
-        }
+        return frameContent;
+    }
 
-        /**
-         * Parse frame block
-         *
-         * @param context
-         * @returns {lf2.Frame[]}
-         * @private
-         */
-        static _parseFrames(context) {
-            const FRAME_START_TAG = '<frame>';
-            const FRAME_END_TAG = '<frame_end>';
-            let framesIndex = [], frameContent = [];
+    getSoundList() {
+        let soundSet = new Set();
 
-            for (
-                let index = context.indexOf(FRAME_START_TAG);
-                index !== -1;
-                index = context.indexOf(FRAME_START_TAG, index + 1)
-            ) {
-                framesIndex.push(index);
+        Effect.allSound.forEach(effectSoundPath => {
+            soundSet.add(effectSoundPath);
+        });
+
+        this.frames.forEach(frame => {
+            if (frame.soundPath !== undefined) {
+                soundSet.add(frame.soundPath);
             }
-            framesIndex.forEach((i) => {
-                let str = context.getStringBetween(FRAME_START_TAG, FRAME_END_TAG, i).trim();
-                let frame = new Frame(str, this);
+        });
 
-                frameContent[frame.id] = frame;
-            });
+        return soundSet;
+    }
 
-            return frameContent;
-        }
+    _preLoadSound() {
+        let soundPool = {};
+        this.getSoundList().forEach(soundPath => {
+            if (typeof soundPool[soundPath] === 'undefined') {
+                soundPool[soundPath] = soundPath;
+            }
+        });
 
-        /**
-         * getSoundList()
-         *
-         * Gets sound list.
-         *
-         * @return {Set} The sound list.
-         */
-        getSoundList() {
-            let soundSet = new Set();
+        return this.addPreloadResource(
+            this._audio.addSongs(soundPool)
+        );
+    }
 
-            Effect.allSound.forEach(effectSoundPath => {
-                soundSet.add(effectSoundPath);
-            });
+    getPlayList() {
+        return this._audio.playlist;
+    }
+}
 
-            this.frames.forEach(frame => {
-                if (frame.soundPath !== undefined) {
-                    soundSet.add(frame.soundPath);
-                }
-            });
-
-
-            return soundSet;
-        }
-
-        /**
-         *
-         * @private
-         */
-        _preLoadSound() {
-            let soundPool = {};
-            this.getSoundList().forEach(soundPath => {
-                if (typeof soundPool[soundPath] === 'undefined') {
-                    soundPool[soundPath] = soundPath;
-                }
-            });
-
-            return this.addPreloadResource(
-                this._audio.addSongs(soundPool)
-            );
-        }
-
-        /**
-         * Gets play list.
-         *
-         * @return  The play list.
-         */
-        getPlayList(){
-            return this._audio.playlist;
-        }
-    };
-
-
-    return lf2;
-})(lf2 || {});
+lf2.GameObject = GameObject;
